@@ -1,7 +1,6 @@
 Measures the Earth-Mars distance using JPL ephemeris which covers 3000BC through 3000AD
 
 ```
-```
 Mars-Earth distance across B.C. 0002-Nov-30 00:00:00.0000 UT - A.D. 2999-Dec-20 00:00:00.0000 UT
 A.D. 2729-Sep-08 00:00:00.0000 UT 55,651,413 km (34.6 Million miles) 
 A.D. 2650-Sep-04 00:00:00.0000 UT 55,652,278 km (34.6 Million miles), closest until 2729
