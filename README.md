@@ -1,257 +1,1413 @@
 Measures the Earth-Mars distance using JPL ephemeris which covers 3000BC through 3000AD
 
 ```
-Mars-Earth distance across B.C. 0002-Nov-30 00:00:00.0000 UT - A.D. 2999-Dec-20 00:00:00.0000 UT
-A.D. 2729-Sep-08 00:00:00.0000 UT 55,651,413 km (34.6 Million miles) 
-A.D. 2650-Sep-04 00:00:00.0000 UT 55,652,278 km (34.6 Million miles), closest until 2729
-A.D. 2934-Sep-05 00:00:00.0000 UT 55,676,517 km (34.6 Million miles), closest since 2729 
-A.D. 2287-Aug-29 00:00:00.0000 UT 55,688,458 km (34.6 Million miles), closest until 2650
-A.D. 2808-Sep-12 00:00:00.0000 UT 55,696,849 km (34.6 Million miles), closest since 2729, closest until 2934
-A.D. 2571-Aug-30 00:00:00.0000 UT 55,708,387 km (34.6 Million miles), closest since 2287, closest until 2650
-A.D. 2366-Sep-02 00:00:00.0000 UT 55,709,693 km (34.6 Million miles), closest since 2287, closest until 2571
-A.D. 2003-Aug-27 00:00:00.0000 UT 55,759,692 km (34.6 Million miles), closest until 2287
-A.D. 2208-Aug-24 00:00:00.0000 UT 55,770,622 km (34.7 Million miles), closest since 2003, closest until 2287
-A.D. 1924-Aug-23 00:00:00.0000 UT 55,776,926 km (34.7 Million miles), closest until 2003
-A.D. 2887-Sep-16 00:00:00.0000 UT 55,787,946 km (34.7 Million miles), closest since 2808, closest until 2934
-A.D. 2445-Sep-06 00:00:00.0000 UT 55,795,412 km (34.7 Million miles), closest since 2366, closest until 2571
-A.D. 1845-Aug-18 00:00:00.0000 UT 55,805,606 km (34.7 Million miles), closest until 1924
-A.D. 1482-Aug-13 00:00:00.0000 UT 55,811,176 km (34.7 Million miles), closest until 1845
-A.D. 2855-Sep-01 00:00:00.0000 UT 55,816,437 km (34.7 Million miles), closest since 2808, closest until 2887
-A.D. 2492-Aug-25 00:00:00.0000 UT 55,833,078 km (34.7 Million miles), closest since 2445, closest until 2571
-A.D. 1561-Aug-17 00:00:00.0000 UT 55,837,739 km (34.7 Million miles), closest since 1482, closest until 1845
-A.D. 1766-Aug-14 00:00:00.0000 UT 55,839,082 km (34.7 Million miles), closest since 1561, closest until 1845
-A.D. 2129-Aug-20 00:00:00.0000 UT 55,841,491 km (34.7 Million miles), closest since 2003, closest until 2208
-A.D. 1119-Aug-08 00:00:00.0000 UT 55,861,185 km (34.7 Million miles), closest until 1482
-A.D. 1198-Aug-11 00:00:00.0000 UT 55,868,190 km (34.7 Million miles), closest since 1119, closest until 1482
-A.D. 1640-Aug-20 00:00:00.0000 UT 55,872,145 km (34.7 Million miles), closest since 1561, closest until 1766
-A.D. 2082-Aug-31 00:00:00.0000 UT 55,884,640 km (34.7 Million miles), closest since 2003, closest until 2129
-A.D. 1403-Aug-09 00:00:00.0000 UT 55,892,223 km (34.7 Million miles), closest since 1198, closest until 1482
-A.D. 2524-Sep-10 00:00:00.0000 UT 55,895,355 km (34.7 Million miles), closest since 2492, closest until 2571
-A.D. 0756-Aug-01 00:00:00.0000 UT 55,903,263 km (34.7 Million miles), closest until 1119
-A.D. 1040-Aug-02 00:00:00.0000 UT 55,923,329 km (34.7 Million miles), closest since 756, closest until 1119
-A.D. 0835-Aug-05 00:00:00.0000 UT 55,936,753 km (34.8 Million miles), closest since 756, closest until 1040
-A.D. 1719-Aug-26 00:00:00.0000 UT 55,951,317 km (34.8 Million miles), closest since 1640, closest until 1766
-A.D. 0677-Jul-27 00:00:00.0000 UT 55,954,675 km (34.8 Million miles), closest until 756
-A.D. 2966-Sep-20 00:00:00.0000 UT 55,957,758 km (34.8 Million miles), closest since 2934 
-A.D. 2050-Aug-16 00:00:00.0000 UT 55,959,782 km (34.8 Million miles), closest since 2003, closest until 2082
-A.D. 1277-Aug-14 00:00:00.0000 UT 55,964,841 km (34.8 Million miles), closest since 1198, closest until 1403
-A.D. 0314-Jul-22 00:00:00.0000 UT 55,975,285 km (34.8 Million miles), closest until 677
-A.D. 0393-Jul-26 00:00:00.0000 UT 55,981,064 km (34.8 Million miles), closest since 314, closest until 677
-A.D. 2413-Aug-21 00:00:00.0000 UT 55,984,394 km (34.8 Million miles), closest since 2366, closest until 2445
-A.D. 0472-Jul-29 00:00:00.0000 UT 56,000,254 km (34.8 Million miles), closest since 393, closest until 677
-A.D. 1687-Aug-10 00:00:00.0000 UT 56,003,254 km (34.8 Million miles), closest since 1640, closest until 1719
-A.D. 0235-Jul-18 00:00:00.0000 UT 56,003,560 km (34.8 Million miles), closest until 314
-A.D. 2776-Aug-27 00:00:00.0000 UT 56,005,058 km (34.8 Million miles), closest since 2729, closest until 2808
-A.D. 0961-Jul-29 00:00:00.0000 UT 56,009,624 km (34.8 Million miles), closest since 835, closest until 1040
-A.D. 0598-Jul-23 00:00:00.0000 UT 56,010,019 km (34.8 Million miles), closest since 472, closest until 677
-A.D. 1324-Aug-04 00:00:00.0000 UT 56,017,809 km (34.8 Million miles), closest since 1277, closest until 1403
-A.D. 0030-Jul-20 00:00:00.0000 UT 56,036,689 km (34.8 Million miles), closest until 235
-A.D. 2161-Sep-04 00:00:00.0000 UT 56,037,824 km (34.8 Million miles), closest since 2129, closest until 2208
-A.D. 0914-Aug-09 00:00:00.0000 UT 56,040,325 km (34.8 Million miles), closest since 835, closest until 961
-A.D. 1356-Aug-19 00:00:00.0000 UT 56,071,497 km (34.8 Million miles), closest since 1324, closest until 1403
-A.D. 2603-Sep-16 00:00:00.0000 UT 56,077,487 km (34.8 Million miles), closest since 2571, closest until 2650
-A.D. 0109-Jul-24 00:00:00.0000 UT 56,112,711 km (34.9 Million miles), closest since 30, closest until 235
-A.D. 0519-Jul-19 00:00:00.0000 UT 56,121,666 km (34.9 Million miles), closest since 472, closest until 598
-A.D. 0551-Aug-04 00:00:00.0000 UT 56,123,911 km (34.9 Million miles), closest since 519, closest until 598
-A.D. 0882-Jul-24 00:00:00.0000 UT 56,138,517 km (34.9 Million miles), closest since 835, closest until 914
-A.D. 1245-Jul-30 00:00:00.0000 UT 56,149,414 km (34.9 Million miles), closest since 1198, closest until 1277
-A.D. 1798-Aug-29 00:00:00.0000 UT 56,152,462 km (34.9 Million miles), closest since 1766, closest until 1845
-A.D. 0156-Jul-12 00:00:00.0000 UT 56,157,016 km (34.9 Million miles), closest since 109, closest until 235
-A.D. 0993-Aug-13 00:00:00.0000 UT 56,175,036 km (34.9 Million miles), closest since 961, closest until 1040
-A.D. 2240-Sep-09 00:00:00.0000 UT 56,188,104 km (34.9 Million miles), closest since 2208, closest until 2287
-A.D. 1608-Aug-05 00:00:00.0000 UT 56,189,045 km (34.9 Million miles), closest since 1561, closest until 1640
-A.D. 2334-Aug-18 00:00:00.0000 UT 56,189,100 km (34.9 Million miles), closest since 2287, closest until 2366
-A.D. 0188-Jul-28 00:00:00.0000 UT 56,193,415 km (34.9 Million miles), closest since 156, closest until 235
-A.D. 1971-Aug-12 00:00:00.0000 UT 56,203,486 km (34.9 Million miles), closest since 1924, closest until 2003
-A.D. 1435-Aug-24 00:00:00.0000 UT 56,223,626 km (34.9 Million miles), closest since 1403, closest until 1482
-A.D. 2697-Aug-23 00:00:00.0000 UT 56,229,101 km (34.9 Million miles), closest since 2650, closest until 2729
-A.D. 0630-Aug-08 00:00:00.0000 UT 56,288,140 km (35.0 Million miles), closest since 598, closest until 677
-A.D. 0077-Jul-08 00:00:00.0000 UT 56,303,956 km (35.0 Million miles), closest since 30, closest until 109
-A.D. 2682-Sep-19 00:00:00.0000 UT 56,310,126 km (35.0 Million miles), closest since 2650, closest until 2697
-A.D. 0440-Jul-14 00:00:00.0000 UT 56,334,538 km (35.0 Million miles), closest since 393, closest until 472
-A.D. 0803-Jul-21 00:00:00.0000 UT 56,342,253 km (35.0 Million miles), closest since 756, closest until 835
-A.D. 1877-Sep-03 00:00:00.0000 UT 56,345,887 km (35.0 Million miles), closest since 1845, closest until 1924
-A.D. 1072-Aug-17 00:00:00.0000 UT 56,346,798 km (35.0 Million miles), closest since 1040, closest until 1119
-A.D. 1166-Jul-27 00:00:00.0000 UT 56,375,350 km (35.0 Million miles), closest since 1119, closest until 1198
-A.D. 0267-Aug-02 00:00:00.0000 UT 56,386,335 km (35.0 Million miles), closest since 235, closest until 314
-A.D. 1529-Aug-02 00:00:00.0000 UT 56,393,047 km (35.0 Million miles), closest since 1482, closest until 1561
-A.D. 2319-Sep-14 00:00:00.0000 UT 56,444,363 km (35.1 Million miles), closest since 2287, closest until 2334
-A.D. 1892-Aug-07 00:00:00.0000 UT 56,453,689 km (35.1 Million miles), closest since 1877, closest until 1924
-A.D. 0709-Aug-13 00:00:00.0000 UT 56,462,410 km (35.1 Million miles), closest since 677, closest until 756
-A.D. 1514-Aug-29 00:00:00.0000 UT 56,477,407 km (35.1 Million miles), closest since 1482, closest until 1529
-A.D. 2255-Aug-13 00:00:00.0000 UT 56,498,490 km (35.1 Million miles), closest since 2240, closest until 2287
-A.D. 2618-Aug-19 00:00:00.0000 UT 56,520,461 km (35.1 Million miles), closest since 2603, closest until 2650
-A.D. 0361-Jul-11 00:00:00.0000 UT 56,548,654 km (35.1 Million miles), closest since 314, closest until 393
-A.D. 1956-Sep-07 00:00:00.0000 UT 56,562,035 km (35.1 Million miles), closest since 1924, closest until 1971
-A.D. 2981-Aug-24 00:00:00.0000 UT 56,565,572 km (35.1 Million miles), closest since 2966 
-A.D. 1151-Aug-23 00:00:00.0000 UT 56,574,202 km (35.2 Million miles), closest since 1119, closest until 1166
-A.D. 2761-Sep-23 00:00:00.0000 UT 56,579,693 km (35.2 Million miles), closest since 2729, closest until 2776
-A.D. 0724-Jul-16 00:00:00.0000 UT 56,607,791 km (35.2 Million miles), closest since 709, closest until 756
-A.D. 0346-Aug-07 00:00:00.0000 UT 56,615,366 km (35.2 Million miles), closest since 314, closest until 361
-A.D. 1087-Jul-22 00:00:00.0000 UT 56,654,759 km (35.2 Million miles), closest since 1072, closest until 1119
-A.D. 1450-Jul-28 00:00:00.0000 UT 56,695,534 km (35.2 Million miles), closest since 1435, closest until 1482
-A.D. 1813-Aug-03 00:00:00.0000 UT 56,709,133 km (35.2 Million miles), closest since 1798, closest until 1845
-A.D. 0788-Aug-16 00:00:00.0000 UT 56,712,320 km (35.2 Million miles), closest since 756, closest until 803
-A.D. 1593-Sep-01 00:00:00.0000 UT 56,734,972 km (35.3 Million miles), closest since 1561, closest until 1608
-A.D. 2398-Sep-17 00:00:00.0000 UT 56,753,079 km (35.3 Million miles), closest since 2366, closest until 2413
-A.D. 2176-Aug-08 00:00:00.0000 UT 56,789,009 km (35.3 Million miles), closest since 2161, closest until 2208
-A.D. 0282-Jul-06 00:00:00.0000 UT 56,800,245 km (35.3 Million miles), closest since 267, closest until 314
-A.D. 0425-Aug-10 00:00:00.0000 UT 56,849,206 km (35.3 Million miles), closest since 393, closest until 440
-A.D. 2539-Aug-15 00:00:00.0000 UT 56,866,939 km (35.3 Million miles), closest since 2524, closest until 2571
-A.D. 0645-Jul-12 00:00:00.0000 UT 56,878,986 km (35.3 Million miles), closest since 630, closest until 677
-A.D. 1230-Aug-26 00:00:00.0000 UT 56,890,001 km (35.3 Million miles), closest since 1198, closest until 1245
-A.D. 2840-Sep-27 00:00:00.0000 UT 56,899,126 km (35.4 Million miles), closest since 2808, closest until 2855
-A.D. 2035-Sep-12 00:00:00.0000 UT 56,909,620 km (35.4 Million miles), closest since 2003, closest until 2050
-A.D. 2902-Aug-21 00:00:00.0000 UT 56,934,451 km (35.4 Million miles), closest since 2887, closest until 2934
-A.D. 1008-Jul-18 00:00:00.0000 UT 56,957,002 km (35.4 Million miles), closest since 993, closest until 1040
-A.D. 1672-Sep-05 00:00:00.0000 UT 57,029,260 km (35.4 Million miles), closest since 1640, closest until 1687
-A.D. 0062-Aug-04 00:00:00.0000 UT 57,030,212 km (35.4 Million miles), closest since 30, closest until 77
-A.D. 0867-Aug-20 00:00:00.0000 UT 57,037,546 km (35.4 Million miles), closest since 835, closest until 882
-A.D. 1371-Jul-24 00:00:00.0000 UT 57,039,214 km (35.4 Million miles), closest since 1356, closest until 1403
-A.D. 2477-Sep-21 00:00:00.0000 UT 57,067,856 km (35.5 Million miles), closest since 2445, closest until 2492
-A.D. 1734-Jul-30 00:00:00.0000 UT 57,100,022 km (35.5 Million miles), closest since 1719, closest until 1766
-A.D. 2097-Aug-04 00:00:00.0000 UT 57,127,446 km (35.5 Million miles), closest since 2082, closest until 2129
-A.D. 0203-Jul-03 00:00:00.0000 UT 57,165,421 km (35.5 Million miles), closest since 188, closest until 235
-A.D. 0504-Aug-14 00:00:00.0000 UT 57,192,976 km (35.5 Million miles), closest since 472, closest until 519
-A.D. 0566-Jul-08 00:00:00.0000 UT 57,206,392 km (35.5 Million miles), closest since 551, closest until 598
-A.D. 1309-Aug-31 00:00:00.0000 UT 57,209,111 km (35.5 Million miles), closest since 1277, closest until 1324
-A.D. 2460-Aug-10 00:00:00.0000 UT 57,229,026 km (35.6 Million miles), closest since 2445, closest until 2477
-A.D. 2114-Sep-16 00:00:00.0000 UT 57,271,755 km (35.6 Million miles), closest since 2097, closest until 2129
-A.D. 2919-Oct-02 00:00:00.0000 UT 57,276,590 km (35.6 Million miles), closest since 2902, closest until 2934
-A.D. 0929-Jul-13 00:00:00.0000 UT 57,301,513 km (35.6 Million miles), closest since 914, closest until 961
-A.D. 0141-Aug-09 00:00:00.0000 UT 57,328,169 km (35.6 Million miles), closest since 109, closest until 156
-A.D. 2823-Aug-16 00:00:00.0000 UT 57,332,022 km (35.6 Million miles), closest since 2808, closest until 2840
-A.D. 0946-Aug-25 00:00:00.0000 UT 57,377,732 km (35.7 Million miles), closest since 929, closest until 961
-A.D. 1292-Jul-18 00:00:00.0000 UT 57,391,457 km (35.7 Million miles), closest since 1277, closest until 1309
-A.D. 1751-Sep-10 00:00:00.0000 UT 57,448,200 km (35.7 Million miles), closest since 1734, closest until 1766
-A.D. 2556-Sep-25 00:00:00.0000 UT 57,456,275 km (35.7 Million miles), closest since 2539, closest until 2571
-A.D. 1655-Jul-25 00:00:00.0000 UT 57,503,110 km (35.7 Million miles), closest since 1640, closest until 1672
-A.D. 0124-Jun-27 00:00:00.0000 UT 57,523,098 km (35.7 Million miles), closest since 109, closest until 141
-A.D. 0583-Aug-19 00:00:00.0000 UT 57,564,968 km (35.8 Million miles), closest since 566, closest until 598
-A.D. 1388-Sep-03 00:00:00.0000 UT 57,571,858 km (35.8 Million miles), closest since 1371, closest until 1403
-A.D. 2018-Jul-31 00:00:00.0000 UT 57,591,264 km (35.8 Million miles), closest since 2003, closest until 2035
-A.D. 2193-Sep-19 00:00:00.0000 UT 57,630,021 km (35.8 Million miles), closest since 2176, closest until 2208
-A.D. 0487-Jul-03 00:00:00.0000 UT 57,632,103 km (35.8 Million miles), closest since 472, closest until 504
-A.D. 2381-Aug-06 00:00:00.0000 UT 57,649,370 km (35.8 Million miles), closest since 2366, closest until 2398
-A.D. 2998-Oct-06 00:00:00.0000 UT 57,713,899 km (35.9 Million miles), closest since 2981 
-A.D. 0850-Jul-09 00:00:00.0000 UT 57,719,509 km (35.9 Million miles), closest since 835, closest until 867
-A.D. 0220-Aug-13 00:00:00.0000 UT 57,736,690 km (35.9 Million miles), closest since 203, closest until 235
-A.D. 1025-Aug-29 00:00:00.0000 UT 57,754,572 km (35.9 Million miles), closest since 1008, closest until 1040
-A.D. 2744-Aug-12 00:00:00.0000 UT 57,755,099 km (35.9 Million miles), closest since 2729, closest until 2761
-A.D. 1213-Jul-15 00:00:00.0000 UT 57,823,379 km (35.9 Million miles), closest since 1198, closest until 1230
-A.D. 1830-Sep-15 00:00:00.0000 UT 57,847,435 km (35.9 Million miles), closest since 1813, closest until 1845
-A.D. 2635-Oct-01 00:00:00.0000 UT 57,901,206 km (36.0 Million miles), closest since 2618, closest until 2650
-A.D. 1576-Jul-21 00:00:00.0000 UT 57,902,736 km (36.0 Million miles), closest since 1561, closest until 1593
-A.D. 0045-Jun-23 00:00:00.0000 UT 57,908,038 km (36.0 Million miles), closest since 30, closest until 62
-A.D. 0662-Aug-23 00:00:00.0000 UT 57,939,205 km (36.0 Million miles), closest since 645, closest until 677
-A.D. 1939-Jul-28 00:00:00.0000 UT 58,027,005 km (36.1 Million miles), closest since 1924, closest until 1956
-A.D. 1467-Sep-08 00:00:00.0000 UT 58,038,016 km (36.1 Million miles), closest since 1450, closest until 1482
-A.D. 0408-Jun-29 00:00:00.0000 UT 58,046,206 km (36.1 Million miles), closest since 393, closest until 425
-A.D. 2272-Sep-24 00:00:00.0000 UT 58,095,793 km (36.1 Million miles), closest since 2255, closest until 2287
-A.D. 2302-Aug-03 00:00:00.0000 UT 58,142,840 km (36.1 Million miles), closest since 2287, closest until 2319
-A.D. 0299-Aug-17 00:00:00.0000 UT 58,155,003 km (36.1 Million miles), closest since 282, closest until 314
-A.D. 0771-Jul-06 00:00:00.0000 UT 58,184,739 km (36.2 Million miles), closest since 756, closest until 788
-A.D. 1104-Sep-02 00:00:00.0000 UT 58,197,481 km (36.2 Million miles), closest since 1087, closest until 1119
-A.D. 2665-Aug-08 00:00:00.0000 UT 58,240,177 km (36.2 Million miles), closest since 2650, closest until 2682
-A.D. 1909-Sep-19 00:00:00.0000 UT 58,264,105 km (36.2 Million miles), closest since 1892, closest until 1924
-A.D. 1134-Jul-12 00:00:00.0000 UT 58,304,809 km (36.2 Million miles), closest since 1119, closest until 1151
-A.D. 2714-Oct-05 00:00:00.0000 UT 58,365,361 km (36.3 Million miles), closest since 2697, closest until 2729
-A.D. 0741-Aug-28 00:00:00.0000 UT 58,392,940 km (36.3 Million miles), closest since 724, closest until 756
-A.D. 1497-Jul-17 00:00:00.0000 UT 58,410,202 km (36.3 Million miles), closest since 1482, closest until 1514
-A.D. 1860-Jul-22 00:00:00.0000 UT 58,478,402 km (36.3 Million miles), closest since 1845, closest until 1877
-A.D. 1546-Sep-13 00:00:00.0000 UT 58,487,868 km (36.3 Million miles), closest since 1529, closest until 1561
-A.D. 0329-Jun-25 00:00:00.0000 UT 58,495,602 km (36.3 Million miles), closest since 314, closest until 346
-A.D. 0378-Aug-22 00:00:00.0000 UT 58,584,092 km (36.4 Million miles), closest since 361, closest until 393
-A.D. 2351-Sep-29 00:00:00.0000 UT 58,598,585 km (36.4 Million miles), closest since 2334, closest until 2366
-A.D. 2223-Jul-29 00:00:00.0000 UT 58,623,698 km (36.4 Million miles), closest since 2208, closest until 2240
-A.D. 0692-Jun-30 00:00:00.0000 UT 58,639,080 km (36.4 Million miles), closest since 677, closest until 709
-A.D. 1183-Sep-07 00:00:00.0000 UT 58,691,340 km (36.5 Million miles), closest since 1166, closest until 1198
-A.D. 2586-Aug-03 00:00:00.0000 UT 58,778,653 km (36.5 Million miles), closest since 2571, closest until 2603
-A.D. 1055-Jul-07 00:00:00.0000 UT 58,783,892 km (36.5 Million miles), closest since 1040, closest until 1072
-A.D. 1988-Sep-22 00:00:00.0000 UT 58,813,403 km (36.5 Million miles), closest since 1971, closest until 2003
-A.D. 0015-Aug-16 00:00:00.0000 UT 58,817,879 km (36.5 Million miles), closest until 30
-A.D. 2793-Oct-08 00:00:00.0000 UT 58,878,577 km (36.6 Million miles), closest since 2776, closest until 2808
-A.D. 0820-Aug-31 00:00:00.0000 UT 58,895,320 km (36.6 Million miles), closest since 803, closest until 835
-A.D. 2949-Aug-09 00:00:00.0000 UT 58,915,013 km (36.6 Million miles), closest since 2934, closest until 2966
-A.D. 1418-Jul-13 00:00:00.0000 UT 58,927,594 km (36.6 Million miles), closest since 1403, closest until 1435
-A.D. 1625-Sep-16 00:00:00.0000 UT 58,970,091 km (36.6 Million miles), closest since 1608, closest until 1640
-A.D. 0250-Jun-21 00:00:00.0000 UT 59,044,734 km (36.7 Million miles), closest since 235, closest until 267
-A.D. 1781-Jul-18 00:00:00.0000 UT 59,052,192 km (36.7 Million miles), closest since 1766, closest until 1798
-A.D. 2430-Oct-02 00:00:00.0000 UT 59,099,052 km (36.7 Million miles), closest since 2413, closest until 2445
-A.D. 0457-Aug-25 00:00:00.0000 UT 59,105,088 km (36.7 Million miles), closest since 440, closest until 472
-A.D. 2144-Jul-24 00:00:00.0000 UT 59,146,551 km (36.8 Million miles), closest since 2129, closest until 2161
-A.D. 0613-Jun-27 00:00:00.0000 UT 59,150,986 km (36.8 Million miles), closest since 598, closest until 630
-A.D. 1262-Sep-10 00:00:00.0000 UT 59,190,284 km (36.8 Million miles), closest since 1245, closest until 1277
-A.D. 0094-Aug-19 00:00:00.0000 UT 59,281,853 km (36.8 Million miles), closest since 77, closest until 109
-A.D. 0976-Jul-02 00:00:00.0000 UT 59,307,496 km (36.9 Million miles), closest since 961, closest until 993
-A.D. 2507-Jul-31 00:00:00.0000 UT 59,312,552 km (36.9 Million miles), closest since 2492, closest until 2524
-A.D. 2067-Sep-27 00:00:00.0000 UT 59,346,441 km (36.9 Million miles), closest since 2050, closest until 2082
-A.D. 0899-Sep-04 00:00:00.0000 UT 59,409,237 km (36.9 Million miles), closest since 882, closest until 914
-A.D. 2872-Oct-12 00:00:00.0000 UT 59,442,979 km (36.9 Million miles), closest since 2855, closest until 2887
-A.D. 1339-Jul-09 00:00:00.0000 UT 59,456,844 km (36.9 Million miles), closest since 1324, closest until 1356
-A.D. 2870-Aug-05 00:00:00.0000 UT 59,486,164 km (37.0 Million miles), closest since 2855, closest until 2872
-A.D. 1704-Sep-21 00:00:00.0000 UT 59,562,973 km (37.0 Million miles), closest since 1687, closest until 1719
-A.D. 0171-Jun-17 00:00:00.0000 UT 59,570,801 km (37.0 Million miles), closest since 156, closest until 188
-A.D. 1702-Jul-15 00:00:00.0000 UT 59,627,798 km (37.1 Million miles), closest since 1687, closest until 1704
-A.D. 0536-Aug-29 00:00:00.0000 UT 59,646,873 km (37.1 Million miles), closest since 519, closest until 551
-A.D. 2509-Oct-07 00:00:00.0000 UT 59,661,102 km (37.1 Million miles), closest since 2507, closest until 2524
-A.D. 1341-Sep-14 00:00:00.0000 UT 59,729,120 km (37.1 Million miles), closest since 1339, closest until 1356
-A.D. 0534-Jun-23 00:00:00.0000 UT 59,744,117 km (37.1 Million miles), closest since 519, closest until 536
-A.D. 2065-Jul-20 00:00:00.0000 UT 59,778,761 km (37.1 Million miles), closest since 2050, closest until 2067
-A.D. 2146-Oct-01 00:00:00.0000 UT 59,869,974 km (37.2 Million miles), closest since 2144, closest until 2161
-A.D. 0173-Aug-23 00:00:00.0000 UT 59,875,116 km (37.2 Million miles), closest since 171, closest until 188
-A.D. 0897-Jun-28 00:00:00.0000 UT 59,897,649 km (37.2 Million miles), closest since 882, closest until 899
-A.D. 2428-Jul-26 00:00:00.0000 UT 59,905,187 km (37.2 Million miles), closest since 2413, closest until 2430
-A.D. 0978-Sep-09 00:00:00.0000 UT 59,951,790 km (37.3 Million miles), closest since 976, closest until 993
-A.D. 2951-Oct-17 00:00:00.0000 UT 60,034,196 km (37.3 Million miles), closest since 2949, closest until 2966
-A.D. 1260-Jul-04 00:00:00.0000 UT 60,064,272 km (37.3 Million miles), closest since 1245, closest until 1262
-A.D. 2791-Aug-02 00:00:00.0000 UT 60,075,700 km (37.3 Million miles), closest since 2776, closest until 2793
-A.D. 1783-Sep-25 00:00:00.0000 UT 60,125,086 km (37.4 Million miles), closest since 1781, closest until 1798
-A.D. 0092-Jun-12 00:00:00.0000 UT 60,125,644 km (37.4 Million miles), closest since 77, closest until 94
-A.D. 0615-Sep-04 00:00:00.0000 UT 60,187,291 km (37.4 Million miles), closest since 613, closest until 630
-A.D. 1623-Jul-10 00:00:00.0000 UT 60,194,843 km (37.4 Million miles), closest since 1608, closest until 1625
-A.D. 2588-Oct-10 00:00:00.0000 UT 60,264,530 km (37.4 Million miles), closest since 2586, closest until 2603
-A.D. 0455-Jun-18 00:00:00.0000 UT 60,321,271 km (37.5 Million miles), closest since 440, closest until 457
-A.D. 1420-Sep-19 00:00:00.0000 UT 60,350,613 km (37.5 Million miles), closest since 1418, closest until 1435
-A.D. 1986-Jul-16 00:00:00.0000 UT 60,375,918 km (37.5 Million miles), closest since 1971, closest until 1988
-A.D. 0252-Aug-28 00:00:00.0000 UT 60,454,746 km (37.6 Million miles), closest since 250, closest until 267
-A.D. 2225-Oct-05 00:00:00.0000 UT 60,502,907 km (37.6 Million miles), closest since 2223, closest until 2240
-A.D. 0818-Jun-24 00:00:00.0000 UT 60,519,573 km (37.6 Million miles), closest since 803, closest until 820
-A.D. 2349-Jul-22 00:00:00.0000 UT 60,555,882 km (37.6 Million miles), closest since 2334, closest until 2351
-A.D. 1057-Sep-13 00:00:00.0000 UT 60,558,648 km (37.6 Million miles), closest since 1055, closest until 1072
-A.D. 1181-Jun-30 00:00:00.0000 UT 60,694,697 km (37.7 Million miles), closest since 1166, closest until 1183
-A.D. 1862-Sep-29 00:00:00.0000 UT 60,700,199 km (37.7 Million miles), closest since 1860, closest until 1877
-A.D. 2712-Jul-28 00:00:00.0000 UT 60,709,007 km (37.7 Million miles), closest since 2697, closest until 2714
-A.D. 0013-Jun-08 00:00:00.0000 UT 60,791,979 km (37.8 Million miles), closest until 15
-A.D. 0694-Sep-07 00:00:00.0000 UT 60,799,943 km (37.8 Million miles), closest since 692, closest until 709
-A.D. 1544-Jul-06 00:00:00.0000 UT 60,854,596 km (37.8 Million miles), closest since 1529, closest until 1546
-A.D. 2667-Oct-15 00:00:00.0000 UT 60,883,806 km (37.8 Million miles), closest since 2665, closest until 2682
-A.D. 0376-Jun-14 00:00:00.0000 UT 60,923,003 km (37.9 Million miles), closest since 361, closest until 378
-A.D. 1499-Sep-23 00:00:00.0000 UT 60,958,342 km (37.9 Million miles), closest since 1497, closest until 1514
-A.D. 1907-Jul-13 00:00:00.0000 UT 60,973,517 km (37.9 Million miles), closest since 1892, closest until 1909
-A.D. 0331-Sep-02 00:00:00.0000 UT 61,024,429 km (37.9 Million miles), closest since 329, closest until 346
-A.D. 0739-Jun-21 00:00:00.0000 UT 61,122,138 km (38.0 Million miles), closest since 724, closest until 741
-A.D. 2304-Oct-09 00:00:00.0000 UT 61,154,011 km (38.0 Million miles), closest since 2302, closest until 2319
-A.D. 2270-Jul-18 00:00:00.0000 UT 61,167,340 km (38.0 Million miles), closest since 2255, closest until 2272
-A.D. 1136-Sep-17 00:00:00.0000 UT 61,201,645 km (38.0 Million miles), closest since 1134, closest until 1151
-A.D. 1102-Jun-27 00:00:00.0000 UT 61,322,826 km (38.1 Million miles), closest since 1087, closest until 1104
-A.D. 2633-Jul-24 00:00:00.0000 UT 61,382,346 km (38.1 Million miles), closest since 2618, closest until 2635
-A.D. 1941-Oct-03 00:00:00.0000 UT 61,405,208 km (38.2 Million miles), closest since 1939, closest until 1956
-A.D. 0773-Sep-11 00:00:00.0000 UT 61,443,696 km (38.2 Million miles), closest since 771, closest until 788
-A.D. 1465-Jul-02 00:00:00.0000 UT 61,517,134 km (38.2 Million miles), closest since 1450, closest until 1467
-A.D. 2746-Oct-19 00:00:00.0000 UT 61,541,165 km (38.2 Million miles), closest since 2744, closest until 2761
-A.D. 2996-Jul-29 00:00:00.0000 UT 61,574,611 km (38.3 Million miles), closest since 2981, closest until 2998
-A.D. 1578-Sep-27 00:00:00.0000 UT 61,589,684 km (38.3 Million miles), closest since 1576, closest until 1593
-A.D. 0297-Jun-10 00:00:00.0000 UT 61,614,845 km (38.3 Million miles), closest since 282, closest until 299
-A.D. 1828-Jul-08 00:00:00.0000 UT 61,686,416 km (38.3 Million miles), closest since 1813, closest until 1830
-A.D. 0410-Sep-05 00:00:00.0000 UT 61,694,751 km (38.3 Million miles), closest since 408, closest until 425
-A.D. 0660-Jun-16 00:00:00.0000 UT 61,779,297 km (38.4 Million miles), closest since 645, closest until 662
-A.D. 2383-Oct-14 00:00:00.0000 UT 61,792,678 km (38.4 Million miles), closest since 2381, closest until 2398
-A.D. 1215-Sep-21 00:00:00.0000 UT 61,831,016 km (38.4 Million miles), closest since 1213, closest until 1230
-A.D. 2191-Jul-14 00:00:00.0000 UT 61,832,352 km (38.4 Million miles), closest since 2176, closest until 2193
-A.D. 0047-Aug-30 00:00:00.0000 UT 61,897,336 km (38.5 Million miles), closest since 45, closest until 62
-A.D. 1023-Jun-23 00:00:00.0000 UT 61,985,232 km (38.5 Million miles), closest since 1008, closest until 1025
-A.D. 2554-Jul-20 00:00:00.0000 UT 62,050,396 km (38.6 Million miles), closest since 2539, closest until 2556
-A.D. 2020-Oct-07 00:00:00.0000 UT 62,071,495 km (38.6 Million miles), closest since 2018, closest until 2035
-...
+
+Mars-Earth distance minima between 1 BC and end of 2999 AD
+A.D. 2729-Sep-08 00:00:00.0000 UT 55,651,413 km (34.6 Million miles) closest between 1 BC and end of 2999 AD
+A.D. 2650-Sep-04 00:00:00.0000 UT 55,652,278 km (34.6 Million miles) closest until 2729
+A.D. 2934-Sep-05 00:00:00.0000 UT 55,676,517 km (34.6 Million miles) closest since 2729 
+A.D. 2287-Aug-29 00:00:00.0000 UT 55,688,458 km (34.6 Million miles) closest until 2650
+A.D. 2808-Sep-12 00:00:00.0000 UT 55,696,849 km (34.6 Million miles) closest since 2729  until 2934
+A.D. 2571-Aug-30 00:00:00.0000 UT 55,708,387 km (34.6 Million miles) closest since 2287  until 2650
+A.D. 2366-Sep-02 00:00:00.0000 UT 55,709,693 km (34.6 Million miles) closest since 2287  until 2571
+A.D. 2003-Aug-27 00:00:00.0000 UT 55,759,692 km (34.6 Million miles) closest until 2287
+A.D. 2208-Aug-24 00:00:00.0000 UT 55,770,622 km (34.7 Million miles) closest since 2003  until 2287
+A.D. 1924-Aug-23 00:00:00.0000 UT 55,776,926 km (34.7 Million miles) closest until 2003
+A.D. 2887-Sep-16 00:00:00.0000 UT 55,787,946 km (34.7 Million miles) closest since 2808  until 2934
+A.D. 2445-Sep-06 00:00:00.0000 UT 55,795,412 km (34.7 Million miles) closest since 2366  until 2571
+A.D. 1845-Aug-18 00:00:00.0000 UT 55,805,606 km (34.7 Million miles) closest until 1924
+A.D. 1482-Aug-13 00:00:00.0000 UT 55,811,176 km (34.7 Million miles) closest until 1845
+A.D. 2855-Sep-01 00:00:00.0000 UT 55,816,437 km (34.7 Million miles) closest since 2808  until 2887
+A.D. 2492-Aug-25 00:00:00.0000 UT 55,833,078 km (34.7 Million miles) closest since 2445  until 2571
+A.D. 1561-Aug-17 00:00:00.0000 UT 55,837,739 km (34.7 Million miles) closest since 1482  until 1845
+A.D. 1766-Aug-14 00:00:00.0000 UT 55,839,082 km (34.7 Million miles) closest since 1561  until 1845
+A.D. 2129-Aug-20 00:00:00.0000 UT 55,841,491 km (34.7 Million miles) closest since 2003  until 2208
+A.D. 1119-Aug-08 00:00:00.0000 UT 55,861,185 km (34.7 Million miles) closest until 1482
+A.D. 1198-Aug-11 00:00:00.0000 UT 55,868,190 km (34.7 Million miles) closest since 1119  until 1482
+A.D. 1640-Aug-20 00:00:00.0000 UT 55,872,145 km (34.7 Million miles) closest since 1561  until 1766
+A.D. 2082-Aug-31 00:00:00.0000 UT 55,884,640 km (34.7 Million miles) closest since 2003  until 2129
+A.D. 1403-Aug-09 00:00:00.0000 UT 55,892,223 km (34.7 Million miles) closest since 1198  until 1482
+A.D. 2524-Sep-10 00:00:00.0000 UT 55,895,355 km (34.7 Million miles) closest since 2492  until 2571
+A.D. 0756-Aug-01 00:00:00.0000 UT 55,903,263 km (34.7 Million miles) closest until 1119
+A.D. 1040-Aug-02 00:00:00.0000 UT 55,923,329 km (34.7 Million miles) closest since 756  until 1119
+A.D. 0835-Aug-05 00:00:00.0000 UT 55,936,753 km (34.8 Million miles) closest since 756  until 1040
+A.D. 1719-Aug-26 00:00:00.0000 UT 55,951,317 km (34.8 Million miles) closest since 1640  until 1766
+A.D. 0677-Jul-27 00:00:00.0000 UT 55,954,675 km (34.8 Million miles) closest until 756
+A.D. 2966-Sep-20 00:00:00.0000 UT 55,957,758 km (34.8 Million miles) closest since 2934 
+A.D. 2050-Aug-16 00:00:00.0000 UT 55,959,782 km (34.8 Million miles) closest since 2003  until 2082
+A.D. 1277-Aug-14 00:00:00.0000 UT 55,964,841 km (34.8 Million miles) closest since 1198  until 1403
+A.D. 0314-Jul-22 00:00:00.0000 UT 55,975,285 km (34.8 Million miles) closest until 677
+A.D. 0393-Jul-26 00:00:00.0000 UT 55,981,064 km (34.8 Million miles) closest since 314  until 677
+A.D. 2413-Aug-21 00:00:00.0000 UT 55,984,394 km (34.8 Million miles) closest since 2366  until 2445
+A.D. 0472-Jul-29 00:00:00.0000 UT 56,000,254 km (34.8 Million miles) closest since 393  until 677
+A.D. 1687-Aug-10 00:00:00.0000 UT 56,003,254 km (34.8 Million miles) closest since 1640  until 1719
+A.D. 0235-Jul-18 00:00:00.0000 UT 56,003,560 km (34.8 Million miles) closest until 314
+A.D. 2776-Aug-27 00:00:00.0000 UT 56,005,058 km (34.8 Million miles) closest since 2729  until 2808
+A.D. 0961-Jul-29 00:00:00.0000 UT 56,009,624 km (34.8 Million miles) closest since 835  until 1040
+A.D. 0598-Jul-23 00:00:00.0000 UT 56,010,019 km (34.8 Million miles) closest since 472  until 677
+A.D. 1324-Aug-04 00:00:00.0000 UT 56,017,809 km (34.8 Million miles) closest since 1277  until 1403
+A.D. 0030-Jul-20 00:00:00.0000 UT 56,036,689 km (34.8 Million miles) closest until 235
+A.D. 2161-Sep-04 00:00:00.0000 UT 56,037,824 km (34.8 Million miles) closest since 2129  until 2208
+A.D. 0914-Aug-09 00:00:00.0000 UT 56,040,325 km (34.8 Million miles) closest since 835  until 961
+A.D. 1356-Aug-19 00:00:00.0000 UT 56,071,497 km (34.8 Million miles) closest since 1324  until 1403
+A.D. 2603-Sep-16 00:00:00.0000 UT 56,077,487 km (34.8 Million miles) closest since 2571  until 2650
+A.D. 0109-Jul-24 00:00:00.0000 UT 56,112,711 km (34.9 Million miles) closest since 30  until 235
+A.D. 0519-Jul-19 00:00:00.0000 UT 56,121,666 km (34.9 Million miles) closest since 472  until 598
+A.D. 0551-Aug-04 00:00:00.0000 UT 56,123,911 km (34.9 Million miles) closest since 519  until 598
+A.D. 0882-Jul-24 00:00:00.0000 UT 56,138,517 km (34.9 Million miles) closest since 835  until 914
+A.D. 1245-Jul-30 00:00:00.0000 UT 56,149,414 km (34.9 Million miles) closest since 1198  until 1277
+A.D. 1798-Aug-29 00:00:00.0000 UT 56,152,462 km (34.9 Million miles) closest since 1766  until 1845
+A.D. 0156-Jul-12 00:00:00.0000 UT 56,157,016 km (34.9 Million miles) closest since 109  until 235
+A.D. 0993-Aug-13 00:00:00.0000 UT 56,175,036 km (34.9 Million miles) closest since 961  until 1040
+A.D. 2240-Sep-09 00:00:00.0000 UT 56,188,104 km (34.9 Million miles) closest since 2208  until 2287
+A.D. 1608-Aug-05 00:00:00.0000 UT 56,189,045 km (34.9 Million miles) closest since 1561  until 1640
+A.D. 2334-Aug-18 00:00:00.0000 UT 56,189,100 km (34.9 Million miles) closest since 2287  until 2366
+A.D. 0188-Jul-28 00:00:00.0000 UT 56,193,415 km (34.9 Million miles) closest since 156  until 235
+A.D. 1971-Aug-12 00:00:00.0000 UT 56,203,486 km (34.9 Million miles) closest since 1924  until 2003
+A.D. 1435-Aug-24 00:00:00.0000 UT 56,223,626 km (34.9 Million miles) closest since 1403  until 1482
+A.D. 2697-Aug-23 00:00:00.0000 UT 56,229,101 km (34.9 Million miles) closest since 2650  until 2729
+A.D. 0630-Aug-08 00:00:00.0000 UT 56,288,140 km (35.0 Million miles) closest since 598  until 677
+A.D. 0077-Jul-08 00:00:00.0000 UT 56,303,956 km (35.0 Million miles) closest since 30  until 109
+A.D. 2682-Sep-19 00:00:00.0000 UT 56,310,126 km (35.0 Million miles) closest since 2650  until 2697
+A.D. 0440-Jul-14 00:00:00.0000 UT 56,334,538 km (35.0 Million miles) closest since 393  until 472
+A.D. 0803-Jul-21 00:00:00.0000 UT 56,342,253 km (35.0 Million miles) closest since 756  until 835
+A.D. 1877-Sep-03 00:00:00.0000 UT 56,345,887 km (35.0 Million miles) closest since 1845  until 1924
+A.D. 1072-Aug-17 00:00:00.0000 UT 56,346,798 km (35.0 Million miles) closest since 1040  until 1119
+A.D. 1166-Jul-27 00:00:00.0000 UT 56,375,350 km (35.0 Million miles) closest since 1119  until 1198
+A.D. 0267-Aug-02 00:00:00.0000 UT 56,386,335 km (35.0 Million miles) closest since 235  until 314
+A.D. 1529-Aug-02 00:00:00.0000 UT 56,393,047 km (35.0 Million miles) closest since 1482  until 1561
+A.D. 2319-Sep-14 00:00:00.0000 UT 56,444,363 km (35.1 Million miles) closest since 2287  until 2334
+A.D. 1892-Aug-07 00:00:00.0000 UT 56,453,689 km (35.1 Million miles) closest since 1877  until 1924
+A.D. 0709-Aug-13 00:00:00.0000 UT 56,462,410 km (35.1 Million miles) closest since 677  until 756
+A.D. 1514-Aug-29 00:00:00.0000 UT 56,477,407 km (35.1 Million miles) closest since 1482  until 1529
+A.D. 2255-Aug-13 00:00:00.0000 UT 56,498,490 km (35.1 Million miles) closest since 2240  until 2287
+A.D. 2618-Aug-19 00:00:00.0000 UT 56,520,461 km (35.1 Million miles) closest since 2603  until 2650
+A.D. 0361-Jul-11 00:00:00.0000 UT 56,548,654 km (35.1 Million miles) closest since 314  until 393
+A.D. 1956-Sep-07 00:00:00.0000 UT 56,562,035 km (35.1 Million miles) closest since 1924  until 1971
+A.D. 2981-Aug-24 00:00:00.0000 UT 56,565,572 km (35.1 Million miles) closest since 2966 
+A.D. 1151-Aug-23 00:00:00.0000 UT 56,574,202 km (35.2 Million miles) closest since 1119  until 1166
+A.D. 2761-Sep-23 00:00:00.0000 UT 56,579,693 km (35.2 Million miles) closest since 2729  until 2776
+A.D. 0724-Jul-16 00:00:00.0000 UT 56,607,791 km (35.2 Million miles) closest since 709  until 756
+A.D. 0346-Aug-07 00:00:00.0000 UT 56,615,366 km (35.2 Million miles) closest since 314  until 361
+A.D. 1087-Jul-22 00:00:00.0000 UT 56,654,759 km (35.2 Million miles) closest since 1072  until 1119
+A.D. 1450-Jul-28 00:00:00.0000 UT 56,695,534 km (35.2 Million miles) closest since 1435  until 1482
+A.D. 1813-Aug-03 00:00:00.0000 UT 56,709,133 km (35.2 Million miles) closest since 1798  until 1845
+A.D. 0788-Aug-16 00:00:00.0000 UT 56,712,320 km (35.2 Million miles) closest since 756  until 803
+A.D. 1593-Sep-01 00:00:00.0000 UT 56,734,972 km (35.3 Million miles) closest since 1561  until 1608
+A.D. 2398-Sep-17 00:00:00.0000 UT 56,753,079 km (35.3 Million miles) closest since 2366  until 2413
+A.D. 2176-Aug-08 00:00:00.0000 UT 56,789,009 km (35.3 Million miles) closest since 2161  until 2208
+A.D. 0282-Jul-06 00:00:00.0000 UT 56,800,245 km (35.3 Million miles) closest since 267  until 314
+A.D. 0425-Aug-10 00:00:00.0000 UT 56,849,206 km (35.3 Million miles) closest since 393  until 440
+A.D. 2539-Aug-15 00:00:00.0000 UT 56,866,939 km (35.3 Million miles) closest since 2524  until 2571
+A.D. 0645-Jul-12 00:00:00.0000 UT 56,878,986 km (35.3 Million miles) closest since 630  until 677
+A.D. 1230-Aug-26 00:00:00.0000 UT 56,890,001 km (35.3 Million miles) closest since 1198  until 1245
+A.D. 2840-Sep-27 00:00:00.0000 UT 56,899,126 km (35.4 Million miles) closest since 2808  until 2855
+A.D. 2035-Sep-12 00:00:00.0000 UT 56,909,620 km (35.4 Million miles) closest since 2003  until 2050
+A.D. 2902-Aug-21 00:00:00.0000 UT 56,934,451 km (35.4 Million miles) closest since 2887  until 2934
+A.D. 1008-Jul-18 00:00:00.0000 UT 56,957,002 km (35.4 Million miles) closest since 993  until 1040
+A.D. 1672-Sep-05 00:00:00.0000 UT 57,029,260 km (35.4 Million miles) closest since 1640  until 1687
+A.D. 0062-Aug-04 00:00:00.0000 UT 57,030,212 km (35.4 Million miles) closest since 30  until 77
+A.D. 0867-Aug-20 00:00:00.0000 UT 57,037,546 km (35.4 Million miles) closest since 835  until 882
+A.D. 1371-Jul-24 00:00:00.0000 UT 57,039,214 km (35.4 Million miles) closest since 1356  until 1403
+A.D. 2477-Sep-21 00:00:00.0000 UT 57,067,856 km (35.5 Million miles) closest since 2445  until 2492
+A.D. 1734-Jul-30 00:00:00.0000 UT 57,100,022 km (35.5 Million miles) closest since 1719  until 1766
+A.D. 2097-Aug-04 00:00:00.0000 UT 57,127,446 km (35.5 Million miles) closest since 2082  until 2129
+A.D. 0203-Jul-03 00:00:00.0000 UT 57,165,421 km (35.5 Million miles) closest since 188  until 235
+A.D. 0504-Aug-14 00:00:00.0000 UT 57,192,976 km (35.5 Million miles) closest since 472  until 519
+A.D. 0566-Jul-08 00:00:00.0000 UT 57,206,392 km (35.5 Million miles) closest since 551  until 598
+A.D. 1309-Aug-31 00:00:00.0000 UT 57,209,111 km (35.5 Million miles) closest since 1277  until 1324
+A.D. 2460-Aug-10 00:00:00.0000 UT 57,229,026 km (35.6 Million miles) closest since 2445  until 2477
+A.D. 2114-Sep-16 00:00:00.0000 UT 57,271,755 km (35.6 Million miles) closest since 2097  until 2129
+A.D. 2919-Oct-02 00:00:00.0000 UT 57,276,590 km (35.6 Million miles) closest since 2902  until 2934
+A.D. 0929-Jul-13 00:00:00.0000 UT 57,301,513 km (35.6 Million miles) closest since 914  until 961
+A.D. 0141-Aug-09 00:00:00.0000 UT 57,328,169 km (35.6 Million miles) closest since 109  until 156
+A.D. 2823-Aug-16 00:00:00.0000 UT 57,332,022 km (35.6 Million miles) closest since 2808  until 2840
+A.D. 0946-Aug-25 00:00:00.0000 UT 57,377,732 km (35.7 Million miles) closest since 929  until 961
+A.D. 1292-Jul-18 00:00:00.0000 UT 57,391,457 km (35.7 Million miles) closest since 1277  until 1309
+A.D. 1751-Sep-10 00:00:00.0000 UT 57,448,200 km (35.7 Million miles) closest since 1734  until 1766
+A.D. 2556-Sep-25 00:00:00.0000 UT 57,456,275 km (35.7 Million miles) closest since 2539  until 2571
+A.D. 1655-Jul-25 00:00:00.0000 UT 57,503,110 km (35.7 Million miles) closest since 1640  until 1672
+A.D. 0124-Jun-27 00:00:00.0000 UT 57,523,098 km (35.7 Million miles) closest since 109  until 141
+A.D. 0583-Aug-19 00:00:00.0000 UT 57,564,968 km (35.8 Million miles) closest since 566  until 598
+A.D. 1388-Sep-03 00:00:00.0000 UT 57,571,858 km (35.8 Million miles) closest since 1371  until 1403
+A.D. 2018-Jul-31 00:00:00.0000 UT 57,591,264 km (35.8 Million miles) closest since 2003  until 2035
+A.D. 2193-Sep-19 00:00:00.0000 UT 57,630,021 km (35.8 Million miles) closest since 2176  until 2208
+A.D. 0487-Jul-03 00:00:00.0000 UT 57,632,103 km (35.8 Million miles) closest since 472  until 504
+A.D. 2381-Aug-06 00:00:00.0000 UT 57,649,370 km (35.8 Million miles) closest since 2366  until 2398
+A.D. 2998-Oct-06 00:00:00.0000 UT 57,713,899 km (35.9 Million miles) closest since 2981 
+A.D. 0850-Jul-09 00:00:00.0000 UT 57,719,509 km (35.9 Million miles) closest since 835  until 867
+A.D. 0220-Aug-13 00:00:00.0000 UT 57,736,690 km (35.9 Million miles) closest since 203  until 235
+A.D. 1025-Aug-29 00:00:00.0000 UT 57,754,572 km (35.9 Million miles) closest since 1008  until 1040
+A.D. 2744-Aug-12 00:00:00.0000 UT 57,755,099 km (35.9 Million miles) closest since 2729  until 2761
+A.D. 1213-Jul-15 00:00:00.0000 UT 57,823,379 km (35.9 Million miles) closest since 1198  until 1230
+A.D. 1830-Sep-15 00:00:00.0000 UT 57,847,435 km (35.9 Million miles) closest since 1813  until 1845
+A.D. 2635-Oct-01 00:00:00.0000 UT 57,901,206 km (36.0 Million miles) closest since 2618  until 2650
+A.D. 1576-Jul-21 00:00:00.0000 UT 57,902,736 km (36.0 Million miles) closest since 1561  until 1593
+A.D. 0045-Jun-23 00:00:00.0000 UT 57,908,038 km (36.0 Million miles) closest since 30  until 62
+A.D. 0662-Aug-23 00:00:00.0000 UT 57,939,205 km (36.0 Million miles) closest since 645  until 677
+A.D. 1939-Jul-28 00:00:00.0000 UT 58,027,005 km (36.1 Million miles) closest since 1924  until 1956
+A.D. 1467-Sep-08 00:00:00.0000 UT 58,038,016 km (36.1 Million miles) closest since 1450  until 1482
+A.D. 0408-Jun-29 00:00:00.0000 UT 58,046,206 km (36.1 Million miles) closest since 393  until 425
+A.D. 2272-Sep-24 00:00:00.0000 UT 58,095,793 km (36.1 Million miles) closest since 2255  until 2287
+A.D. 2302-Aug-03 00:00:00.0000 UT 58,142,840 km (36.1 Million miles) closest since 2287  until 2319
+A.D. 0299-Aug-17 00:00:00.0000 UT 58,155,003 km (36.1 Million miles) closest since 282  until 314
+A.D. 0771-Jul-06 00:00:00.0000 UT 58,184,739 km (36.2 Million miles) closest since 756  until 788
+A.D. 1104-Sep-02 00:00:00.0000 UT 58,197,481 km (36.2 Million miles) closest since 1087  until 1119
+A.D. 2665-Aug-08 00:00:00.0000 UT 58,240,177 km (36.2 Million miles) closest since 2650  until 2682
+A.D. 1909-Sep-19 00:00:00.0000 UT 58,264,105 km (36.2 Million miles) closest since 1892  until 1924
+A.D. 1134-Jul-12 00:00:00.0000 UT 58,304,809 km (36.2 Million miles) closest since 1119  until 1151
+A.D. 2714-Oct-05 00:00:00.0000 UT 58,365,361 km (36.3 Million miles) closest since 2697  until 2729
+A.D. 0741-Aug-28 00:00:00.0000 UT 58,392,940 km (36.3 Million miles) closest since 724  until 756
+A.D. 1497-Jul-17 00:00:00.0000 UT 58,410,202 km (36.3 Million miles) closest since 1482  until 1514
+A.D. 1860-Jul-22 00:00:00.0000 UT 58,478,402 km (36.3 Million miles) closest since 1845  until 1877
+A.D. 1546-Sep-13 00:00:00.0000 UT 58,487,868 km (36.3 Million miles) closest since 1529  until 1561
+A.D. 0329-Jun-25 00:00:00.0000 UT 58,495,602 km (36.3 Million miles) closest since 314  until 346
+A.D. 0378-Aug-22 00:00:00.0000 UT 58,584,092 km (36.4 Million miles) closest since 361  until 393
+A.D. 2351-Sep-29 00:00:00.0000 UT 58,598,585 km (36.4 Million miles) closest since 2334  until 2366
+A.D. 2223-Jul-29 00:00:00.0000 UT 58,623,698 km (36.4 Million miles) closest since 2208  until 2240
+A.D. 0692-Jun-30 00:00:00.0000 UT 58,639,080 km (36.4 Million miles) closest since 677  until 709
+A.D. 1183-Sep-07 00:00:00.0000 UT 58,691,340 km (36.5 Million miles) closest since 1166  until 1198
+A.D. 2586-Aug-03 00:00:00.0000 UT 58,778,653 km (36.5 Million miles) closest since 2571  until 2603
+A.D. 1055-Jul-07 00:00:00.0000 UT 58,783,892 km (36.5 Million miles) closest since 1040  until 1072
+A.D. 1988-Sep-22 00:00:00.0000 UT 58,813,403 km (36.5 Million miles) closest since 1971  until 2003
+A.D. 0015-Aug-16 00:00:00.0000 UT 58,817,879 km (36.5 Million miles) closest until 30
+A.D. 2793-Oct-08 00:00:00.0000 UT 58,878,577 km (36.6 Million miles) closest since 2776  until 2808
+A.D. 0820-Aug-31 00:00:00.0000 UT 58,895,320 km (36.6 Million miles) closest since 803  until 835
+A.D. 2949-Aug-09 00:00:00.0000 UT 58,915,013 km (36.6 Million miles) closest since 2934  until 2966
+A.D. 1418-Jul-13 00:00:00.0000 UT 58,927,594 km (36.6 Million miles) closest since 1403  until 1435
+A.D. 1625-Sep-16 00:00:00.0000 UT 58,970,091 km (36.6 Million miles) closest since 1608  until 1640
+A.D. 0250-Jun-21 00:00:00.0000 UT 59,044,734 km (36.7 Million miles) closest since 235  until 267
+A.D. 1781-Jul-18 00:00:00.0000 UT 59,052,192 km (36.7 Million miles) closest since 1766  until 1798
+A.D. 2430-Oct-02 00:00:00.0000 UT 59,099,052 km (36.7 Million miles) closest since 2413  until 2445
+A.D. 0457-Aug-25 00:00:00.0000 UT 59,105,088 km (36.7 Million miles) closest since 440  until 472
+A.D. 2144-Jul-24 00:00:00.0000 UT 59,146,551 km (36.8 Million miles) closest since 2129  until 2161
+A.D. 0613-Jun-27 00:00:00.0000 UT 59,150,986 km (36.8 Million miles) closest since 598  until 630
+A.D. 1262-Sep-10 00:00:00.0000 UT 59,190,284 km (36.8 Million miles) closest since 1245  until 1277
+A.D. 0094-Aug-19 00:00:00.0000 UT 59,281,853 km (36.8 Million miles) closest since 77  until 109
+A.D. 0976-Jul-02 00:00:00.0000 UT 59,307,496 km (36.9 Million miles) closest since 961  until 993
+A.D. 2507-Jul-31 00:00:00.0000 UT 59,312,552 km (36.9 Million miles) closest since 2492  until 2524
+A.D. 2067-Sep-27 00:00:00.0000 UT 59,346,441 km (36.9 Million miles) closest since 2050  until 2082
+A.D. 0899-Sep-04 00:00:00.0000 UT 59,409,237 km (36.9 Million miles) closest since 882  until 914
+A.D. 2872-Oct-12 00:00:00.0000 UT 59,442,979 km (36.9 Million miles) closest since 2855  until 2887
+A.D. 1339-Jul-09 00:00:00.0000 UT 59,456,844 km (36.9 Million miles) closest since 1324  until 1356
+A.D. 2870-Aug-05 00:00:00.0000 UT 59,486,164 km (37.0 Million miles) closest since 2855  until 2872
+A.D. 1704-Sep-21 00:00:00.0000 UT 59,562,973 km (37.0 Million miles) closest since 1687  until 1719
+A.D. 0171-Jun-17 00:00:00.0000 UT 59,570,801 km (37.0 Million miles) closest since 156  until 188
+A.D. 1702-Jul-15 00:00:00.0000 UT 59,627,798 km (37.1 Million miles) closest since 1687  until 1704
+A.D. 0536-Aug-29 00:00:00.0000 UT 59,646,873 km (37.1 Million miles) closest since 519  until 551
+A.D. 2509-Oct-07 00:00:00.0000 UT 59,661,102 km (37.1 Million miles) closest since 2507  until 2524
+A.D. 1341-Sep-14 00:00:00.0000 UT 59,729,120 km (37.1 Million miles) closest since 1339  until 1356
+A.D. 0534-Jun-23 00:00:00.0000 UT 59,744,117 km (37.1 Million miles) closest since 519  until 536
+A.D. 2065-Jul-20 00:00:00.0000 UT 59,778,761 km (37.1 Million miles) closest since 2050  until 2067
+A.D. 2146-Oct-01 00:00:00.0000 UT 59,869,974 km (37.2 Million miles) closest since 2144  until 2161
+A.D. 0173-Aug-23 00:00:00.0000 UT 59,875,116 km (37.2 Million miles) closest since 171  until 188
+A.D. 0897-Jun-28 00:00:00.0000 UT 59,897,649 km (37.2 Million miles) closest since 882  until 899
+A.D. 2428-Jul-26 00:00:00.0000 UT 59,905,187 km (37.2 Million miles) closest since 2413  until 2430
+A.D. 0978-Sep-09 00:00:00.0000 UT 59,951,790 km (37.3 Million miles) closest since 976  until 993
+A.D. 2951-Oct-17 00:00:00.0000 UT 60,034,196 km (37.3 Million miles) closest since 2949  until 2966
+A.D. 1260-Jul-04 00:00:00.0000 UT 60,064,272 km (37.3 Million miles) closest since 1245  until 1262
+A.D. 2791-Aug-02 00:00:00.0000 UT 60,075,700 km (37.3 Million miles) closest since 2776  until 2793
+A.D. 1783-Sep-25 00:00:00.0000 UT 60,125,086 km (37.4 Million miles) closest since 1781  until 1798
+A.D. 0092-Jun-12 00:00:00.0000 UT 60,125,644 km (37.4 Million miles) closest since 77  until 94
+A.D. 0615-Sep-04 00:00:00.0000 UT 60,187,291 km (37.4 Million miles) closest since 613  until 630
+A.D. 1623-Jul-10 00:00:00.0000 UT 60,194,843 km (37.4 Million miles) closest since 1608  until 1625
+A.D. 2588-Oct-10 00:00:00.0000 UT 60,264,530 km (37.4 Million miles) closest since 2586  until 2603
+A.D. 0455-Jun-18 00:00:00.0000 UT 60,321,271 km (37.5 Million miles) closest since 440  until 457
+A.D. 1420-Sep-19 00:00:00.0000 UT 60,350,613 km (37.5 Million miles) closest since 1418  until 1435
+A.D. 1986-Jul-16 00:00:00.0000 UT 60,375,918 km (37.5 Million miles) closest since 1971  until 1988
+A.D. 0252-Aug-28 00:00:00.0000 UT 60,454,746 km (37.6 Million miles) closest since 250  until 267
+A.D. 2225-Oct-05 00:00:00.0000 UT 60,502,907 km (37.6 Million miles) closest since 2223  until 2240
+A.D. 0818-Jun-24 00:00:00.0000 UT 60,519,573 km (37.6 Million miles) closest since 803  until 820
+A.D. 2349-Jul-22 00:00:00.0000 UT 60,555,882 km (37.6 Million miles) closest since 2334  until 2351
+A.D. 1057-Sep-13 00:00:00.0000 UT 60,558,648 km (37.6 Million miles) closest since 1055  until 1072
+A.D. 1181-Jun-30 00:00:00.0000 UT 60,694,697 km (37.7 Million miles) closest since 1166  until 1183
+A.D. 1862-Sep-29 00:00:00.0000 UT 60,700,199 km (37.7 Million miles) closest since 1860  until 1877
+A.D. 2712-Jul-28 00:00:00.0000 UT 60,709,007 km (37.7 Million miles) closest since 2697  until 2714
+A.D. 0013-Jun-08 00:00:00.0000 UT 60,791,979 km (37.8 Million miles) closest until 15
+A.D. 0694-Sep-07 00:00:00.0000 UT 60,799,943 km (37.8 Million miles) closest since 692  until 709
+A.D. 1544-Jul-06 00:00:00.0000 UT 60,854,596 km (37.8 Million miles) closest since 1529  until 1546
+A.D. 2667-Oct-15 00:00:00.0000 UT 60,883,806 km (37.8 Million miles) closest since 2665  until 2682
+A.D. 0376-Jun-14 00:00:00.0000 UT 60,923,003 km (37.9 Million miles) closest since 361  until 378
+A.D. 1499-Sep-23 00:00:00.0000 UT 60,958,342 km (37.9 Million miles) closest since 1497  until 1514
+A.D. 1907-Jul-13 00:00:00.0000 UT 60,973,517 km (37.9 Million miles) closest since 1892  until 1909
+A.D. 0331-Sep-02 00:00:00.0000 UT 61,024,429 km (37.9 Million miles) closest since 329  until 346
+A.D. 0739-Jun-21 00:00:00.0000 UT 61,122,138 km (38.0 Million miles) closest since 724  until 741
+A.D. 2304-Oct-09 00:00:00.0000 UT 61,154,011 km (38.0 Million miles) closest since 2302  until 2319
+A.D. 2270-Jul-18 00:00:00.0000 UT 61,167,340 km (38.0 Million miles) closest since 2255  until 2272
+A.D. 1136-Sep-17 00:00:00.0000 UT 61,201,645 km (38.0 Million miles) closest since 1134  until 1151
+A.D. 1102-Jun-27 00:00:00.0000 UT 61,322,826 km (38.1 Million miles) closest since 1087  until 1104
+A.D. 2633-Jul-24 00:00:00.0000 UT 61,382,346 km (38.1 Million miles) closest since 2618  until 2635
+A.D. 1941-Oct-03 00:00:00.0000 UT 61,405,208 km (38.2 Million miles) closest since 1939  until 1956
+A.D. 0773-Sep-11 00:00:00.0000 UT 61,443,696 km (38.2 Million miles) closest since 771  until 788
+A.D. 1465-Jul-02 00:00:00.0000 UT 61,517,134 km (38.2 Million miles) closest since 1450  until 1467
+A.D. 2746-Oct-19 00:00:00.0000 UT 61,541,165 km (38.2 Million miles) closest since 2744  until 2761
+A.D. 2996-Jul-29 00:00:00.0000 UT 61,574,611 km (38.3 Million miles) closest since 2981  until 2998
+A.D. 1578-Sep-27 00:00:00.0000 UT 61,589,684 km (38.3 Million miles) closest since 1576  until 1593
+A.D. 0297-Jun-10 00:00:00.0000 UT 61,614,845 km (38.3 Million miles) closest since 282  until 299
+A.D. 1828-Jul-08 00:00:00.0000 UT 61,686,416 km (38.3 Million miles) closest since 1813  until 1830
+A.D. 0410-Sep-05 00:00:00.0000 UT 61,694,751 km (38.3 Million miles) closest since 408  until 425
+A.D. 0660-Jun-16 00:00:00.0000 UT 61,779,297 km (38.4 Million miles) closest since 645  until 662
+A.D. 2383-Oct-14 00:00:00.0000 UT 61,792,678 km (38.4 Million miles) closest since 2381  until 2398
+A.D. 1215-Sep-21 00:00:00.0000 UT 61,831,016 km (38.4 Million miles) closest since 1213  until 1230
+A.D. 2191-Jul-14 00:00:00.0000 UT 61,832,352 km (38.4 Million miles) closest since 2176  until 2193
+A.D. 0047-Aug-30 00:00:00.0000 UT 61,897,336 km (38.5 Million miles) closest since 45  until 62
+A.D. 1023-Jun-23 00:00:00.0000 UT 61,985,232 km (38.5 Million miles) closest since 1008  until 1025
+A.D. 2554-Jul-20 00:00:00.0000 UT 62,050,396 km (38.6 Million miles) closest since 2539  until 2556
+A.D. 2020-Oct-07 00:00:00.0000 UT 62,071,495 km (38.6 Million miles) closest since 2018  until 2035
+A.D. 0852-Sep-14 00:00:00.0000 UT 62,083,941 km (38.6 Million miles) closest since 850  until 867
+A.D. 1386-Jun-28 00:00:00.0000 UT 62,169,618 km (38.6 Million miles) closest since 1371  until 1388
+A.D. 2825-Oct-23 00:00:00.0000 UT 62,241,169 km (38.7 Million miles) closest since 2823  until 2840
+A.D. 2917-Jul-26 00:00:00.0000 UT 62,267,819 km (38.7 Million miles) closest since 2902  until 2919
+A.D. 0218-Jun-07 00:00:00.0000 UT 62,273,530 km (38.7 Million miles) closest since 203  until 220
+A.D. 1657-Oct-01 00:00:00.0000 UT 62,309,182 km (38.7 Million miles) closest since 1655  until 1672
+A.D. 0489-Sep-08 00:00:00.0000 UT 62,356,121 km (38.7 Million miles) closest since 487  until 504
+A.D. 1749-Jul-04 00:00:00.0000 UT 62,382,518 km (38.8 Million miles) closest since 1734  until 1751
+A.D. 2462-Oct-17 00:00:00.0000 UT 62,490,740 km (38.8 Million miles) closest since 2460  until 2477
+A.D. 0581-Jun-12 00:00:00.0000 UT 62,497,377 km (38.8 Million miles) closest since 566  until 583
+A.D. 1294-Sep-24 00:00:00.0000 UT 62,503,421 km (38.8 Million miles) closest since 1292  until 1309
+A.D. 2112-Jul-10 00:00:00.0000 UT 62,585,497 km (38.9 Million miles) closest since 2097  until 2114
+A.D. 0126-Sep-03 00:00:00.0000 UT 62,609,489 km (38.9 Million miles) closest since 124  until 141
+A.D. 0944-Jun-18 00:00:00.0000 UT 62,695,573 km (39.0 Million miles) closest since 929  until 946
+A.D. 2099-Oct-11 00:00:00.0000 UT 62,713,905 km (39.0 Million miles) closest since 2097  until 2112
+A.D. 0931-Sep-19 00:00:00.0000 UT 62,751,418 km (39.0 Million miles) closest since 929  until 944
+A.D. 2475-Jul-16 00:00:00.0000 UT 62,760,252 km (39.0 Million miles) closest since 2462  until 2477
+A.D. 1307-Jun-25 00:00:00.0000 UT 62,904,190 km (39.1 Million miles) closest since 1294  until 1309
+A.D. 2904-Oct-27 00:00:00.0000 UT 62,950,952 km (39.1 Million miles) closest since 2902  until 2917
+A.D. 0139-Jun-03 00:00:00.0000 UT 62,951,141 km (39.1 Million miles) closest since 126  until 141
+A.D. 2838-Jul-22 00:00:00.0000 UT 62,983,524 km (39.1 Million miles) closest since 2825  until 2840
+A.D. 1736-Oct-05 00:00:00.0000 UT 62,987,462 km (39.1 Million miles) closest since 1734  until 1749
+A.D. 0568-Sep-13 00:00:00.0000 UT 63,006,738 km (39.2 Million miles) closest since 566  until 581
+A.D. 1670-Jun-29 00:00:00.0000 UT 63,068,673 km (39.2 Million miles) closest since 1657  until 1672
+A.D. 0502-Jun-09 00:00:00.0000 UT 63,180,349 km (39.3 Million miles) closest since 489  until 504
+A.D. 2541-Oct-21 00:00:00.0000 UT 63,206,197 km (39.3 Million miles) closest since 2539  until 2554
+A.D. 1373-Sep-29 00:00:00.0000 UT 63,233,701 km (39.3 Million miles) closest since 1371  until 1386
+A.D. 2033-Jul-05 00:00:00.0000 UT 63,286,129 km (39.3 Million miles) closest since 2020  until 2035
+A.D. 0205-Sep-08 00:00:00.0000 UT 63,305,767 km (39.3 Million miles) closest since 203  until 218
+A.D. 0865-Jun-13 00:00:00.0000 UT 63,420,444 km (39.4 Million miles) closest since 852  until 867
+A.D. 1010-Sep-24 00:00:00.0000 UT 63,465,060 km (39.4 Million miles) closest since 1008  until 1023
+A.D. 2178-Oct-15 00:00:00.0000 UT 63,469,007 km (39.4 Million miles) closest since 2176  until 2191
+A.D. 2396-Jul-11 00:00:00.0000 UT 63,520,513 km (39.5 Million miles) closest since 2383  until 2398
+A.D. 1228-Jun-19 00:00:00.0000 UT 63,639,130 km (39.5 Million miles) closest since 1215  until 1230
+A.D. 2983-Oct-31 00:00:00.0000 UT 63,662,169 km (39.6 Million miles) closest since 2981  until 2996
+A.D. 1815-Oct-10 00:00:00.0000 UT 63,677,621 km (39.6 Million miles) closest since 1813  until 1828
+A.D. 0060-May-28 00:00:00.0000 UT 63,722,128 km (39.6 Million miles) closest since 47  until 62
+A.D. 2759-Jul-18 00:00:00.0000 UT 63,724,453 km (39.6 Million miles) closest since 2746  until 2761
+A.D. 0647-Sep-18 00:00:00.0000 UT 63,737,419 km (39.6 Million miles) closest since 645  until 660
+A.D. 1591-Jun-26 00:00:00.0000 UT 63,836,601 km (39.7 Million miles) closest since 1578  until 1593
+A.D. 0423-Jun-04 00:00:00.0000 UT 63,895,560 km (39.7 Million miles) closest since 410  until 425
+A.D. 2620-Oct-25 00:00:00.0000 UT 63,924,128 km (39.7 Million miles) closest since 2618  until 2633
+A.D. 1452-Oct-03 00:00:00.0000 UT 63,940,924 km (39.7 Million miles) closest since 1450  until 1465
+A.D. 0284-Sep-11 00:00:00.0000 UT 63,980,599 km (39.8 Million miles) closest since 282  until 297
+A.D. 1954-Jul-02 00:00:00.0000 UT 63,998,555 km (39.8 Million miles) closest since 1941  until 1956
+A.D. 0786-Jun-10 00:00:00.0000 UT 64,132,123 km (39.8 Million miles) closest since 773  until 788
+A.D. 1089-Sep-27 00:00:00.0000 UT 64,206,930 km (39.9 Million miles) closest since 1087  until 1102
+A.D. 2257-Oct-19 00:00:00.0000 UT 64,213,180 km (39.9 Million miles) closest since 2255  until 2270
+A.D. 2317-Jul-08 00:00:00.0000 UT 64,233,287 km (39.9 Million miles) closest since 2304  until 2319
+A.D. 1149-Jun-16 00:00:00.0000 UT 64,361,457 km (40.0 Million miles) closest since 1136  until 1151
+A.D. 1894-Oct-13 00:00:00.0000 UT 64,474,153 km (40.1 Million miles) closest since 1892  until 1907
+A.D. 0726-Sep-22 00:00:00.0000 UT 64,477,643 km (40.1 Million miles) closest since 724  until 739
+A.D. 2680-Jul-13 00:00:00.0000 UT 64,482,793 km (40.1 Million miles) closest since 2667  until 2682
+A.D. 1512-Jun-22 00:00:00.0000 UT 64,595,416 km (40.1 Million miles) closest since 1499  until 1514
+A.D. 1531-Oct-08 00:00:00.0000 UT 64,675,446 km (40.2 Million miles) closest since 1529  until 1544
+A.D. 0344-May-31 00:00:00.0000 UT 64,677,777 km (40.2 Million miles) closest since 331  until 346
+A.D. 2699-Oct-29 00:00:00.0000 UT 64,681,038 km (40.2 Million miles) closest since 2697  until 2712
+A.D. 0363-Sep-16 00:00:00.0000 UT 64,747,332 km (40.2 Million miles) closest since 361  until 376
+A.D. 1875-Jun-28 00:00:00.0000 UT 64,806,564 km (40.3 Million miles) closest since 1862  until 1877
+A.D. 0707-Jun-07 00:00:00.0000 UT 64,883,368 km (40.3 Million miles) closest since 694  until 709
+A.D. 1168-Oct-01 00:00:00.0000 UT 64,930,323 km (40.3 Million miles) closest since 1166  until 1181
+A.D. 2336-Oct-23 00:00:00.0000 UT 64,936,277 km (40.3 Million miles) closest since 2334  until 2349
+B.C. 0001-Sep-09 00:00:00.0000 UT 64,964,362 km (40.4 Million miles) closest until 13
+A.D. 2238-Jul-04 00:00:00.0000 UT 64,985,867 km (40.4 Million miles) closest since 2225  until 2240
+A.D. 1070-Jun-12 00:00:00.0000 UT 65,127,366 km (40.5 Million miles) closest since 1057  until 1072
+A.D. 0805-Sep-25 00:00:00.0000 UT 65,193,737 km (40.5 Million miles) closest since 803  until 818
+A.D. 1973-Oct-17 00:00:00.0000 UT 65,229,652 km (40.5 Million miles) closest since 1971  until 1986
+A.D. 2601-Jul-10 00:00:00.0000 UT 65,238,457 km (40.5 Million miles) closest since 2588  until 2603
+A.D. 1433-Jun-18 00:00:00.0000 UT 65,334,909 km (40.6 Million miles) closest since 1420  until 1435
+A.D. 0265-May-27 00:00:00.0000 UT 65,418,946 km (40.6 Million miles) closest since 252  until 267
+A.D. 2778-Nov-02 00:00:00.0000 UT 65,460,929 km (40.7 Million miles) closest since 2776  until 2791
+A.D. 2964-Jul-15 00:00:00.0000 UT 65,477,472 km (40.7 Million miles) closest since 2951  until 2966
+A.D. 1610-Oct-11 00:00:00.0000 UT 65,479,436 km (40.7 Million miles) closest since 1608  until 1623
+A.D. 0442-Sep-19 00:00:00.0000 UT 65,489,615 km (40.7 Million miles) closest since 440  until 455
+A.D. 1796-Jun-23 00:00:00.0000 UT 65,569,526 km (40.7 Million miles) closest since 1783  until 1798
+A.D. 0628-Jun-02 00:00:00.0000 UT 65,682,239 km (40.8 Million miles) closest since 615  until 630
+A.D. 1247-Oct-05 00:00:00.0000 UT 65,684,878 km (40.8 Million miles) closest since 1245  until 1260
+A.D. 2415-Oct-27 00:00:00.0000 UT 65,729,115 km (40.8 Million miles) closest since 2413  until 2428
+A.D. 0079-Sep-13 00:00:00.0000 UT 65,757,300 km (40.9 Million miles) closest since 77  until 92
+A.D. 2159-Jun-30 00:00:00.0000 UT 65,810,676 km (40.9 Million miles) closest since 2146  until 2161
+A.D. 0991-Jun-08 00:00:00.0000 UT 65,915,715 km (41.0 Million miles) closest since 978  until 993
+A.D. 0884-Sep-28 00:00:00.0000 UT 65,949,849 km (41.0 Million miles) closest since 882  until 897
+A.D. 2052-Oct-20 00:00:00.0000 UT 65,958,134 km (41.0 Million miles) closest since 2050  until 2065
+A.D. 2522-Jul-06 00:00:00.0000 UT 66,020,946 km (41.0 Million miles) closest since 2509  until 2524
+A.D. 1354-Jun-14 00:00:00.0000 UT 66,143,270 km (41.1 Million miles) closest since 1341  until 1356
+A.D. 0186-May-23 00:00:00.0000 UT 66,182,281 km (41.1 Million miles) closest since 173  until 188
+A.D. 0521-Sep-23 00:00:00.0000 UT 66,209,381 km (41.1 Million miles) closest since 519  until 534
+A.D. 1689-Oct-14 00:00:00.0000 UT 66,229,353 km (41.2 Million miles) closest since 1687  until 1702
+A.D. 2857-Nov-05 00:00:00.0000 UT 66,246,582 km (41.2 Million miles) closest since 2855  until 2870
+A.D. 2885-Jul-11 00:00:00.0000 UT 66,268,365 km (41.2 Million miles) closest since 2872  until 2887
+A.D. 1717-Jun-20 00:00:00.0000 UT 66,327,288 km (41.2 Million miles) closest since 1704  until 1719
+A.D. 0549-May-29 00:00:00.0000 UT 66,434,958 km (41.3 Million miles) closest since 536  until 551
+A.D. 1326-Oct-09 00:00:00.0000 UT 66,485,942 km (41.3 Million miles) closest since 1324  until 1339
+A.D. 0158-Sep-17 00:00:00.0000 UT 66,510,213 km (41.3 Million miles) closest since 156  until 171
+A.D. 2494-Oct-30 00:00:00.0000 UT 66,520,242 km (41.3 Million miles) closest since 2492  until 2507
+A.D. 2080-Jun-25 00:00:00.0000 UT 66,567,570 km (41.4 Million miles) closest since 2067  until 2082
+A.D. 0912-Jun-04 00:00:00.0000 UT 66,694,619 km (41.4 Million miles) closest since 899  until 914
+A.D. 0963-Oct-03 00:00:00.0000 UT 66,731,398 km (41.5 Million miles) closest since 961  until 976
+A.D. 2131-Oct-25 00:00:00.0000 UT 66,787,797 km (41.5 Million miles) closest since 2129  until 2144
+A.D. 2443-Jul-02 00:00:00.0000 UT 66,830,371 km (41.5 Million miles) closest since 2430  until 2445
+A.D. 1275-Jun-10 00:00:00.0000 UT 66,941,796 km (41.6 Million miles) closest since 1262  until 1277
+A.D. 1768-Oct-18 00:00:00.0000 UT 66,996,764 km (41.6 Million miles) closest since 1766  until 1781
+A.D. 0600-Sep-27 00:00:00.0000 UT 67,009,150 km (41.6 Million miles) closest since 598  until 613
+A.D. 0107-May-20 00:00:00.0000 UT 67,018,272 km (41.6 Million miles) closest since 94  until 109
+A.D. 2936-Nov-09 00:00:00.0000 UT 67,030,863 km (41.7 Million miles) closest since 2934  until 2949
+A.D. 2806-Jul-08 00:00:00.0000 UT 67,076,037 km (41.7 Million miles) closest since 2793  until 2808
+A.D. 1638-Jun-16 00:00:00.0000 UT 67,164,214 km (41.7 Million miles) closest since 1625  until 1640
+A.D. 0470-May-25 00:00:00.0000 UT 67,213,340 km (41.8 Million miles) closest since 457  until 472
+A.D. 1405-Oct-13 00:00:00.0000 UT 67,254,015 km (41.8 Million miles) closest since 1403  until 1418
+A.D. 0237-Sep-21 00:00:00.0000 UT 67,255,849 km (41.8 Million miles) closest since 235  until 250
+A.D. 2573-Nov-03 00:00:00.0000 UT 67,291,341 km (41.8 Million miles) closest since 2571  until 2586
+A.D. 2001-Jun-22 00:00:00.0000 UT 67,345,171 km (41.8 Million miles) closest since 1988  until 2003
+A.D. 0833-May-31 00:00:00.0000 UT 67,470,907 km (41.9 Million miles) closest since 820  until 835
+A.D. 1042-Oct-07 00:00:00.0000 UT 67,516,966 km (42.0 Million miles) closest since 1040  until 1055
+A.D. 2210-Oct-29 00:00:00.0000 UT 67,589,051 km (42.0 Million miles) closest since 2208  until 2223
+A.D. 2364-Jun-28 00:00:00.0000 UT 67,610,637 km (42.0 Million miles) closest since 2351  until 2366
+A.D. 1196-Jun-06 00:00:00.0000 UT 67,712,369 km (42.1 Million miles) closest since 1183  until 1198
+A.D. 0028-May-15 00:00:00.0000 UT 67,788,416 km (42.1 Million miles) closest since 15  until 30
+A.D. 0679-Oct-01 00:00:00.0000 UT 67,804,278 km (42.1 Million miles) closest since 677  until 692
+A.D. 1847-Oct-23 00:00:00.0000 UT 67,849,856 km (42.2 Million miles) closest since 1845  until 1860
+A.D. 2727-Jul-05 00:00:00.0000 UT 67,882,961 km (42.2 Million miles) closest since 2714  until 2729
+A.D. 1559-Jun-13 00:00:00.0000 UT 67,963,393 km (42.2 Million miles) closest since 1546  until 1561
+A.D. 1484-Oct-16 00:00:00.0000 UT 68,045,447 km (42.3 Million miles) closest since 1482  until 1497
+A.D. 0391-May-22 00:00:00.0000 UT 68,046,697 km (42.3 Million miles) closest since 378  until 393
+A.D. 0316-Sep-25 00:00:00.0000 UT 68,081,933 km (42.3 Million miles) closest since 314  until 329
+A.D. 2652-Nov-07 00:00:00.0000 UT 68,113,151 km (42.3 Million miles) closest since 2650  until 2665
+A.D. 1922-Jun-19 00:00:00.0000 UT 68,209,428 km (42.4 Million miles) closest since 1909  until 1924
+A.D. 0754-May-28 00:00:00.0000 UT 68,279,441 km (42.4 Million miles) closest since 741  until 756
+A.D. 1121-Oct-11 00:00:00.0000 UT 68,303,426 km (42.4 Million miles) closest since 1119  until 1134
+A.D. 2289-Nov-01 00:00:00.0000 UT 68,358,175 km (42.5 Million miles) closest since 2287  until 2302
+A.D. 2285-Jun-24 00:00:00.0000 UT 68,416,912 km (42.5 Million miles) closest since 2272  until 2287
+A.D. 1117-Jun-03 00:00:00.0000 UT 68,537,338 km (42.6 Million miles) closest since 1104  until 1119
+A.D. 0758-Oct-05 00:00:00.0000 UT 68,567,395 km (42.6 Million miles) closest since 756  until 771
+A.D. 1926-Oct-27 00:00:00.0000 UT 68,639,725 km (42.7 Million miles) closest since 1924  until 1939
+A.D. 2648-Jun-30 00:00:00.0000 UT 68,686,501 km (42.7 Million miles) closest since 2635  until 2650
+A.D. 1480-Jun-08 00:00:00.0000 UT 68,758,736 km (42.7 Million miles) closest since 1467  until 1482
+A.D. 0312-May-18 00:00:00.0000 UT 68,825,530 km (42.8 Million miles) closest since 299  until 314
+A.D. 0395-Sep-29 00:00:00.0000 UT 68,867,682 km (42.8 Million miles) closest since 393  until 408
+A.D. 1563-Oct-21 00:00:00.0000 UT 68,891,665 km (42.8 Million miles) closest since 1561  until 1576
+A.D. 2731-Nov-12 00:00:00.0000 UT 68,934,989 km (42.8 Million miles) closest since 2729  until 2744
+A.D. 1843-Jun-15 00:00:00.0000 UT 69,010,128 km (42.9 Million miles) closest since 1830  until 1845
+A.D. 1200-Oct-14 00:00:00.0000 UT 69,105,639 km (42.9 Million miles) closest since 1198  until 1213
+A.D. 0675-May-24 00:00:00.0000 UT 69,106,501 km (42.9 Million miles) closest since 662  until 677
+A.D. 0032-Sep-22 00:00:00.0000 UT 69,139,763 km (43.0 Million miles) closest since 30  until 45
+A.D. 2368-Nov-05 00:00:00.0000 UT 69,199,359 km (43.0 Million miles) closest since 2366  until 2381
+A.D. 2206-Jun-21 00:00:00.0000 UT 69,272,913 km (43.0 Million miles) closest since 2193  until 2208
+A.D. 1038-May-30 00:00:00.0000 UT 69,369,948 km (43.1 Million miles) closest since 1025  until 1040
+A.D. 0837-Oct-08 00:00:00.0000 UT 69,371,262 km (43.1 Million miles) closest since 835  until 850
+A.D. 2005-Oct-30 00:00:00.0000 UT 69,421,836 km (43.1 Million miles) closest since 2003  until 2018
+A.D. 2569-Jun-26 00:00:00.0000 UT 69,510,400 km (43.2 Million miles) closest since 2556  until 2571
+A.D. 1401-Jun-05 00:00:00.0000 UT 69,613,402 km (43.3 Million miles) closest since 1388  until 1403
+A.D. 0474-Oct-02 00:00:00.0000 UT 69,627,256 km (43.3 Million miles) closest since 472  until 487
+A.D. 0233-May-14 00:00:00.0000 UT 69,636,097 km (43.3 Million miles) closest since 220  until 235
+A.D. 1642-Oct-24 00:00:00.0000 UT 69,683,467 km (43.3 Million miles) closest since 1640  until 1655
+A.D. 2810-Nov-15 00:00:00.0000 UT 69,740,519 km (43.3 Million miles) closest since 2808  until 2823
+A.D. 2932-Jul-02 00:00:00.0000 UT 69,765,476 km (43.4 Million miles) closest since 2919  until 2934
+A.D. 1764-Jun-10 00:00:00.0000 UT 69,801,823 km (43.4 Million miles) closest since 1751  until 1766
+A.D. 0596-May-19 00:00:00.0000 UT 69,907,267 km (43.4 Million miles) closest since 583  until 598
+A.D. 0111-Sep-27 00:00:00.0000 UT 69,923,531 km (43.4 Million miles) closest since 109  until 124
+A.D. 1279-Oct-18 00:00:00.0000 UT 69,935,212 km (43.5 Million miles) closest since 1277  until 1292
+A.D. 2447-Nov-09 00:00:00.0000 UT 70,021,694 km (43.5 Million miles) closest since 2445  until 2460
+A.D. 2127-Jun-17 00:00:00.0000 UT 70,058,861 km (43.5 Million miles) closest since 2114  until 2129
+A.D. 0959-May-26 00:00:00.0000 UT 70,175,777 km (43.6 Million miles) closest since 946  until 961
+A.D. 0916-Oct-12 00:00:00.0000 UT 70,192,792 km (43.6 Million miles) closest since 914  until 929
+A.D. 2084-Nov-02 00:00:00.0000 UT 70,288,596 km (43.7 Million miles) closest since 2082  until 2097
+A.D. 2490-Jun-22 00:00:00.0000 UT 70,334,056 km (43.7 Million miles) closest since 2477  until 2492
+A.D. 1322-Jun-01 00:00:00.0000 UT 70,432,132 km (43.8 Million miles) closest since 1309  until 1324
+A.D. 0553-Oct-06 00:00:00.0000 UT 70,468,239 km (43.8 Million miles) closest since 551  until 566
+A.D. 1721-Oct-28 00:00:00.0000 UT 70,486,755 km (43.8 Million miles) closest since 1719  until 1734
+A.D. 0154-May-10 00:00:00.0000 UT 70,504,528 km (43.8 Million miles) closest since 141  until 156
+A.D. 2889-Nov-18 00:00:00.0000 UT 70,569,640 km (43.8 Million miles) closest since 2887  until 2902
+A.D. 2853-Jun-28 00:00:00.0000 UT 70,598,898 km (43.9 Million miles) closest since 2840  until 2855
+A.D. 1685-Jun-06 00:00:00.0000 UT 70,670,627 km (43.9 Million miles) closest since 1672  until 1687
+A.D. 0190-Sep-30 00:00:00.0000 UT 70,698,222 km (43.9 Million miles) closest since 188  until 203
+A.D. 0517-May-16 00:00:00.0000 UT 70,717,804 km (43.9 Million miles) closest since 504  until 519
+A.D. 1358-Oct-22 00:00:00.0000 UT 70,737,621 km (44.0 Million miles) closest since 1356  until 1371
+A.D. 2526-Nov-13 00:00:00.0000 UT 70,822,347 km (44.0 Million miles) closest since 2524  until 2539
+A.D. 2048-Jun-12 00:00:00.0000 UT 70,860,225 km (44.0 Million miles) closest since 2035  until 2050
+A.D. 0880-May-21 00:00:00.0000 UT 70,980,115 km (44.1 Million miles) closest since 867  until 882
+A.D. 0995-Oct-16 00:00:00.0000 UT 70,993,099 km (44.1 Million miles) closest since 993  until 1008
+A.D. 2163-Nov-07 00:00:00.0000 UT 71,111,707 km (44.2 Million miles) closest since 2161  until 2176
+A.D. 2411-Jun-19 00:00:00.0000 UT 71,132,663 km (44.2 Million miles) closest since 2398  until 2413
+A.D. 1243-May-28 00:00:00.0000 UT 71,223,579 km (44.3 Million miles) closest since 1230  until 1245
+A.D. 0632-Oct-10 00:00:00.0000 UT 71,278,745 km (44.3 Million miles) closest since 630  until 645
+A.D. 0075-May-06 00:00:00.0000 UT 71,293,960 km (44.3 Million miles) closest since 62  until 77
+A.D. 1800-Nov-01 00:00:00.0000 UT 71,367,241 km (44.3 Million miles) closest since 1798  until 1813
+A.D. 2774-Jun-25 00:00:00.0000 UT 71,414,621 km (44.4 Million miles) closest since 2761  until 2776
+A.D. 2968-Nov-22 00:00:00.0000 UT 71,416,379 km (44.4 Million miles) closest since 2966  until 2981
+A.D. 1606-Jun-03 00:00:00.0000 UT 71,480,896 km (44.4 Million miles) closest since 1593  until 1608
+A.D. 0269-Oct-04 00:00:00.0000 UT 71,552,015 km (44.5 Million miles) closest since 267  until 282
+A.D. 1437-Oct-26 00:00:00.0000 UT 71,556,384 km (44.5 Million miles) closest since 1435  until 1450
+A.D. 0438-May-12 00:00:00.0000 UT 71,561,347 km (44.5 Million miles) closest since 425  until 440
+A.D. 2605-Nov-17 00:00:00.0000 UT 71,669,957 km (44.5 Million miles) closest since 2603  until 2618
+A.D. 1969-Jun-09 00:00:00.0000 UT 71,740,682 km (44.6 Million miles) closest since 1956  until 1971
+A.D. 1074-Oct-20 00:00:00.0000 UT 71,800,899 km (44.6 Million miles) closest since 1072  until 1087
+A.D. 0801-May-18 00:00:00.0000 UT 71,809,313 km (44.6 Million miles) closest since 788  until 803
+A.D. 2242-Nov-11 00:00:00.0000 UT 71,902,295 km (44.7 Million miles) closest since 2240  until 2255
+A.D. 2332-Jun-15 00:00:00.0000 UT 71,969,925 km (44.7 Million miles) closest since 2319  until 2334
+A.D. 0711-Oct-15 00:00:00.0000 UT 72,052,110 km (44.8 Million miles) closest since 709  until 724
+A.D. 1164-May-24 00:00:00.0000 UT 72,067,647 km (44.8 Million miles) closest since 1151  until 1166
+A.D. 1879-Nov-05 00:00:00.0000 UT 72,168,751 km (44.8 Million miles) closest since 1877  until 1892
+A.D. 2695-Jun-21 00:00:00.0000 UT 72,245,825 km (44.9 Million miles) closest since 2682  until 2697
+A.D. 1527-May-31 00:00:00.0000 UT 72,283,761 km (44.9 Million miles) closest since 1514  until 1529
+A.D. 0348-Oct-08 00:00:00.0000 UT 72,345,828 km (45.0 Million miles) closest since 346  until 361
+A.D. 0359-May-09 00:00:00.0000 UT 72,356,581 km (45.0 Million miles) closest since 348  until 361
+A.D. 1516-Oct-30 00:00:00.0000 UT 72,406,978 km (45.0 Million miles) closest since 1514  until 1527
+A.D. 2684-Nov-20 00:00:00.0000 UT 72,509,162 km (45.1 Million miles) closest since 2682  until 2695
+A.D. 1890-Jun-05 00:00:00.0000 UT 72,548,795 km (45.1 Million miles) closest since 1879  until 1892
+A.D. 1153-Oct-23 00:00:00.0000 UT 72,623,481 km (45.1 Million miles) closest since 1151  until 1164
+A.D. 0722-May-15 00:00:00.0000 UT 72,640,754 km (45.1 Million miles) closest since 711  until 724
+A.D. 2321-Nov-15 00:00:00.0000 UT 72,762,075 km (45.2 Million miles) closest since 2319  until 2332
+A.D. 2253-Jun-11 00:00:00.0000 UT 72,824,962 km (45.3 Million miles) closest since 2242  until 2255
+A.D. 0790-Oct-17 00:00:00.0000 UT 72,881,132 km (45.3 Million miles) closest since 788  until 801
+A.D. 1085-May-20 00:00:00.0000 UT 72,911,547 km (45.3 Million miles) closest since 1074  until 1087
+A.D. 1958-Nov-09 00:00:00.0000 UT 72,960,989 km (45.3 Million miles) closest since 1956  until 1969
+A.D. 2616-Jun-17 00:00:00.0000 UT 73,079,460 km (45.4 Million miles) closest since 2605  until 2618
+A.D. 0427-Oct-11 00:00:00.0000 UT 73,120,885 km (45.4 Million miles) closest since 425  until 438
+A.D. 1448-May-26 00:00:00.0000 UT 73,165,191 km (45.5 Million miles) closest since 1437  until 1450
+A.D. 0280-May-05 00:00:00.0000 UT 73,174,242 km (45.5 Million miles) closest since 269  until 282
+A.D. 1595-Nov-02 00:00:00.0000 UT 73,203,978 km (45.5 Million miles) closest since 1593  until 1606
+A.D. 2763-Nov-25 00:00:00.0000 UT 73,313,250 km (45.6 Million miles) closest since 2761  until 2774
+A.D. 2979-Jun-23 00:00:00.0000 UT 73,339,387 km (45.6 Million miles) closest since 2968  until 2981
+A.D. 1811-Jun-02 00:00:00.0000 UT 73,356,246 km (45.6 Million miles) closest since 1800  until 1813
+A.D. 0064-Oct-04 00:00:00.0000 UT 73,400,916 km (45.6 Million miles) closest since 62  until 75
+A.D. 1232-Oct-26 00:00:00.0000 UT 73,443,361 km (45.6 Million miles) closest since 1230  until 1243
+A.D. 0643-May-11 00:00:00.0000 UT 73,446,564 km (45.6 Million miles) closest since 632  until 645
+A.D. 2400-Nov-17 00:00:00.0000 UT 73,583,162 km (45.7 Million miles) closest since 2398  until 2411
+A.D. 2174-Jun-07 00:00:00.0000 UT 73,619,582 km (45.7 Million miles) closest since 2163  until 2176
+A.D. 0869-Oct-20 00:00:00.0000 UT 73,701,654 km (45.8 Million miles) closest since 867  until 880
+A.D. 1006-May-17 00:00:00.0000 UT 73,716,812 km (45.8 Million miles) closest since 995  until 1008
+A.D. 2037-Nov-11 00:00:00.0000 UT 73,839,241 km (45.9 Million miles) closest since 2035  until 2048
+A.D. 2537-Jun-13 00:00:00.0000 UT 73,897,930 km (45.9 Million miles) closest since 2526  until 2539
+A.D. 0506-Oct-15 00:00:00.0000 UT 73,969,057 km (46.0 Million miles) closest since 504  until 517
+A.D. 1369-May-22 00:00:00.0000 UT 73,980,330 km (46.0 Million miles) closest since 1358  until 1371
+A.D. 1674-Nov-05 00:00:00.0000 UT 74,022,008 km (46.0 Million miles) closest since 1672  until 1685
+A.D. 0201-May-02 00:00:00.0000 UT 74,043,841 km (46.0 Million miles) closest since 190  until 203
+A.D. 2842-Nov-27 00:00:00.0000 UT 74,140,057 km (46.1 Million miles) closest since 2840  until 2853
+A.D. 2900-Jun-19 00:00:00.0000 UT 74,166,003 km (46.1 Million miles) closest since 2889  until 2902
+A.D. 0143-Oct-09 00:00:00.0000 UT 74,182,407 km (46.1 Million miles) closest since 141  until 154
+A.D. 1732-May-29 00:00:00.0000 UT 74,225,929 km (46.1 Million miles) closest since 1721  until 1734
+A.D. 1311-Oct-31 00:00:00.0000 UT 74,256,579 km (46.1 Million miles) closest since 1309  until 1322
+A.D. 0564-May-07 00:00:00.0000 UT 74,271,863 km (46.2 Million miles) closest since 553  until 566
+A.D. 2479-Nov-21 00:00:00.0000 UT 74,375,274 km (46.2 Million miles) closest since 2477  until 2490
+A.D. 2095-Jun-04 00:00:00.0000 UT 74,423,324 km (46.2 Million miles) closest since 2084  until 2097
+A.D. 0948-Oct-24 00:00:00.0000 UT 74,498,376 km (46.3 Million miles) closest since 946  until 959
+A.D. 0927-May-14 00:00:00.0000 UT 74,534,090 km (46.3 Million miles) closest since 916  until 929
+A.D. 2116-Nov-15 00:00:00.0000 UT 74,650,517 km (46.4 Million miles) closest since 2114  until 2127
+A.D. 2458-Jun-10 00:00:00.0000 UT 74,692,833 km (46.4 Million miles) closest since 2447  until 2460
+A.D. 1290-May-19 00:00:00.0000 UT 74,766,440 km (46.5 Million miles) closest since 1279  until 1292
+A.D. 0585-Oct-18 00:00:00.0000 UT 74,776,591 km (46.5 Million miles) closest since 583  until 596
+A.D. 0122-Apr-28 00:00:00.0000 UT 74,827,025 km (46.5 Million miles) closest since 111  until 124
+A.D. 1753-Nov-09 00:00:00.0000 UT 74,892,007 km (46.5 Million miles) closest since 1751  until 1764
+A.D. 2821-Jun-16 00:00:00.0000 UT 74,968,685 km (46.6 Million miles) closest since 2810  until 2823
+A.D. 2921-Dec-01 00:00:00.0000 UT 74,988,821 km (46.6 Million miles) closest since 2919  until 2932
+A.D. 1653-May-25 00:00:00.0000 UT 75,022,142 km (46.6 Million miles) closest since 1642  until 1655
+A.D. 0222-Oct-13 00:00:00.0000 UT 75,034,907 km (46.6 Million miles) closest since 220  until 233
+A.D. 1390-Nov-03 00:00:00.0000 UT 75,076,459 km (46.7 Million miles) closest since 1388  until 1401
+A.D. 0485-May-03 00:00:00.0000 UT 75,098,104 km (46.7 Million miles) closest since 474  until 487
+A.D. 2558-Nov-25 00:00:00.0000 UT 75,233,628 km (46.7 Million miles) closest since 2556  until 2569
+A.D. 2016-May-31 00:00:00.0000 UT 75,281,194 km (46.8 Million miles) closest since 2005  until 2018
+A.D. 1027-Oct-29 00:00:00.0000 UT 75,309,107 km (46.8 Million miles) closest since 1025  until 1038
+A.D. 0848-May-09 00:00:00.0000 UT 75,351,367 km (46.8 Million miles) closest since 837  until 850
+A.D. 2195-Nov-19 00:00:00.0000 UT 75,444,524 km (46.9 Million miles) closest since 2193  until 2206
+A.D. 2379-Jun-07 00:00:00.0000 UT 75,516,200 km (46.9 Million miles) closest since 2368  until 2381
+A.D. 0664-Oct-22 00:00:00.0000 UT 75,541,372 km (46.9 Million miles) closest since 662  until 675
+A.D. 1211-May-16 00:00:00.0000 UT 75,609,202 km (47.0 Million miles) closest since 1200  until 1213
+A.D. 0043-Apr-24 00:00:00.0000 UT 75,621,445 km (47.0 Million miles) closest since 32  until 45
+A.D. 1832-Nov-13 00:00:00.0000 UT 75,690,780 km (47.0 Million miles) closest since 1830  until 1843
+A.D. 2742-Jun-13 00:00:00.0000 UT 75,788,907 km (47.1 Million miles) closest since 2731  until 2744
+A.D. 1574-May-22 00:00:00.0000 UT 75,813,755 km (47.1 Million miles) closest since 1563  until 1576
+A.D. 0301-Oct-17 00:00:00.0000 UT 75,814,242 km (47.1 Million miles) closest since 299  until 312
+A.D. 0406-Apr-30 00:00:00.0000 UT 75,884,090 km (47.2 Million miles) closest since 395  until 408
+A.D. 1469-Nov-07 00:00:00.0000 UT 75,910,759 km (47.2 Million miles) closest since 1467  until 1480
+A.D. 2637-Nov-29 00:00:00.0000 UT 76,056,740 km (47.3 Million miles) closest since 2635  until 2648
+A.D. 1937-May-28 00:00:00.0000 UT 76,076,755 km (47.3 Million miles) closest since 1926  until 1939
+A.D. 1106-Nov-01 00:00:00.0000 UT 76,120,209 km (47.3 Million miles) closest since 1104  until 1117
+A.D. 0769-May-06 00:00:00.0000 UT 76,159,732 km (47.3 Million miles) closest since 758  until 771
+A.D. 2274-Nov-23 00:00:00.0000 UT 76,298,781 km (47.4 Million miles) closest since 2272  until 2285
+A.D. 2300-Jun-03 00:00:00.0000 UT 76,354,203 km (47.4 Million miles) closest since 2289  until 2302
+A.D. 0743-Oct-26 00:00:00.0000 UT 76,358,994 km (47.4 Million miles) closest since 741  until 754
+A.D. 1132-May-12 00:00:00.0000 UT 76,425,535 km (47.5 Million miles) closest since 1121  until 1134
+A.D. 1911-Nov-17 00:00:00.0000 UT 76,477,082 km (47.5 Million miles) closest since 1909  until 1922
+A.D. 0380-Oct-19 00:00:00.0000 UT 76,574,758 km (47.6 Million miles) closest since 378  until 391
+A.D. 2663-Jun-09 00:00:00.0000 UT 76,616,207 km (47.6 Million miles) closest since 2652  until 2665
+A.D. 1495-May-18 00:00:00.0000 UT 76,675,852 km (47.6 Million miles) closest since 1484  until 1497
+A.D. 0327-Apr-27 00:00:00.0000 UT 76,692,305 km (47.7 Million miles) closest since 316  until 329
+A.D. 1548-Nov-10 00:00:00.0000 UT 76,695,541 km (47.7 Million miles) closest since 1546  until 1559
+A.D. 0017-Oct-13 00:00:00.0000 UT 76,834,075 km (47.7 Million miles) closest since 15  until 28
+A.D. 2716-Dec-02 00:00:00.0000 UT 76,843,400 km (47.7 Million miles) closest since 2714  until 2727
+A.D. 1858-May-24 00:00:00.0000 UT 76,868,016 km (47.8 Million miles) closest since 1847  until 1860
+A.D. 1185-Nov-04 00:00:00.0000 UT 76,914,130 km (47.8 Million miles) closest since 1183  until 1196
+A.D. 0690-May-02 00:00:00.0000 UT 76,957,772 km (47.8 Million miles) closest since 679  until 692
+A.D. 2353-Nov-26 00:00:00.0000 UT 77,096,436 km (47.9 Million miles) closest since 2351  until 2364
+A.D. 2221-May-30 00:00:00.0000 UT 77,132,836 km (47.9 Million miles) closest since 2210  until 2223
+A.D. 0822-Oct-29 00:00:00.0000 UT 77,165,441 km (47.9 Million miles) closest since 820  until 833
+A.D. 1053-May-08 00:00:00.0000 UT 77,214,923 km (48.0 Million miles) closest since 1042  until 1055
+A.D. 1990-Nov-20 00:00:00.0000 UT 77,329,477 km (48.1 Million miles) closest since 1988  until 2001
+A.D. 2584-Jun-04 00:00:00.0000 UT 77,408,088 km (48.1 Million miles) closest since 2573  until 2586
+A.D. 0459-Oct-23 00:00:00.0000 UT 77,420,765 km (48.1 Million miles) closest since 457  until 470
+A.D. 1416-May-14 00:00:00.0000 UT 77,476,238 km (48.1 Million miles) closest since 1405  until 1418
+A.D. 1627-Nov-14 00:00:00.0000 UT 77,493,507 km (48.2 Million miles) closest since 1625  until 1638
+A.D. 0248-Apr-23 00:00:00.0000 UT 77,525,208 km (48.2 Million miles) closest since 237  until 250
+A.D. 0096-Oct-16 00:00:00.0000 UT 77,612,284 km (48.2 Million miles) closest since 94  until 107
+A.D. 2795-Dec-06 00:00:00.0000 UT 77,658,742 km (48.3 Million miles) closest since 2793  until 2806
+A.D. 2947-Jun-12 00:00:00.0000 UT 77,674,088 km (48.3 Million miles) closest since 2936  until 2949
+A.D. 1264-Nov-07 00:00:00.0000 UT 77,710,741 km (48.3 Million miles) closest since 1262  until 1275
+A.D. 1779-May-21 00:00:00.0000 UT 77,721,795 km (48.3 Million miles) closest since 1768  until 1781
+A.D. 0611-Apr-30 00:00:00.0000 UT 77,755,762 km (48.3 Million miles) closest since 600  until 613
+A.D. 2432-Nov-29 00:00:00.0000 UT 77,868,384 km (48.4 Million miles) closest since 2430  until 2443
+A.D. 2142-May-27 00:00:00.0000 UT 77,924,715 km (48.4 Million miles) closest since 2131  until 2144
+A.D. 0901-Nov-02 00:00:00.0000 UT 77,937,668 km (48.4 Million miles) closest since 899  until 912
+A.D. 0974-May-05 00:00:00.0000 UT 78,014,744 km (48.5 Million miles) closest since 963  until 976
+A.D. 2069-Nov-23 00:00:00.0000 UT 78,120,966 km (48.5 Million miles) closest since 2067  until 2080
+A.D. 2505-Jun-02 00:00:00.0000 UT 78,185,524 km (48.6 Million miles) closest since 2494  until 2507
+A.D. 0538-Oct-27 00:00:00.0000 UT 78,200,923 km (48.6 Million miles) closest since 536  until 549
+A.D. 1337-May-11 00:00:00.0000 UT 78,235,959 km (48.6 Million miles) closest since 1326  until 1339
+A.D. 0169-Apr-19 00:00:00.0000 UT 78,291,628 km (48.6 Million miles) closest since 158  until 171
+A.D. 1706-Nov-18 00:00:00.0000 UT 78,344,209 km (48.7 Million miles) closest since 1704  until 1717
+A.D. 2868-Jun-07 00:00:00.0000 UT 78,445,068 km (48.7 Million miles) closest since 2857  until 2870
+A.D. 0175-Oct-20 00:00:00.0000 UT 78,445,643 km (48.7 Million miles) closest since 173  until 186
+A.D. 2874-Dec-09 00:00:00.0000 UT 78,475,642 km (48.8 Million miles) closest since 2872  until 2885
+A.D. 1700-May-17 00:00:00.0000 UT 78,488,827 km (48.8 Million miles) closest since 1689  until 1702
+A.D. 1343-Nov-11 00:00:00.0000 UT 78,524,733 km (48.8 Million miles) closest since 1341  until 1354
+A.D. 0532-Apr-25 00:00:00.0000 UT 78,556,878 km (48.8 Million miles) closest since 521  until 534
+A.D. 2511-Dec-04 00:00:00.0000 UT 78,705,587 km (48.9 Million miles) closest since 2509  until 2522
+A.D. 0980-Nov-04 00:00:00.0000 UT 78,738,351 km (48.9 Million miles) closest since 978  until 991
+A.D. 2063-May-23 00:00:00.0000 UT 78,744,910 km (48.9 Million miles) closest since 2052  until 2065
+A.D. 0895-May-01 00:00:00.0000 UT 78,811,031 km (49.0 Million miles) closest since 884  until 897
+A.D. 2148-Nov-26 00:00:00.0000 UT 78,893,914 km (49.0 Million miles) closest since 2146  until 2159
+A.D. 0617-Oct-30 00:00:00.0000 UT 78,947,098 km (49.1 Million miles) closest since 615  until 628
+A.D. 2426-May-29 00:00:00.0000 UT 78,983,728 km (49.1 Million miles) closest since 2415  until 2428
+A.D. 0090-Apr-15 00:00:00.0000 UT 79,062,052 km (49.1 Million miles) closest since 79  until 92
+A.D. 1258-May-07 00:00:00.0000 UT 79,063,334 km (49.1 Million miles) closest since 1247  until 1260
+A.D. 1785-Nov-20 00:00:00.0000 UT 79,116,873 km (49.2 Million miles) closest since 1783  until 1796
+A.D. 0254-Oct-24 00:00:00.0000 UT 79,194,507 km (49.2 Million miles) closest since 252  until 265
+A.D. 2789-Jun-04 00:00:00.0000 UT 79,248,454 km (49.2 Million miles) closest since 2778  until 2791
+A.D. 1621-May-13 00:00:00.0000 UT 79,255,665 km (49.2 Million miles) closest since 1610  until 1623
+A.D. 2953-Dec-12 00:00:00.0000 UT 79,271,036 km (49.3 Million miles) closest since 2951  until 2964
+A.D. 1422-Nov-15 00:00:00.0000 UT 79,314,906 km (49.3 Million miles) closest since 1420  until 1433
+A.D. 0453-Apr-21 00:00:00.0000 UT 79,321,658 km (49.3 Million miles) closest since 442  until 455
+A.D. 2590-Dec-06 00:00:00.0000 UT 79,502,346 km (49.4 Million miles) closest since 2588  until 2601
+A.D. 1984-May-19 00:00:00.0000 UT 79,509,414 km (49.4 Million miles) closest since 1973  until 1986
+A.D. 1059-Nov-09 00:00:00.0000 UT 79,518,873 km (49.4 Million miles) closest since 1057  until 1070
+A.D. 0816-Apr-27 00:00:00.0000 UT 79,584,560 km (49.5 Million miles) closest since 805  until 818
+A.D. 2227-Dec-01 00:00:00.0000 UT 79,728,459 km (49.5 Million miles) closest since 2225  until 2238
+A.D. 0696-Nov-02 00:00:00.0000 UT 79,745,496 km (49.6 Million miles) closest since 694  until 707
+A.D. 2347-May-26 00:00:00.0000 UT 79,775,877 km (49.6 Million miles) closest since 2336  until 2349
+A.D. 1179-May-05 00:00:00.0000 UT 79,843,696 km (49.6 Million miles) closest since 1168  until 1181
+A.D. 1864-Nov-24 00:00:00.0000 UT 79,883,004 km (49.6 Million miles) closest since 1862  until 1875
+A.D. 0011-Apr-13 00:00:00.0000 UT 79,892,644 km (49.6 Million miles) closest since 0  until 13
+A.D. 0333-Oct-28 00:00:00.0000 UT 79,931,322 km (49.7 Million miles) closest since 331  until 344
+A.D. 2710-Jun-02 00:00:00.0000 UT 80,030,795 km (49.7 Million miles) closest since 2699  until 2712
+A.D. 1501-Nov-19 00:00:00.0000 UT 80,080,169 km (49.8 Million miles) closest since 1499  until 1512
+A.D. 1542-May-11 00:00:00.0000 UT 80,088,134 km (49.8 Million miles) closest since 1531  until 1544
+A.D. 0374-Apr-19 00:00:00.0000 UT 80,099,570 km (49.8 Million miles) closest since 363  until 376
+A.D. 2669-Dec-10 00:00:00.0000 UT 80,251,697 km (49.9 Million miles) closest since 2667  until 2680
+A.D. 1905-May-17 00:00:00.0000 UT 80,275,089 km (49.9 Million miles) closest since 1894  until 1907
+A.D. 1138-Nov-13 00:00:00.0000 UT 80,277,798 km (49.9 Million miles) closest since 1136  until 1149
+A.D. 0737-Apr-25 00:00:00.0000 UT 80,352,608 km (49.9 Million miles) closest since 726  until 739
+A.D. 2306-Dec-05 00:00:00.0000 UT 80,487,292 km (50.0 Million miles) closest since 2304  until 2317
+A.D. 0775-Nov-06 00:00:00.0000 UT 80,506,136 km (50.0 Million miles) closest since 773  until 786
+A.D. 2268-May-22 00:00:00.0000 UT 80,526,382 km (50.0 Million miles) closest since 2257  until 2270
+A.D. 1100-May-01 00:00:00.0000 UT 80,587,808 km (50.1 Million miles) closest since 1089  until 1102
+A.D. 1943-Nov-29 00:00:00.0000 UT 80,703,175 km (50.1 Million miles) closest since 1941  until 1954
+A.D. 0412-Oct-30 00:00:00.0000 UT 80,741,679 km (50.2 Million miles) closest since 410  until 423
+A.D. 2631-May-29 00:00:00.0000 UT 80,789,423 km (50.2 Million miles) closest since 2620  until 2633
+A.D. 1463-May-07 00:00:00.0000 UT 80,835,421 km (50.2 Million miles) closest since 1452  until 1465
+A.D. 1580-Nov-21 00:00:00.0000 UT 80,853,331 km (50.2 Million miles) closest since 1578  until 1591
+A.D. 0295-Apr-15 00:00:00.0000 UT 80,888,361 km (50.3 Million miles) closest since 284  until 297
+A.D. 0049-Oct-24 00:00:00.0000 UT 80,910,955 km (50.3 Million miles) closest since 47  until 60
+A.D. 1217-Nov-15 00:00:00.0000 UT 81,043,202 km (50.4 Million miles) closest since 1215  until 1228
+A.D. 2748-Dec-13 00:00:00.0000 UT 81,047,560 km (50.4 Million miles) closest since 2746  until 2759
+A.D. 2994-Jun-03 00:00:00.0000 UT 81,047,588 km (50.4 Million miles) closest since 2983  until 2996
+A.D. 1826-May-13 00:00:00.0000 UT 81,073,991 km (50.4 Million miles) closest since 1815  until 1828
+A.D. 0658-Apr-21 00:00:00.0000 UT 81,119,115 km (50.4 Million miles) closest since 647  until 660
+A.D. 2385-Dec-07 00:00:00.0000 UT 81,228,681 km (50.5 Million miles) closest since 2383  until 2396
+A.D. 0854-Nov-09 00:00:00.0000 UT 81,246,732 km (50.5 Million miles) closest since 852  until 865
+A.D. 2189-May-18 00:00:00.0000 UT 81,285,512 km (50.5 Million miles) closest since 2178  until 2191
+A.D. 1021-Apr-27 00:00:00.0000 UT 81,368,332 km (50.6 Million miles) closest since 1010  until 1023
+A.D. 2022-Dec-01 00:00:00.0000 UT 81,450,999 km (50.6 Million miles) closest since 2020  until 2033
+A.D. 0491-Nov-03 00:00:00.0000 UT 81,489,696 km (50.6 Million miles) closest since 489  until 502
+A.D. 2552-May-24 00:00:00.0000 UT 81,541,263 km (50.7 Million miles) closest since 2541  until 2554
+A.D. 1384-May-02 00:00:00.0000 UT 81,571,105 km (50.7 Million miles) closest since 1373  until 1386
+A.D. 0216-Apr-12 00:00:00.0000 UT 81,617,531 km (50.7 Million miles) closest since 205  until 218
+A.D. 1659-Nov-25 00:00:00.0000 UT 81,642,636 km (50.7 Million miles) closest since 1657  until 1670
+A.D. 0128-Oct-28 00:00:00.0000 UT 81,708,791 km (50.8 Million miles) closest since 126  until 139
+A.D. 2915-May-31 00:00:00.0000 UT 81,779,517 km (50.8 Million miles) closest since 2904  until 2917
+A.D. 1296-Nov-18 00:00:00.0000 UT 81,815,505 km (50.8 Million miles) closest since 1294  until 1307
+A.D. 1747-May-10 00:00:00.0000 UT 81,816,649 km (50.8 Million miles) closest since 1736  until 1749
+A.D. 2827-Dec-17 00:00:00.0000 UT 81,819,344 km (50.8 Million miles) closest since 2825  until 2838
+A.D. 0579-Apr-18 00:00:00.0000 UT 81,864,910 km (50.9 Million miles) closest since 568  until 581
+A.D. 0933-Nov-13 00:00:00.0000 UT 82,019,765 km (51.0 Million miles) closest since 931  until 944
+A.D. 2464-Dec-10 00:00:00.0000 UT 82,032,710 km (51.0 Million miles) closest since 2462  until 2475
+A.D. 2110-May-16 00:00:00.0000 UT 82,063,358 km (51.0 Million miles) closest since 2099  until 2112
+A.D. 0942-Apr-24 00:00:00.0000 UT 82,111,135 km (51.0 Million miles) closest since 933  until 944
+A.D. 2101-Dec-05 00:00:00.0000 UT 82,192,718 km (51.1 Million miles) closest since 2099  until 2110
+A.D. 0570-Nov-06 00:00:00.0000 UT 82,200,248 km (51.1 Million miles) closest since 568  until 579
+A.D. 2473-May-21 00:00:00.0000 UT 82,294,378 km (51.1 Million miles) closest since 2464  until 2475
+A.D. 0137-Apr-08 00:00:00.0000 UT 82,354,239 km (51.2 Million miles) closest since 128  until 139
+A.D. 1305-Apr-30 00:00:00.0000 UT 82,359,490 km (51.2 Million miles) closest since 1296  until 1307
+A.D. 1738-Nov-28 00:00:00.0000 UT 82,393,656 km (51.2 Million miles) closest since 1736  until 1747
+A.D. 0207-Nov-01 00:00:00.0000 UT 82,425,629 km (51.2 Million miles) closest since 205  until 216
+A.D. 1668-May-05 00:00:00.0000 UT 82,543,451 km (51.3 Million miles) closest since 1659  until 1670
+A.D. 2836-May-27 00:00:00.0000 UT 82,551,260 km (51.3 Million miles) closest since 2827  until 2838
+A.D. 2906-Dec-21 00:00:00.0000 UT 82,563,825 km (51.3 Million miles) closest since 2904  until 2915
+A.D. 1375-Nov-22 00:00:00.0000 UT 82,570,946 km (51.3 Million miles) closest since 1373  until 1384
+A.D. 0500-Apr-14 00:00:00.0000 UT 82,597,619 km (51.3 Million miles) closest since 491  until 502
+A.D. 1012-Nov-16 00:00:00.0000 UT 82,759,022 km (51.4 Million miles) closest since 1010  until 1021
+A.D. 2543-Dec-14 00:00:00.0000 UT 82,774,861 km (51.4 Million miles) closest since 2541  until 2552
+A.D. 2031-May-12 00:00:00.0000 UT 82,782,819 km (51.4 Million miles) closest since 2022  until 2033
+A.D. 0863-Apr-20 00:00:00.0000 UT 82,843,522 km (51.5 Million miles) closest since 854  until 865
+A.D. 0649-Nov-10 00:00:00.0000 UT 82,970,228 km (51.6 Million miles) closest since 647  until 658
+A.D. 2180-Dec-07 00:00:00.0000 UT 82,983,092 km (51.6 Million miles) closest since 2178  until 2189
+A.D. 2394-May-18 00:00:00.0000 UT 83,038,354 km (51.6 Million miles) closest since 2385  until 2396
+A.D. 1226-Apr-26 00:00:00.0000 UT 83,094,085 km (51.6 Million miles) closest since 1217  until 1228
+A.D. 1817-Dec-02 00:00:00.0000 UT 83,121,546 km (51.6 Million miles) closest since 1815  until 1826
+A.D. 0058-Apr-04 00:00:00.0000 UT 83,125,607 km (51.7 Million miles) closest since 49  until 60
+A.D. 0286-Nov-04 00:00:00.0000 UT 83,127,953 km (51.7 Million miles) closest since 284  until 295
+A.D. 2757-May-24 00:00:00.0000 UT 83,285,566 km (51.8 Million miles) closest since 2748  until 2759
+A.D. 1454-Nov-26 00:00:00.0000 UT 83,292,210 km (51.8 Million miles) closest since 1452  until 1463
+A.D. 2985-Dec-23 00:00:00.0000 UT 83,317,525 km (51.8 Million miles) closest since 2983  until 2994
+A.D. 1589-May-02 00:00:00.0000 UT 83,329,517 km (51.8 Million miles) closest since 1580  until 1591
+A.D. 0421-Apr-11 00:00:00.0000 UT 83,339,816 km (51.8 Million miles) closest since 412  until 423
+A.D. 1091-Nov-20 00:00:00.0000 UT 83,470,926 km (51.9 Million miles) closest since 1089  until 1100
+A.D. 2622-Dec-18 00:00:00.0000 UT 83,489,367 km (51.9 Million miles) closest since 2620  until 2631
+A.D. 1952-May-09 00:00:00.0000 UT 83,515,047 km (51.9 Million miles) closest since 1943  until 1954
+A.D. 0784-Apr-17 00:00:00.0000 UT 83,584,004 km (51.9 Million miles) closest since 775  until 786
+A.D. 0728-Nov-13 00:00:00.0000 UT 83,683,272 km (52.0 Million miles) closest since 726  until 737
+A.D. 2259-Dec-12 00:00:00.0000 UT 83,702,823 km (52.0 Million miles) closest since 2257  until 2268
+A.D. 2315-May-16 00:00:00.0000 UT 83,748,540 km (52.0 Million miles) closest since 2306  until 2317
+A.D. 1147-Apr-24 00:00:00.0000 UT 83,795,862 km (52.1 Million miles) closest since 1138  until 1149
+A.D. 1896-Dec-05 00:00:00.0000 UT 83,890,632 km (52.1 Million miles) closest since 1894  until 1905
+A.D. 0365-Nov-07 00:00:00.0000 UT 83,891,747 km (52.1 Million miles) closest since 363  until 374
+A.D. 2678-May-21 00:00:00.0000 UT 83,983,180 km (52.2 Million miles) closest since 2669  until 2680
+A.D. 1533-Nov-29 00:00:00.0000 UT 84,030,144 km (52.2 Million miles) closest since 1531  until 1542
+A.D. 1510-Apr-30 00:00:00.0000 UT 84,033,088 km (52.2 Million miles) closest since 1501  until 1512
+A.D. 0002-Nov-01 00:00:00.0000 UT 84,040,818 km (52.2 Million miles) closest since 0  until 11
+A.D. 0342-Apr-08 00:00:00.0000 UT 84,073,349 km (52.2 Million miles) closest since 333  until 344
+A.D. 1170-Nov-23 00:00:00.0000 UT 84,199,545 km (52.3 Million miles) closest since 1168  until 1179
+A.D. 2701-Dec-21 00:00:00.0000 UT 84,243,252 km (52.3 Million miles) closest since 2699  until 2710
+A.D. 1873-May-05 00:00:00.0000 UT 84,260,865 km (52.4 Million miles) closest since 1864  until 1875
+A.D. 0705-Apr-14 00:00:00.0000 UT 84,296,357 km (52.4 Million miles) closest since 696  until 707
+A.D. 0807-Nov-17 00:00:00.0000 UT 84,366,794 km (52.4 Million miles) closest since 805  until 816
+A.D. 2338-Dec-15 00:00:00.0000 UT 84,395,908 km (52.4 Million miles) closest since 2336  until 2347
+A.D. 2236-May-11 00:00:00.0000 UT 84,462,704 km (52.5 Million miles) closest since 2227  until 2238
+A.D. 1068-Apr-19 00:00:00.0000 UT 84,534,082 km (52.5 Million miles) closest since 1059  until 1070
+A.D. 0444-Nov-10 00:00:00.0000 UT 84,586,050 km (52.6 Million miles) closest since 442  until 453
+A.D. 1975-Dec-09 00:00:00.0000 UT 84,594,803 km (52.6 Million miles) closest since 1973  until 1984
+A.D. 2599-May-17 00:00:00.0000 UT 84,708,251 km (52.6 Million miles) closest since 2590  until 2601
+A.D. 1431-Apr-26 00:00:00.0000 UT 84,714,114 km (52.6 Million miles) closest since 1422  until 1433
+A.D. 0263-Apr-04 00:00:00.0000 UT 84,760,115 km (52.7 Million miles) closest since 254  until 265
+A.D. 1612-Dec-02 00:00:00.0000 UT 84,765,099 km (52.7 Million miles) closest since 1610  until 1621
+A.D. 0081-Nov-04 00:00:00.0000 UT 84,781,072 km (52.7 Million miles) closest since 79  until 90
+A.D. 2962-May-23 00:00:00.0000 UT 84,921,749 km (52.8 Million miles) closest since 2953  until 2964
+A.D. 1249-Nov-26 00:00:00.0000 UT 84,923,300 km (52.8 Million miles) closest since 1247  until 1258
+A.D. 1794-May-01 00:00:00.0000 UT 84,939,581 km (52.8 Million miles) closest since 1785  until 1796
+A.D. 2780-Dec-24 00:00:00.0000 UT 84,961,265 km (52.8 Million miles) closest since 2778  until 2789
+A.D. 0626-Apr-11 00:00:00.0000 UT 84,992,403 km (52.8 Million miles) closest since 617  until 628
+A.D. 0886-Nov-19 00:00:00.0000 UT 85,110,551 km (52.9 Million miles) closest since 884  until 895
+A.D. 2417-Dec-18 00:00:00.0000 UT 85,159,080 km (52.9 Million miles) closest since 2415  until 2426
+A.D. 2157-May-08 00:00:00.0000 UT 85,177,217 km (52.9 Million miles) closest since 2148  until 2159
+A.D. 0989-Apr-16 00:00:00.0000 UT 85,225,463 km (53.0 Million miles) closest since 980  until 991
+A.D. 0523-Nov-14 00:00:00.0000 UT 85,262,114 km (53.0 Million miles) closest since 521  until 532
+A.D. 2054-Dec-11 00:00:00.0000 UT 85,295,514 km (53.0 Million miles) closest since 2052  until 2063
+A.D. 2520-May-14 00:00:00.0000 UT 85,405,003 km (53.1 Million miles) closest since 2511  until 2522
+A.D. 0184-Mar-31 00:00:00.0000 UT 85,444,754 km (53.1 Million miles) closest since 175  until 186
+A.D. 0160-Nov-07 00:00:00.0000 UT 85,456,091 km (53.1 Million miles) closest since 158  until 169
+A.D. 1352-Apr-22 00:00:00.0000 UT 85,456,868 km (53.1 Million miles) closest since 1343  until 1354
+A.D. 1691-Dec-05 00:00:00.0000 UT 85,457,332 km (53.1 Million miles) closest since 1689  until 1700
+A.D. 1328-Nov-29 00:00:00.0000 UT 85,613,981 km (53.2 Million miles) closest since 1326  until 1337
+A.D. 1715-Apr-29 00:00:00.0000 UT 85,632,955 km (53.2 Million miles) closest since 1706  until 1717
+A.D. 2883-May-20 00:00:00.0000 UT 85,650,146 km (53.2 Million miles) closest since 2874  until 2885
+A.D. 2859-Dec-27 00:00:00.0000 UT 85,653,903 km (53.2 Million miles) closest since 2857  until 2868
+A.D. 0547-Apr-07 00:00:00.0000 UT 85,668,606 km (53.2 Million miles) closest since 538  until 549
+A.D. 0965-Nov-23 00:00:00.0000 UT 85,790,084 km (53.3 Million miles) closest since 963  until 974
+A.D. 2496-Dec-20 00:00:00.0000 UT 85,848,912 km (53.3 Million miles) closest since 2494  until 2505
+A.D. 2078-May-04 00:00:00.0000 UT 85,857,551 km (53.3 Million miles) closest since 2069  until 2080
+A.D. 0910-Apr-13 00:00:00.0000 UT 85,888,257 km (53.4 Million miles) closest since 901  until 912
+A.D. 0602-Nov-18 00:00:00.0000 UT 85,981,654 km (53.4 Million miles) closest since 600  until 611
+A.D. 2133-Dec-15 00:00:00.0000 UT 86,030,754 km (53.5 Million miles) closest since 2131  until 2142
+A.D. 2441-May-10 00:00:00.0000 UT 86,090,352 km (53.5 Million miles) closest since 2432  until 2443
+A.D. 0239-Nov-11 00:00:00.0000 UT 86,121,583 km (53.5 Million miles) closest since 237  until 248
+A.D. 1273-Apr-18 00:00:00.0000 UT 86,133,228 km (53.5 Million miles) closest since 1264  until 1275
+A.D. 1770-Dec-09 00:00:00.0000 UT 86,155,288 km (53.5 Million miles) closest since 1768  until 1779
+A.D. 0105-Mar-28 00:00:00.0000 UT 86,158,275 km (53.5 Million miles) closest since 96  until 107
+A.D. 1407-Dec-04 00:00:00.0000 UT 86,305,650 km (53.6 Million miles) closest since 1405  until 1416
+A.D. 2804-May-16 00:00:00.0000 UT 86,331,589 km (53.6 Million miles) closest since 2795  until 2806
+A.D. 0468-Apr-03 00:00:00.0000 UT 86,361,322 km (53.7 Million miles) closest since 459  until 470
+A.D. 1636-Apr-25 00:00:00.0000 UT 86,361,864 km (53.7 Million miles) closest since 1627  until 1638
+A.D. 2938-Dec-31 00:00:00.0000 UT 86,363,375 km (53.7 Million miles) closest since 2936  until 2947
+A.D. 1044-Nov-26 00:00:00.0000 UT 86,450,411 km (53.7 Million miles) closest since 1042  until 1053
+A.D. 2575-Dec-25 00:00:00.0000 UT 86,503,671 km (53.8 Million miles) closest since 2573  until 2584
+A.D. 1999-May-02 00:00:00.0000 UT 86,539,126 km (53.8 Million miles) closest since 1990  until 2001
+A.D. 0831-Apr-10 00:00:00.0000 UT 86,595,868 km (53.8 Million miles) closest since 822  until 833
+A.D. 0681-Nov-20 00:00:00.0000 UT 86,642,755 km (53.8 Million miles) closest since 679  until 690
+A.D. 2212-Dec-18 00:00:00.0000 UT 86,694,207 km (53.9 Million miles) closest since 2210  until 2221
+A.D. 2362-May-08 00:00:00.0000 UT 86,764,145 km (53.9 Million miles) closest since 2353  until 2364
+A.D. 1194-Apr-16 00:00:00.0000 UT 86,786,882 km (53.9 Million miles) closest since 1185  until 1196
+A.D. 0026-Mar-25 00:00:00.0000 UT 86,805,104 km (53.9 Million miles) closest since 17  until 28
+A.D. 0318-Nov-15 00:00:00.0000 UT 86,826,279 km (54.0 Million miles) closest since 316  until 327
+A.D. 1849-Dec-12 00:00:00.0000 UT 86,854,748 km (54.0 Million miles) closest since 1847  until 1858
+A.D. 2725-May-14 00:00:00.0000 UT 86,972,979 km (54.0 Million miles) closest since 2716  until 2727
+A.D. 1486-Dec-06 00:00:00.0000 UT 86,980,039 km (54.0 Million miles) closest since 1484  until 1495
+A.D. 1557-Apr-22 00:00:00.0000 UT 87,007,158 km (54.1 Million miles) closest since 1548  until 1559
+A.D. 0389-Mar-31 00:00:00.0000 UT 87,034,636 km (54.1 Million miles) closest since 380  until 391
+A.D. 1123-Dec-01 00:00:00.0000 UT 87,139,616 km (54.1 Million miles) closest since 1121  until 1132
+A.D. 2654-Dec-28 00:00:00.0000 UT 87,215,373 km (54.2 Million miles) closest since 2652  until 2663
+A.D. 1920-Apr-28 00:00:00.0000 UT 87,225,604 km (54.2 Million miles) closest since 1911  until 1922
+A.D. 0752-Apr-06 00:00:00.0000 UT 87,255,056 km (54.2 Million miles) closest since 743  until 754
+A.D. 0760-Nov-23 00:00:00.0000 UT 87,282,084 km (54.2 Million miles) closest since 758  until 769
+A.D. 2291-Dec-22 00:00:00.0000 UT 87,343,856 km (54.3 Million miles) closest since 2289  until 2300
+A.D. 2283-May-04 00:00:00.0000 UT 87,416,642 km (54.3 Million miles) closest since 2274  until 2285
+A.D. 0397-Nov-17 00:00:00.0000 UT 87,470,435 km (54.4 Million miles) closest since 395  until 406
+A.D. 1115-Apr-13 00:00:00.0000 UT 87,481,053 km (54.4 Million miles) closest since 1106  until 1117
+A.D. 1928-Dec-16 00:00:00.0000 UT 87,512,733 km (54.4 Million miles) closest since 1926  until 1937
+A.D. 0034-Nov-11 00:00:00.0000 UT 87,636,699 km (54.5 Million miles) closest since 32  until 43
+A.D. 2646-May-10 00:00:00.0000 UT 87,641,623 km (54.5 Million miles) closest since 2637  until 2648
+A.D. 1478-Apr-19 00:00:00.0000 UT 87,647,275 km (54.5 Million miles) closest since 1469  until 1480
+A.D. 1565-Dec-09 00:00:00.0000 UT 87,659,882 km (54.5 Million miles) closest since 1563  until 1574
+A.D. 0310-Mar-29 00:00:00.0000 UT 87,675,260 km (54.5 Million miles) closest since 301  until 312
+A.D. 1202-Dec-03 00:00:00.0000 UT 87,800,505 km (54.6 Million miles) closest since 1200  until 1211
+A.D. 1841-Apr-25 00:00:00.0000 UT 87,848,752 km (54.6 Million miles) closest since 1832  until 1843
+A.D. 2733-Dec-31 00:00:00.0000 UT 87,870,996 km (54.6 Million miles) closest since 2731  until 2742
+A.D. 0673-Apr-03 00:00:00.0000 UT 87,881,489 km (54.6 Million miles) closest since 664  until 675
+A.D. 0839-Nov-27 00:00:00.0000 UT 87,966,258 km (54.7 Million miles) closest since 837  until 848
+A.D. 2370-Dec-25 00:00:00.0000 UT 88,044,767 km (54.7 Million miles) closest since 2368  until 2379
+A.D. 2204-May-01 00:00:00.0000 UT 88,062,730 km (54.7 Million miles) closest since 2195  until 2206
+A.D. 0476-Nov-20 00:00:00.0000 UT 88,092,802 km (54.7 Million miles) closest since 474  until 485
+A.D. 1036-Apr-09 00:00:00.0000 UT 88,103,951 km (54.7 Million miles) closest since 1027  until 1038
+A.D. 2007-Dec-19 00:00:00.0000 UT 88,164,079 km (54.8 Million miles) closest since 2005  until 2016
+A.D. 0113-Nov-15 00:00:00.0000 UT 88,259,633 km (54.8 Million miles) closest since 111  until 122
+A.D. 2567-May-07 00:00:00.0000 UT 88,283,349 km (54.9 Million miles) closest since 2558  until 2569
+A.D. 1644-Dec-12 00:00:00.0000 UT 88,306,834 km (54.9 Million miles) closest since 1642  until 1653
+A.D. 0231-Mar-25 00:00:00.0000 UT 88,307,671 km (54.9 Million miles) closest since 222  until 233
+A.D. 1399-Apr-15 00:00:00.0000 UT 88,317,391 km (54.9 Million miles) closest since 1390  until 1401
+A.D. 1281-Dec-06 00:00:00.0000 UT 88,440,394 km (55.0 Million miles) closest since 1279  until 1290
+A.D. 1762-Apr-21 00:00:00.0000 UT 88,478,007 km (55.0 Million miles) closest since 1753  until 1764
+A.D. 2813-Jan-03 00:00:00.0000 UT 88,503,876 km (55.0 Million miles) closest since 2810  until 2821
+A.D. 2930-May-13 00:00:00.0000 UT 88,513,123 km (55.0 Million miles) closest since 2921  until 2932
+A.D. 0594-Mar-30 00:00:00.0000 UT 88,520,357 km (55.0 Million miles) closest since 585  until 596
+A.D. 0918-Nov-30 00:00:00.0000 UT 88,599,060 km (55.1 Million miles) closest since 916  until 927
+A.D. 2449-Dec-28 00:00:00.0000 UT 88,683,858 km (55.1 Million miles) closest since 2447  until 2458
+A.D. 2125-Apr-28 00:00:00.0000 UT 88,689,662 km (55.1 Million miles) closest since 2116  until 2127
+A.D. 0957-Apr-06 00:00:00.0000 UT 88,711,358 km (55.1 Million miles) closest since 948  until 959
+A.D. 0555-Nov-24 00:00:00.0000 UT 88,764,078 km (55.2 Million miles) closest since 553  until 564
+A.D. 2086-Dec-21 00:00:00.0000 UT 88,843,421 km (55.2 Million miles) closest since 2084  until 2095
+A.D. 0192-Nov-17 00:00:00.0000 UT 88,876,937 km (55.2 Million miles) closest since 190  until 201
+A.D. 2488-May-03 00:00:00.0000 UT 88,899,759 km (55.2 Million miles) closest since 2479  until 2490
+A.D. 1320-Apr-12 00:00:00.0000 UT 88,931,926 km (55.3 Million miles) closest since 1311  until 1322
+A.D. 0152-Mar-21 00:00:00.0000 UT 88,942,450 km (55.3 Million miles) closest since 143  until 154
+A.D. 1723-Dec-16 00:00:00.0000 UT 88,943,159 km (55.3 Million miles) closest since 1721  until 1732
+A.D. 1360-Dec-09 00:00:00.0000 UT 89,070,602 km (55.3 Million miles) closest since 1358  until 1369
+A.D. 2851-May-10 00:00:00.0000 UT 89,129,483 km (55.4 Million miles) closest since 2842  until 2853
+A.D. 0515-Mar-28 00:00:00.0000 UT 89,132,557 km (55.4 Million miles) closest since 506  until 517
+A.D. 1683-Apr-18 00:00:00.0000 UT 89,146,769 km (55.4 Million miles) closest since 1674  until 1685
+A.D. 2892-Jan-06 00:00:00.0000 UT 89,171,791 km (55.4 Million miles) closest since 2889  until 2900
+A.D. 0997-Dec-03 00:00:00.0000 UT 89,191,107 km (55.4 Million miles) closest since 995  until 1006
+A.D. 2528-Dec-31 00:00:00.0000 UT 89,287,294 km (55.5 Million miles) closest since 2526  until 2537
+A.D. 2046-Apr-24 00:00:00.0000 UT 89,318,294 km (55.5 Million miles) closest since 2037  until 2048
+A.D. 0878-Apr-02 00:00:00.0000 UT 89,351,410 km (55.5 Million miles) closest since 869  until 880
+A.D. 0634-Nov-27 00:00:00.0000 UT 89,363,531 km (55.5 Million miles) closest since 632  until 643
+A.D. 2165-Dec-25 00:00:00.0000 UT 89,447,798 km (55.6 Million miles) closest since 2163  until 2174
+A.D. 0271-Nov-21 00:00:00.0000 UT 89,521,048 km (55.6 Million miles) closest since 269  until 280
+A.D. 2409-Apr-30 00:00:00.0000 UT 89,529,598 km (55.6 Million miles) closest since 2400  until 2411
+A.D. 1241-Apr-08 00:00:00.0000 UT 89,531,120 km (55.6 Million miles) closest since 1232  until 1243
+A.D. 0073-Mar-18 00:00:00.0000 UT 89,542,560 km (55.6 Million miles) closest since 64  until 75
+A.D. 1802-Dec-20 00:00:00.0000 UT 89,586,501 km (55.7 Million miles) closest since 1800  until 1811
+A.D. 1439-Dec-13 00:00:00.0000 UT 89,695,622 km (55.7 Million miles) closest since 1437  until 1448
+A.D. 2772-May-06 00:00:00.0000 UT 89,718,920 km (55.7 Million miles) closest since 2763  until 2774
+A.D. 1604-Apr-15 00:00:00.0000 UT 89,739,699 km (55.8 Million miles) closest since 1595  until 1606
+A.D. 0436-Mar-24 00:00:00.0000 UT 89,747,230 km (55.8 Million miles) closest since 427  until 438
+A.D. 2971-Jan-10 00:00:00.0000 UT 89,788,328 km (55.8 Million miles) closest since 2968  until 2979
+A.D. 1076-Dec-06 00:00:00.0000 UT 89,831,872 km (55.8 Million miles) closest since 1074  until 1085
+A.D. 2608-Jan-04 00:00:00.0000 UT 89,934,804 km (55.9 Million miles) closest since 2605  until 2616
+A.D. 1967-Apr-22 00:00:00.0000 UT 89,941,216 km (55.9 Million miles) closest since 1958  until 1969
+A.D. 0713-Dec-01 00:00:00.0000 UT 89,946,531 km (55.9 Million miles) closest since 711  until 722
+A.D. 0799-Mar-31 00:00:00.0000 UT 89,958,969 km (55.9 Million miles) closest since 790  until 801
+A.D. 2244-Dec-28 00:00:00.0000 UT 90,037,411 km (55.9 Million miles) closest since 2242  until 2253
+A.D. 0350-Nov-25 00:00:00.0000 UT 90,110,906 km (56.0 Million miles) closest since 348  until 359
+A.D. 2330-Apr-28 00:00:00.0000 UT 90,125,565 km (56.0 Million miles) closest since 2321  until 2332
+A.D. 1162-Apr-06 00:00:00.0000 UT 90,170,054 km (56.0 Million miles) closest since 1153  until 1164
+A.D. 1881-Dec-22 00:00:00.0000 UT 90,176,264 km (56.0 Million miles) closest since 1879  until 1890
+A.D. 1518-Dec-17 00:00:00.0000 UT 90,300,820 km (56.1 Million miles) closest since 1516  until 1527
+A.D. 1525-Apr-12 00:00:00.0000 UT 90,319,430 km (56.1 Million miles) closest since 1518  until 1527
+A.D. 2693-May-03 00:00:00.0000 UT 90,332,075 km (56.1 Million miles) closest since 2684  until 2695
+A.D. 0357-Mar-21 00:00:00.0000 UT 90,336,164 km (56.1 Million miles) closest since 350  until 359
+A.D. 1155-Dec-10 00:00:00.0000 UT 90,433,281 km (56.2 Million miles) closest since 1153  until 1162
+A.D. 1888-Apr-17 00:00:00.0000 UT 90,510,014 km (56.2 Million miles) closest since 1881  until 1890
+A.D. 0720-Mar-27 00:00:00.0000 UT 90,526,052 km (56.3 Million miles) closest since 713  until 722
+A.D. 2687-Jan-07 00:00:00.0000 UT 90,527,525 km (56.3 Million miles) closest since 2684  until 2693
+A.D. 0792-Dec-03 00:00:00.0000 UT 90,580,561 km (56.3 Million miles) closest since 790  until 799
+A.D. 2324-Jan-02 00:00:00.0000 UT 90,682,518 km (56.3 Million miles) closest since 2321  until 2330
+A.D. 0429-Nov-27 00:00:00.0000 UT 90,684,681 km (56.3 Million miles) closest since 427  until 436
+A.D. 2251-Apr-25 00:00:00.0000 UT 90,699,683 km (56.4 Million miles) closest since 2244  until 2253
+A.D. 1083-Apr-03 00:00:00.0000 UT 90,736,017 km (56.4 Million miles) closest since 1076  until 1085
+A.D. 1960-Dec-25 00:00:00.0000 UT 90,778,812 km (56.4 Million miles) closest since 1958  until 1967
+A.D. 0066-Nov-21 00:00:00.0000 UT 90,821,902 km (56.4 Million miles) closest since 64  until 73
+A.D. 2614-May-01 00:00:00.0000 UT 90,899,023 km (56.5 Million miles) closest since 2608  until 2616
+A.D. 1597-Dec-19 00:00:00.0000 UT 90,899,271 km (56.5 Million miles) closest since 1595  until 1604
+A.D. 0278-Mar-18 00:00:00.0000 UT 90,908,712 km (56.5 Million miles) closest since 271  until 280
+A.D. 1446-Apr-09 00:00:00.0000 UT 90,934,372 km (56.5 Million miles) closest since 1439  until 1448
+A.D. 1234-Dec-13 00:00:00.0000 UT 91,006,184 km (56.5 Million miles) closest since 1232  until 1241
+A.D. 1809-Apr-15 00:00:00.0000 UT 91,077,713 km (56.6 Million miles) closest since 1802  until 1811
+A.D. 2766-Jan-10 00:00:00.0000 UT 91,093,933 km (56.6 Million miles) closest since 2763  until 2772
+A.D. 0641-Mar-24 00:00:00.0000 UT 91,103,239 km (56.6 Million miles) closest since 634  until 643
+A.D. 2977-May-06 00:00:00.0000 UT 91,108,625 km (56.6 Million miles) closest since 2971  until 2979
+A.D. 0871-Dec-07 00:00:00.0000 UT 91,149,824 km (56.6 Million miles) closest since 869  until 878
+A.D. 2403-Jan-04 00:00:00.0000 UT 91,251,386 km (56.7 Million miles) closest since 2400  until 2409
+A.D. 2172-Apr-20 00:00:00.0000 UT 91,269,040 km (56.7 Million miles) closest since 2165  until 2174
+A.D. 1004-Mar-30 00:00:00.0000 UT 91,273,102 km (56.7 Million miles) closest since 997  until 1006
+A.D. 0508-Nov-30 00:00:00.0000 UT 91,287,939 km (56.7 Million miles) closest since 506  until 515
+A.D. 0145-Nov-24 00:00:00.0000 UT 91,377,653 km (56.8 Million miles) closest since 143  until 152
+A.D. 2039-Dec-29 00:00:00.0000 UT 91,392,928 km (56.8 Million miles) closest since 2037  until 2046
+A.D. 2535-Apr-27 00:00:00.0000 UT 91,456,475 km (56.8 Million miles) closest since 2528  until 2537
+A.D. 1367-Apr-05 00:00:00.0000 UT 91,474,929 km (56.8 Million miles) closest since 1360  until 1369
+A.D. 0199-Mar-15 00:00:00.0000 UT 91,478,319 km (56.8 Million miles) closest since 192  until 201
+A.D. 1676-Dec-21 00:00:00.0000 UT 91,483,639 km (56.8 Million miles) closest since 1674  until 1683
+A.D. 1313-Dec-16 00:00:00.0000 UT 91,593,494 km (56.9 Million miles) closest since 1311  until 1320
+A.D. 0562-Mar-21 00:00:00.0000 UT 91,657,217 km (57.0 Million miles) closest since 555  until 564
+A.D. 1730-Apr-12 00:00:00.0000 UT 91,665,200 km (57.0 Million miles) closest since 1723  until 1732
+A.D. 2898-May-03 00:00:00.0000 UT 91,670,032 km (57.0 Million miles) closest since 2892  until 2900
+A.D. 0950-Dec-10 00:00:00.0000 UT 91,685,417 km (57.0 Million miles) closest since 948  until 957
+A.D. 2845-Jan-12 00:00:00.0000 UT 91,710,684 km (57.0 Million miles) closest since 2842  until 2851
+A.D. 2482-Jan-06 00:00:00.0000 UT 91,805,207 km (57.0 Million miles) closest since 2479  until 2488
+A.D. 2093-Apr-17 00:00:00.0000 UT 91,826,997 km (57.1 Million miles) closest since 2086  until 2095
+A.D. 0587-Dec-04 00:00:00.0000 UT 91,828,743 km (57.1 Million miles) closest since 585  until 594
+A.D. 0925-Mar-27 00:00:00.0000 UT 91,857,378 km (57.1 Million miles) closest since 918  until 927
+A.D. 2119-Jan-01 00:00:00.0000 UT 91,939,227 km (57.1 Million miles) closest since 2116  until 2125
+A.D. 0224-Nov-27 00:00:00.0000 UT 91,959,631 km (57.1 Million miles) closest since 222  until 231
+A.D. 0120-Mar-11 00:00:00.0000 UT 92,009,440 km (57.2 Million miles) closest since 113  until 122
+A.D. 1288-Apr-01 00:00:00.0000 UT 92,013,504 km (57.2 Million miles) closest since 1281  until 1290
+A.D. 2456-Apr-23 00:00:00.0000 UT 92,026,146 km (57.2 Million miles) closest since 2449  until 2458
+A.D. 1755-Dec-26 00:00:00.0000 UT 92,048,452 km (57.2 Million miles) closest since 1753  until 1762
+A.D. 1392-Dec-18 00:00:00.0000 UT 92,142,569 km (57.3 Million miles) closest since 1390  until 1399
+A.D. 0483-Mar-17 00:00:00.0000 UT 92,191,246 km (57.3 Million miles) closest since 476  until 485
+A.D. 2819-Apr-30 00:00:00.0000 UT 92,197,737 km (57.3 Million miles) closest since 2813  until 2821
+A.D. 1651-Apr-08 00:00:00.0000 UT 92,205,488 km (57.3 Million miles) closest since 1644  until 1653
+A.D. 1029-Dec-13 00:00:00.0000 UT 92,258,395 km (57.3 Million miles) closest since 1027  until 1036
+A.D. 2924-Jan-17 00:00:00.0000 UT 92,263,677 km (57.3 Million miles) closest since 2921  until 2930
+A.D. 0666-Dec-07 00:00:00.0000 UT 92,348,237 km (57.4 Million miles) closest since 664  until 673
+A.D. 0846-Mar-24 00:00:00.0000 UT 92,387,565 km (57.4 Million miles) closest since 839  until 848
+A.D. 2014-Apr-15 00:00:00.0000 UT 92,389,800 km (57.4 Million miles) closest since 2007  until 2016
+A.D. 2561-Jan-10 00:00:00.0000 UT 92,396,357 km (57.4 Million miles) closest since 2558  until 2567
+A.D. 2198-Jan-03 00:00:00.0000 UT 92,476,542 km (57.5 Million miles) closest since 2195  until 2204
+A.D. 0303-Dec-02 00:00:00.0000 UT 92,484,380 km (57.5 Million miles) closest since 301  until 310
+A.D. 0041-Mar-08 00:00:00.0000 UT 92,543,207 km (57.5 Million miles) closest since 34  until 43
+A.D. 2377-Apr-21 00:00:00.0000 UT 92,563,314 km (57.5 Million miles) closest since 2370  until 2379
+A.D. 1834-Dec-29 00:00:00.0000 UT 92,585,932 km (57.5 Million miles) closest since 1832  until 1841
+A.D. 1209-Mar-30 00:00:00.0000 UT 92,586,867 km (57.5 Million miles) closest since 1202  until 1211
+A.D. 1471-Dec-23 00:00:00.0000 UT 92,680,195 km (57.6 Million miles) closest since 1469  until 1478
+A.D. 1572-Apr-05 00:00:00.0000 UT 92,727,055 km (57.6 Million miles) closest since 1565  until 1574
+A.D. 0404-Mar-14 00:00:00.0000 UT 92,728,220 km (57.6 Million miles) closest since 397  until 406
+A.D. 2740-Apr-27 00:00:00.0000 UT 92,754,310 km (57.6 Million miles) closest since 2733  until 2742
+A.D. 1108-Dec-16 00:00:00.0000 UT 92,796,331 km (57.7 Million miles) closest since 1106  until 1115
+A.D. 0767-Mar-21 00:00:00.0000 UT 92,896,285 km (57.7 Million miles) closest since 760  until 769
+A.D. 1935-Apr-12 00:00:00.0000 UT 92,903,801 km (57.7 Million miles) closest since 1928  until 1937
+A.D. 2640-Jan-14 00:00:00.0000 UT 92,908,713 km (57.7 Million miles) closest since 2637  until 2646
+A.D. 0745-Dec-10 00:00:00.0000 UT 92,920,665 km (57.7 Million miles) closest since 743  until 752
+A.D. 0382-Dec-04 00:00:00.0000 UT 93,005,323 km (57.8 Million miles) closest since 380  until 389
+A.D. 2277-Jan-07 00:00:00.0000 UT 93,037,546 km (57.8 Million miles) closest since 2274  until 2283
+A.D. 2298-Apr-17 00:00:00.0000 UT 93,071,922 km (57.8 Million miles) closest since 2291  until 2300
+A.D. 1130-Mar-27 00:00:00.0000 UT 93,091,798 km (57.8 Million miles) closest since 1123  until 1132
+A.D. 1914-Jan-01 00:00:00.0000 UT 93,116,683 km (57.9 Million miles) closest since 1911  until 1920
+A.D. 0019-Nov-28 00:00:00.0000 UT 93,117,880 km (57.9 Million miles) closest since 17  until 26
+A.D. 1550-Dec-26 00:00:00.0000 UT 93,218,723 km (57.9 Million miles) closest since 1548  until 1557
+A.D. 0325-Mar-12 00:00:00.0000 UT 93,233,762 km (57.9 Million miles) closest since 318  until 327
+A.D. 2661-Apr-24 00:00:00.0000 UT 93,258,388 km (57.9 Million miles) closest since 2654  until 2663
+A.D. 1493-Apr-02 00:00:00.0000 UT 93,272,973 km (58.0 Million miles) closest since 1486  until 1495
+A.D. 1187-Dec-20 00:00:00.0000 UT 93,303,623 km (58.0 Million miles) closest since 1185  until 1194
+A.D. 1856-Apr-08 00:00:00.0000 UT 93,403,945 km (58.0 Million miles) closest since 1849  until 1858
+A.D. 2719-Jan-17 00:00:00.0000 UT 93,415,908 km (58.0 Million miles) closest since 2716  until 2725
+A.D. 0688-Mar-17 00:00:00.0000 UT 93,418,796 km (58.0 Million miles) closest since 681  until 690
+A.D. 0824-Dec-12 00:00:00.0000 UT 93,430,684 km (58.1 Million miles) closest since 822  until 831
+A.D. 2356-Jan-11 00:00:00.0000 UT 93,547,564 km (58.1 Million miles) closest since 2353  until 2362
+A.D. 0461-Dec-06 00:00:00.0000 UT 93,548,626 km (58.1 Million miles) closest since 459  until 468
+A.D. 1051-Mar-24 00:00:00.0000 UT 93,568,582 km (58.1 Million miles) closest since 1044  until 1053
+A.D. 2219-Apr-15 00:00:00.0000 UT 93,576,785 km (58.1 Million miles) closest since 2212  until 2221
+A.D. 0098-Nov-30 00:00:00.0000 UT 93,618,906 km (58.2 Million miles) closest since 96  until 105
+A.D. 1993-Jan-04 00:00:00.0000 UT 93,664,248 km (58.2 Million miles) closest since 1990  until 1999
+A.D. 0246-Mar-08 00:00:00.0000 UT 93,730,113 km (58.2 Million miles) closest since 239  until 248
+A.D. 2582-Apr-20 00:00:00.0000 UT 93,735,733 km (58.2 Million miles) closest since 2575  until 2584
+A.D. 1629-Dec-28 00:00:00.0000 UT 93,740,604 km (58.2 Million miles) closest since 1627  until 1636
+A.D. 1414-Mar-30 00:00:00.0000 UT 93,750,740 km (58.3 Million miles) closest since 1407  until 1416
+A.D. 1266-Dec-22 00:00:00.0000 UT 93,836,819 km (58.3 Million miles) closest since 1264  until 1273
+A.D. 0609-Mar-15 00:00:00.0000 UT 93,897,813 km (58.3 Million miles) closest since 602  until 611
+A.D. 0903-Dec-17 00:00:00.0000 UT 93,906,210 km (58.4 Million miles) closest since 901  until 910
+A.D. 1777-Apr-05 00:00:00.0000 UT 93,920,913 km (58.4 Million miles) closest since 1770  until 1779
+A.D. 2945-Apr-27 00:00:00.0000 UT 93,927,009 km (58.4 Million miles) closest since 2938  until 2947
+A.D. 2798-Jan-19 00:00:00.0000 UT 93,963,420 km (58.4 Million miles) closest since 2795  until 2804
+A.D. 0540-Dec-10 00:00:00.0000 UT 94,020,231 km (58.4 Million miles) closest since 538  until 547
+A.D. 2435-Jan-13 00:00:00.0000 UT 94,041,766 km (58.4 Million miles) closest since 2432  until 2441
+A.D. 2140-Apr-11 00:00:00.0000 UT 94,068,654 km (58.5 Million miles) closest since 2133  until 2142
+A.D. 0972-Mar-20 00:00:00.0000 UT 94,082,215 km (58.5 Million miles) closest since 965  until 974
+A.D. 0177-Dec-03 00:00:00.0000 UT 94,119,193 km (58.5 Million miles) closest since 175  until 184
+A.D. 2072-Jan-07 00:00:00.0000 UT 94,155,027 km (58.5 Million miles) closest since 2069  until 2078
+A.D. 0167-Mar-05 00:00:00.0000 UT 94,205,829 km (58.5 Million miles) closest since 160  until 169
+A.D. 1335-Mar-27 00:00:00.0000 UT 94,219,345 km (58.5 Million miles) closest since 1328  until 1337
+A.D. 1709-Jan-01 00:00:00.0000 UT 94,243,364 km (58.6 Million miles) closest since 1706  until 1715
+A.D. 2503-Apr-18 00:00:00.0000 UT 94,248,712 km (58.6 Million miles) closest since 2496  until 2505
+A.D. 1345-Dec-25 00:00:00.0000 UT 94,323,435 km (58.6 Million miles) closest since 1343  until 1352
+A.D. 0530-Mar-11 00:00:00.0000 UT 94,364,281 km (58.6 Million miles) closest since 523  until 532
+A.D. 1698-Apr-01 00:00:00.0000 UT 94,388,940 km (58.7 Million miles) closest since 1691  until 1700
+A.D. 2866-Apr-23 00:00:00.0000 UT 94,400,487 km (58.7 Million miles) closest since 2859  until 2868
+A.D. 0982-Dec-19 00:00:00.0000 UT 94,418,325 km (58.7 Million miles) closest since 980  until 989
+A.D. 2877-Jan-22 00:00:00.0000 UT 94,454,893 km (58.7 Million miles) closest since 2874  until 2883
+A.D. 0619-Dec-14 00:00:00.0000 UT 94,484,009 km (58.7 Million miles) closest since 617  until 626
+A.D. 0893-Mar-17 00:00:00.0000 UT 94,545,854 km (58.7 Million miles) closest since 886  until 895
+A.D. 2061-Apr-08 00:00:00.0000 UT 94,547,617 km (58.7 Million miles) closest since 2054  until 2063
+A.D. 2514-Jan-16 00:00:00.0000 UT 94,566,343 km (58.8 Million miles) closest since 2511  until 2520
+A.D. 0256-Dec-07 00:00:00.0000 UT 94,590,709 km (58.8 Million miles) closest since 254  until 263
+A.D. 2151-Jan-10 00:00:00.0000 UT 94,630,268 km (58.8 Million miles) closest since 2148  until 2157
+A.D. 0088-Mar-01 00:00:00.0000 UT 94,664,642 km (58.8 Million miles) closest since 81  until 90
+A.D. 2424-Apr-14 00:00:00.0000 UT 94,714,135 km (58.9 Million miles) closest since 2417  until 2426
+A.D. 1788-Jan-04 00:00:00.0000 UT 94,717,006 km (58.9 Million miles) closest since 1785  until 1794
+A.D. 1256-Mar-23 00:00:00.0000 UT 94,725,637 km (58.9 Million miles) closest since 1249  until 1258
+A.D. 1424-Dec-29 00:00:00.0000 UT 94,781,521 km (58.9 Million miles) closest since 1422  until 1431
+A.D. 0451-Mar-08 00:00:00.0000 UT 94,835,635 km (58.9 Million miles) closest since 444  until 453
+A.D. 1619-Mar-30 00:00:00.0000 UT 94,851,676 km (58.9 Million miles) closest since 1612  until 1621
+A.D. 1061-Dec-22 00:00:00.0000 UT 94,874,394 km (59.0 Million miles) closest since 1059  until 1068
+A.D. 2787-Apr-21 00:00:00.0000 UT 94,895,374 km (59.0 Million miles) closest since 2780  until 2789
+A.D. 2956-Jan-26 00:00:00.0000 UT 94,910,542 km (59.0 Million miles) closest since 2953  until 2962
+A.D. 0698-Dec-16 00:00:00.0000 UT 94,978,551 km (59.0 Million miles) closest since 696  until 705
+A.D. 0814-Mar-14 00:00:00.0000 UT 94,980,250 km (59.0 Million miles) closest since 807  until 816
+A.D. 1982-Apr-05 00:00:00.0000 UT 95,013,715 km (59.0 Million miles) closest since 1975  until 1984
+A.D. 2593-Jan-19 00:00:00.0000 UT 95,020,763 km (59.0 Million miles) closest since 2590  until 2599
+A.D. 0335-Dec-11 00:00:00.0000 UT 95,044,829 km (59.1 Million miles) closest since 333  until 342
+A.D. 2230-Jan-13 00:00:00.0000 UT 95,123,183 km (59.1 Million miles) closest since 2227  until 2236
+A.D. 0009-Feb-27 00:00:00.0000 UT 95,130,440 km (59.1 Million miles) closest since 2  until 11
+A.D. 1177-Mar-20 00:00:00.0000 UT 95,158,597 km (59.1 Million miles) closest since 1170  until 1179
+A.D. 2345-Apr-11 00:00:00.0000 UT 95,158,954 km (59.1 Million miles) closest since 2338  until 2347
+A.D. 1867-Jan-07 00:00:00.0000 UT 95,180,868 km (59.1 Million miles) closest since 1864  until 1873
+A.D. 1504-Jan-02 00:00:00.0000 UT 95,263,127 km (59.2 Million miles) closest since 1501  until 1510
+A.D. 0372-Mar-05 00:00:00.0000 UT 95,274,276 km (59.2 Million miles) closest since 365  until 374
+A.D. 1540-Mar-27 00:00:00.0000 UT 95,322,890 km (59.2 Million miles) closest since 1533  until 1542
+A.D. 1140-Dec-25 00:00:00.0000 UT 95,324,206 km (59.2 Million miles) closest since 1138  until 1147
+A.D. 2708-Apr-18 00:00:00.0000 UT 95,324,625 km (59.2 Million miles) closest since 2701  until 2710
+A.D. 0777-Dec-19 00:00:00.0000 UT 95,422,519 km (59.3 Million miles) closest since 775  until 784
+A.D. 0735-Mar-12 00:00:00.0000 UT 95,443,983 km (59.3 Million miles) closest since 728  until 737
+A.D. 1903-Apr-03 00:00:00.0000 UT 95,447,882 km (59.3 Million miles) closest since 1896  until 1905
+A.D. 2672-Jan-23 00:00:00.0000 UT 95,453,844 km (59.3 Million miles) closest since 2669  until 2678
+A.D. 0414-Dec-13 00:00:00.0000 UT 95,520,709 km (59.4 Million miles) closest since 412  until 421
+A.D. 2309-Jan-17 00:00:00.0000 UT 95,558,301 km (59.4 Million miles) closest since 2306  until 2315
+A.D. 1098-Mar-17 00:00:00.0000 UT 95,576,365 km (59.4 Million miles) closest since 1091  until 1100
+A.D. 0051-Dec-07 00:00:00.0000 UT 95,577,462 km (59.4 Million miles) closest since 49  until 58
+A.D. 2266-Apr-08 00:00:00.0000 UT 95,605,466 km (59.4 Million miles) closest since 2259  until 2268
+A.D. 1946-Jan-10 00:00:00.0000 UT 95,645,334 km (59.4 Million miles) closest since 1943  until 1952
+A.D. 0293-Mar-02 00:00:00.0000 UT 95,692,186 km (59.5 Million miles) closest since 286  until 295
+A.D. 1583-Jan-04 00:00:00.0000 UT 95,711,194 km (59.5 Million miles) closest since 1580  until 1589
+A.D. 1461-Mar-23 00:00:00.0000 UT 95,738,425 km (59.5 Million miles) closest since 1454  until 1463
+A.D. 2629-Apr-14 00:00:00.0000 UT 95,744,033 km (59.5 Million miles) closest since 2622  until 2631
+A.D. 1219-Dec-29 00:00:00.0000 UT 95,794,768 km (59.5 Million miles) closest since 1217  until 1226
+A.D. 0856-Dec-21 00:00:00.0000 UT 95,850,630 km (59.6 Million miles) closest since 854  until 863
+A.D. 0656-Mar-08 00:00:00.0000 UT 95,850,764 km (59.6 Million miles) closest since 649  until 658
+A.D. 1824-Mar-30 00:00:00.0000 UT 95,880,634 km (59.6 Million miles) closest since 1817  until 1826
+A.D. 2992-Apr-20 00:00:00.0000 UT 95,909,237 km (59.6 Million miles) closest since 2985  until 2994
+A.D. 2751-Jan-26 00:00:00.0000 UT 95,932,742 km (59.6 Million miles) closest since 2748  until 2757
+A.D. 0493-Dec-15 00:00:00.0000 UT 95,938,063 km (59.6 Million miles) closest since 491  until 500
+A.D. 2388-Jan-20 00:00:00.0000 UT 95,993,581 km (59.6 Million miles) closest since 2385  until 2394
+A.D. 0130-Dec-10 00:00:00.0000 UT 96,007,711 km (59.7 Million miles) closest since 128  until 137
+A.D. 2187-Apr-05 00:00:00.0000 UT 96,019,109 km (59.7 Million miles) closest since 2180  until 2189
+A.D. 1019-Mar-15 00:00:00.0000 UT 96,022,067 km (59.7 Million miles) closest since 1012  until 1021
+A.D. 2025-Jan-13 00:00:00.0000 UT 96,086,379 km (59.7 Million miles) closest since 2022  until 2031
+A.D. 0214-Feb-27 00:00:00.0000 UT 96,109,771 km (59.7 Million miles) closest since 207  until 216
+A.D. 1382-Mar-20 00:00:00.0000 UT 96,143,283 km (59.7 Million miles) closest since 1375  until 1384
+A.D. 1662-Jan-06 00:00:00.0000 UT 96,144,213 km (59.7 Million miles) closest since 1659  until 1668
+A.D. 2550-Apr-11 00:00:00.0000 UT 96,182,606 km (59.8 Million miles) closest since 2543  until 2552
+A.D. 1298-Dec-31 00:00:00.0000 UT 96,212,996 km (59.8 Million miles) closest since 1296  until 1305
+A.D. 0577-Mar-05 00:00:00.0000 UT 96,244,024 km (59.8 Million miles) closest since 570  until 579
+A.D. 0935-Dec-26 00:00:00.0000 UT 96,292,585 km (59.8 Million miles) closest since 933  until 942
+A.D. 1745-Mar-27 00:00:00.0000 UT 96,295,799 km (59.8 Million miles) closest since 1738  until 1747
+A.D. 2913-Apr-17 00:00:00.0000 UT 96,310,534 km (59.8 Million miles) closest since 2906  until 2915
+A.D. 0572-Dec-18 00:00:00.0000 UT 96,335,206 km (59.9 Million miles) closest since 570  until 577
+A.D. 2830-Jan-28 00:00:00.0000 UT 96,351,288 km (59.9 Million miles) closest since 2827  until 2836
+A.D. 0940-Mar-11 00:00:00.0000 UT 96,405,889 km (59.9 Million miles) closest since 935  until 942
+A.D. 0209-Dec-13 00:00:00.0000 UT 96,409,037 km (59.9 Million miles) closest since 207  until 214
+A.D. 2108-Apr-02 00:00:00.0000 UT 96,426,262 km (59.9 Million miles) closest since 2101  until 2110
+A.D. 2467-Jan-22 00:00:00.0000 UT 96,445,037 km (59.9 Million miles) closest since 2464  until 2473
+A.D. 2104-Jan-17 00:00:00.0000 UT 96,496,601 km (60.0 Million miles) closest since 2101  until 2108
+A.D. 0135-Feb-24 00:00:00.0000 UT 96,500,049 km (60.0 Million miles) closest since 130  until 137
+A.D. 1303-Mar-18 00:00:00.0000 UT 96,570,032 km (60.0 Million miles) closest since 1298  until 1305
+A.D. 1741-Jan-10 00:00:00.0000 UT 96,570,682 km (60.0 Million miles) closest since 1738  until 1745
+A.D. 2471-Apr-08 00:00:00.0000 UT 96,575,697 km (60.0 Million miles) closest since 2467  until 2473
+A.D. 1378-Jan-03 00:00:00.0000 UT 96,606,890 km (60.0 Million miles) closest since 1375  until 1382
+A.D. 0498-Mar-01 00:00:00.0000 UT 96,658,099 km (60.1 Million miles) closest since 493  until 500
+A.D. 1014-Dec-29 00:00:00.0000 UT 96,677,834 km (60.1 Million miles) closest since 1012  until 1019
+A.D. 1666-Mar-23 00:00:00.0000 UT 96,684,143 km (60.1 Million miles) closest since 1662  until 1668
+A.D. 2834-Apr-14 00:00:00.0000 UT 96,744,196 km (60.1 Million miles) closest since 2830  until 2836
+A.D. 2909-Feb-01 00:00:00.0000 UT 96,750,578 km (60.1 Million miles) closest since 2906  until 2913
+A.D. 0651-Dec-23 00:00:00.0000 UT 96,760,051 km (60.1 Million miles) closest since 649  until 656
+A.D. 0861-Mar-08 00:00:00.0000 UT 96,785,984 km (60.1 Million miles) closest since 856  until 863
+A.D. 0288-Dec-15 00:00:00.0000 UT 96,803,278 km (60.2 Million miles) closest since 286  until 293
+A.D. 2029-Mar-30 00:00:00.0000 UT 96,827,366 km (60.2 Million miles) closest since 2025  until 2031
+A.D. 2546-Jan-25 00:00:00.0000 UT 96,834,907 km (60.2 Million miles) closest since 2543  until 2550
+A.D. 0056-Feb-21 00:00:00.0000 UT 96,882,583 km (60.2 Million miles) closest since 51  until 58
+A.D. 2183-Jan-19 00:00:00.0000 UT 96,912,358 km (60.2 Million miles) closest since 2180  until 2187
+A.D. 1224-Mar-14 00:00:00.0000 UT 96,939,341 km (60.2 Million miles) closest since 1219  until 1226
+A.D. 2392-Apr-05 00:00:00.0000 UT 96,950,315 km (60.2 Million miles) closest since 2388  until 2394
+A.D. 1820-Jan-14 00:00:00.0000 UT 96,956,582 km (60.2 Million miles) closest since 1817  until 1824
+A.D. 1457-Jan-06 00:00:00.0000 UT 97,017,020 km (60.3 Million miles) closest since 1454  until 1461
+A.D. 0419-Feb-27 00:00:00.0000 UT 97,020,831 km (60.3 Million miles) closest since 414  until 421
+A.D. 1093-Dec-31 00:00:00.0000 UT 97,050,268 km (60.3 Million miles) closest since 1091  until 1098
+A.D. 1587-Mar-21 00:00:00.0000 UT 97,079,433 km (60.3 Million miles) closest since 1583  until 1589
+A.D. 2755-Apr-12 00:00:00.0000 UT 97,102,087 km (60.3 Million miles) closest since 2751  until 2757
+A.D. 0730-Dec-26 00:00:00.0000 UT 97,128,337 km (60.4 Million miles) closest since 728  until 735
+A.D. 2988-Feb-04 00:00:00.0000 UT 97,167,921 km (60.4 Million miles) closest since 2985  until 2992
+A.D. 0782-Mar-05 00:00:00.0000 UT 97,175,527 km (60.4 Million miles) closest since 777  until 784
+A.D. 1950-Mar-27 00:00:00.0000 UT 97,197,662 km (60.4 Million miles) closest since 1946  until 1952
+A.D. 0367-Dec-20 00:00:00.0000 UT 97,202,765 km (60.4 Million miles) closest since 365  until 372
+A.D. 2625-Jan-29 00:00:00.0000 UT 97,212,058 km (60.4 Million miles) closest since 2622  until 2629
+A.D. 0004-Dec-12 00:00:00.0000 UT 97,247,319 km (60.4 Million miles) closest since 2  until 9
+A.D. 2262-Jan-22 00:00:00.0000 UT 97,287,561 km (60.5 Million miles) closest since 2259  until 2266
+A.D. 1145-Mar-12 00:00:00.0000 UT 97,289,543 km (60.5 Million miles) closest since 1140  until 1147
+A.D. 2313-Apr-03 00:00:00.0000 UT 97,340,915 km (60.5 Million miles) closest since 2309  until 2315
+A.D. 1899-Jan-16 00:00:00.0000 UT 97,343,472 km (60.5 Million miles) closest since 1896  until 1903
+A.D. 0340-Feb-25 00:00:00.0000 UT 97,366,036 km (60.5 Million miles) closest since 335  until 342
+A.D. 1536-Jan-11 00:00:00.0000 UT 97,397,372 km (60.5 Million miles) closest since 1533  until 1540
+A.D. 1508-Mar-18 00:00:00.0000 UT 97,430,181 km (60.5 Million miles) closest since 1504  until 1510
+A.D. 2676-Apr-08 00:00:00.0000 UT 97,449,577 km (60.6 Million miles) closest since 2672  until 2678
+A.D. 1173-Jan-03 00:00:00.0000 UT 97,460,770 km (60.6 Million miles) closest since 1170  until 1177
+A.D. 0809-Dec-28 00:00:00.0000 UT 97,489,647 km (60.6 Million miles) closest since 807  until 814
+A.D. 0703-Mar-03 00:00:00.0000 UT 97,508,842 km (60.6 Million miles) closest since 698  until 705
+A.D. 1871-Mar-24 00:00:00.0000 UT 97,553,318 km (60.6 Million miles) closest since 1867  until 1873
+A.D. 0446-Dec-22 00:00:00.0000 UT 97,561,670 km (60.6 Million miles) closest since 444  until 451
+A.D. 0083-Dec-16 00:00:00.0000 UT 97,608,093 km (60.7 Million miles) closest since 81  until 88
+A.D. 2704-Feb-02 00:00:00.0000 UT 97,608,931 km (60.7 Million miles) closest since 2701  until 2708
+A.D. 2341-Jan-25 00:00:00.0000 UT 97,648,181 km (60.7 Million miles) closest since 2338  until 2345
+A.D. 1066-Mar-08 00:00:00.0000 UT 97,665,043 km (60.7 Million miles) closest since 1061  until 1068
+A.D. 2234-Mar-30 00:00:00.0000 UT 97,680,543 km (60.7 Million miles) closest since 2230  until 2236
+A.D. 0261-Feb-21 00:00:00.0000 UT 97,715,398 km (60.7 Million miles) closest since 256  until 263
+A.D. 1978-Jan-19 00:00:00.0000 UT 97,715,431 km (60.7 Million miles) closest since 1975  until 1982
+A.D. 1615-Jan-13 00:00:00.0000 UT 97,752,767 km (60.7 Million miles) closest since 1612  until 1619
+A.D. 1429-Mar-15 00:00:00.0000 UT 97,769,610 km (60.8 Million miles) closest since 1424  until 1431
+A.D. 1252-Jan-07 00:00:00.0000 UT 97,810,590 km (60.8 Million miles) closest since 1249  until 1256
+A.D. 0624-Feb-28 00:00:00.0000 UT 97,829,908 km (60.8 Million miles) closest since 619  until 626
+A.D. 2597-Apr-05 00:00:00.0000 UT 97,832,126 km (60.8 Million miles) closest since 2593  until 2599
+A.D. 0888-Dec-30 00:00:00.0000 UT 97,874,118 km (60.8 Million miles) closest since 886  until 893
+A.D. 0525-Dec-25 00:00:00.0000 UT 97,895,503 km (60.8 Million miles) closest since 523  until 530
+A.D. 1792-Mar-20 00:00:00.0000 UT 97,896,456 km (60.8 Million miles) closest since 1788  until 1794
+A.D. 2960-Apr-11 00:00:00.0000 UT 97,934,048 km (60.9 Million miles) closest since 2956  until 2962
+A.D. 0162-Dec-19 00:00:00.0000 UT 97,948,564 km (60.9 Million miles) closest since 160  until 167
+A.D. 2783-Feb-04 00:00:00.0000 UT 97,956,039 km (60.9 Million miles) closest since 2780  until 2787
+A.D. 0987-Mar-05 00:00:00.0000 UT 97,978,552 km (60.9 Million miles) closest since 982  until 989
+A.D. 2155-Mar-27 00:00:00.0000 UT 98,010,930 km (60.9 Million miles) closest since 2151  until 2157
+A.D. 2420-Jan-29 00:00:00.0000 UT 98,030,968 km (60.9 Million miles) closest since 2417  until 2424
+A.D. 0182-Feb-17 00:00:00.0000 UT 98,036,786 km (60.9 Million miles) closest since 177  until 184
+A.D. 2057-Jan-21 00:00:00.0000 UT 98,066,427 km (60.9 Million miles) closest since 2054  until 2061
+A.D. 1694-Jan-15 00:00:00.0000 UT 98,114,645 km (61.0 Million miles) closest since 1691  until 1698
+A.D. 1350-Mar-11 00:00:00.0000 UT 98,123,630 km (61.0 Million miles) closest since 1345  until 1352
+A.D. 1331-Jan-10 00:00:00.0000 UT 98,136,432 km (61.0 Million miles) closest since 1328  until 1335
+A.D. 2518-Apr-02 00:00:00.0000 UT 98,147,045 km (61.0 Million miles) closest since 2514  until 2520
+A.D. 0545-Feb-24 00:00:00.0000 UT 98,176,521 km (61.0 Million miles) closest since 540  until 547
+A.D. 0968-Jan-03 00:00:00.0000 UT 98,190,977 km (61.0 Million miles) closest since 965  until 972
+A.D. 1713-Mar-18 00:00:00.0000 UT 98,227,000 km (61.0 Million miles) closest since 1709  until 1715
+A.D. 0604-Dec-28 00:00:00.0000 UT 98,240,658 km (61.0 Million miles) closest since 602  until 609
+A.D. 0241-Dec-22 00:00:00.0000 UT 98,263,487 km (61.1 Million miles) closest since 239  until 246
+A.D. 0908-Mar-02 00:00:00.0000 UT 98,282,694 km (61.1 Million miles) closest since 903  until 910
+A.D. 2862-Feb-06 00:00:00.0000 UT 98,284,726 km (61.1 Million miles) closest since 2859  until 2866
+A.D. 2881-Apr-08 00:00:00.0000 UT 98,292,970 km (61.1 Million miles) closest since 2877  until 2883
+A.D. 0103-Feb-15 00:00:00.0000 UT 98,346,323 km (61.1 Million miles) closest since 98  until 105
+A.D. 2076-Mar-23 00:00:00.0000 UT 98,350,282 km (61.1 Million miles) closest since 2072  until 2078
+A.D. 2499-Jan-31 00:00:00.0000 UT 98,352,617 km (61.1 Million miles) closest since 2496  until 2503
+A.D. 2136-Jan-26 00:00:00.0000 UT 98,407,839 km (61.1 Million miles) closest since 2133  until 2140
+A.D. 1271-Mar-08 00:00:00.0000 UT 98,424,387 km (61.2 Million miles) closest since 1266  until 1273
+A.D. 1773-Jan-18 00:00:00.0000 UT 98,438,984 km (61.2 Million miles) closest since 1770  until 1777
+A.D. 2439-Mar-30 00:00:00.0000 UT 98,451,023 km (61.2 Million miles) closest since 2435  until 2441
+A.D. 0466-Feb-20 00:00:00.0000 UT 98,475,969 km (61.2 Million miles) closest since 461  until 468
+A.D. 1410-Jan-13 00:00:00.0000 UT 98,479,993 km (61.2 Million miles) closest since 1407  until 1414
+A.D. 1047-Jan-07 00:00:00.0000 UT 98,494,917 km (61.2 Million miles) closest since 1044  until 1051
+A.D. 1634-Mar-14 00:00:00.0000 UT 98,544,649 km (61.2 Million miles) closest since 1629  until 1636
+A.D. 0683-Dec-31 00:00:00.0000 UT 98,549,913 km (61.2 Million miles) closest since 681  until 688
+A.D. 0320-Dec-25 00:00:00.0000 UT 98,588,131 km (61.3 Million miles) closest since 318  until 325
+A.D. 2802-Apr-05 00:00:00.0000 UT 98,589,139 km (61.3 Million miles) closest since 2798  until 2804
+A.D. 0829-Feb-27 00:00:00.0000 UT 98,615,596 km (61.3 Million miles) closest since 824  until 831
+A.D. 2941-Feb-09 00:00:00.0000 UT 98,637,567 km (61.3 Million miles) closest since 2938  until 2945
+A.D. 0024-Feb-12 00:00:00.0000 UT 98,643,082 km (61.3 Million miles) closest since 19  until 26
+A.D. 1997-Mar-21 00:00:00.0000 UT 98,644,224 km (61.3 Million miles) closest since 1993  until 1999
+A.D. 2578-Feb-03 00:00:00.0000 UT 98,656,511 km (61.3 Million miles) closest since 2575  until 2582
+A.D. 1192-Mar-05 00:00:00.0000 UT 98,707,604 km (61.3 Million miles) closest since 1187  until 1194
+A.D. 2215-Jan-29 00:00:00.0000 UT 98,716,794 km (61.3 Million miles) closest since 2212  until 2219
+A.D. 0387-Feb-18 00:00:00.0000 UT 98,747,792 km (61.4 Million miles) closest since 382  until 389
+A.D. 1852-Jan-22 00:00:00.0000 UT 98,748,286 km (61.4 Million miles) closest since 1849  until 1856
+A.D. 2360-Mar-27 00:00:00.0000 UT 98,770,935 km (61.4 Million miles) closest since 2356  until 2362
+A.D. 1489-Jan-15 00:00:00.0000 UT 98,777,017 km (61.4 Million miles) closest since 1486  until 1493
+A.D. 1126-Jan-10 00:00:00.0000 UT 98,825,068 km (61.4 Million miles) closest since 1123  until 1130
+A.D. 1555-Mar-12 00:00:00.0000 UT 98,828,275 km (61.4 Million miles) closest since 1550  until 1557
+A.D. 0763-Jan-04 00:00:00.0000 UT 98,839,356 km (61.4 Million miles) closest since 760  until 767
+A.D. 2723-Apr-03 00:00:00.0000 UT 98,863,537 km (61.4 Million miles) closest since 2719  until 2725
+A.D. 0750-Feb-24 00:00:00.0000 UT 98,875,623 km (61.4 Million miles) closest since 745  until 752
+A.D. 0399-Dec-28 00:00:00.0000 UT 98,886,735 km (61.4 Million miles) closest since 397  until 404
+A.D. 0036-Dec-21 00:00:00.0000 UT 98,907,715 km (61.5 Million miles) closest since 34  until 41
+A.D. 1918-Mar-18 00:00:00.0000 UT 98,933,139 km (61.5 Million miles) closest since 1914  until 1920
+A.D. 2657-Feb-06 00:00:00.0000 UT 98,986,401 km (61.5 Million miles) closest since 2654  until 2661
+A.D. 1113-Mar-03 00:00:00.0000 UT 99,003,228 km (61.5 Million miles) closest since 1108  until 1115
+A.D. 2294-Jan-31 00:00:00.0000 UT 99,007,591 km (61.5 Million miles) closest since 2291  until 2298
+A.D. 0308-Feb-16 00:00:00.0000 UT 99,027,252 km (61.5 Million miles) closest since 303  until 310
+A.D. 2281-Mar-24 00:00:00.0000 UT 99,038,707 km (61.5 Million miles) closest since 2277  until 2283
+A.D. 1931-Jan-26 00:00:00.0000 UT 99,056,926 km (61.6 Million miles) closest since 1928  until 1935
+A.D. 1568-Jan-19 00:00:00.0000 UT 99,070,007 km (61.6 Million miles) closest since 1565  until 1572
+A.D. 1476-Mar-08 00:00:00.0000 UT 99,090,892 km (61.6 Million miles) closest since 1471  until 1478
+A.D. 1205-Jan-12 00:00:00.0000 UT 99,104,276 km (61.6 Million miles) closest since 1202  until 1209
+A.D. 0671-Feb-21 00:00:00.0000 UT 99,120,461 km (61.6 Million miles) closest since 666  until 673
+A.D. 0842-Jan-06 00:00:00.0000 UT 99,148,539 km (61.6 Million miles) closest since 839  until 846
+A.D. 0478-Dec-30 00:00:00.0000 UT 99,160,123 km (61.6 Million miles) closest since 476  until 483
+A.D. 2644-Mar-30 00:00:00.0000 UT 99,167,154 km (61.6 Million miles) closest since 2640  until 2646
+A.D. 0115-Dec-25 00:00:00.0000 UT 99,188,575 km (61.6 Million miles) closest since 113  until 120
+A.D. 1839-Mar-15 00:00:00.0000 UT 99,206,884 km (61.6 Million miles) closest since 1834  until 1841
+A.D. 1034-Feb-28 00:00:00.0000 UT 99,252,110 km (61.7 Million miles) closest since 1029  until 1036
+A.D. 2736-Feb-10 00:00:00.0000 UT 99,262,182 km (61.7 Million miles) closest since 2733  until 2740
+A.D. 0229-Feb-12 00:00:00.0000 UT 99,262,972 km (61.7 Million miles) closest since 224  until 231
+A.D. 2202-Mar-22 00:00:00.0000 UT 99,300,474 km (61.7 Million miles) closest since 2198  until 2204
+A.D. 2373-Feb-03 00:00:00.0000 UT 99,307,325 km (61.7 Million miles) closest since 2370  until 2377
+A.D. 2010-Jan-28 00:00:00.0000 UT 99,330,019 km (61.7 Million miles) closest since 2007  until 2014
+A.D. 1284-Jan-15 00:00:00.0000 UT 99,365,893 km (61.7 Million miles) closest since 1281  until 1288
+A.D. 1397-Mar-05 00:00:00.0000 UT 99,366,698 km (61.7 Million miles) closest since 1392  until 1399
+A.D. 1647-Jan-21 00:00:00.0000 UT 99,367,409 km (61.7 Million miles) closest since 1644  until 1651
+A.D. 0592-Feb-18 00:00:00.0000 UT 99,392,313 km (61.8 Million miles) closest since 587  until 594
+A.D. 0921-Jan-09 00:00:00.0000 UT 99,401,802 km (61.8 Million miles) closest since 918  until 925
+A.D. 2565-Mar-27 00:00:00.0000 UT 99,419,478 km (61.8 Million miles) closest since 2561  until 2567
+A.D. 0558-Jan-03 00:00:00.0000 UT 99,431,428 km (61.8 Million miles) closest since 555  until 562
+A.D. 0194-Dec-27 00:00:00.0000 UT 99,438,201 km (61.8 Million miles) closest since 192  until 199
+A.D. 1760-Mar-11 00:00:00.0000 UT 99,455,538 km (61.8 Million miles) closest since 1755  until 1762
+A.D. 0955-Feb-24 00:00:00.0000 UT 99,487,333 km (61.8 Million miles) closest since 950  until 957
+A.D. 0150-Feb-09 00:00:00.0000 UT 99,502,947 km (61.8 Million miles) closest since 145  until 152
+A.D. 2815-Feb-12 00:00:00.0000 UT 99,528,876 km (61.8 Million miles) closest since 2813  until 2819
+A.D. 2928-Apr-02 00:00:00.0000 UT 99,542,264 km (61.9 Million miles) closest since 2924  until 2930
+A.D. 2452-Feb-06 00:00:00.0000 UT 99,573,670 km (61.9 Million miles) closest since 2449  until 2456
+A.D. 2123-Mar-18 00:00:00.0000 UT 99,573,804 km (61.9 Million miles) closest since 2119  until 2125
+A.D. 2089-Jan-30 00:00:00.0000 UT 99,598,014 km (61.9 Million miles) closest since 2086  until 2093
+A.D. 1318-Mar-03 00:00:00.0000 UT 99,608,667 km (61.9 Million miles) closest since 1313  until 1320
+A.D. 0513-Feb-15 00:00:00.0000 UT 99,614,290 km (61.9 Million miles) closest since 508  until 515
+A.D. 1726-Jan-25 00:00:00.0000 UT 99,614,466 km (61.9 Million miles) closest since 1723  until 1730
+A.D. 1000-Jan-12 00:00:00.0000 UT 99,635,285 km (61.9 Million miles) closest since 997  until 1004
+A.D. 1363-Jan-18 00:00:00.0000 UT 99,644,507 km (61.9 Million miles) closest since 1360  until 1367
+A.D. 2486-Mar-24 00:00:00.0000 UT 99,653,807 km (61.9 Million miles) closest since 2482  until 2488
+A.D. 0637-Jan-06 00:00:00.0000 UT 99,668,284 km (61.9 Million miles) closest since 634  until 641
+A.D. 0273-Dec-31 00:00:00.0000 UT 99,683,854 km (61.9 Million miles) closest since 271  until 278
+A.D. 1681-Mar-08 00:00:00.0000 UT 99,706,547 km (62.0 Million miles) closest since 1676  until 1683
+A.D. 0876-Feb-21 00:00:00.0000 UT 99,740,472 km (62.0 Million miles) closest since 871  until 878
+A.D. 0071-Feb-06 00:00:00.0000 UT 99,741,977 km (62.0 Million miles) closest since 66  until 73
+A.D. 2849-Mar-30 00:00:00.0000 UT 99,768,950 km (62.0 Million miles) closest since 2845  until 2851
+A.D. 2044-Mar-14 00:00:00.0000 UT 99,795,555 km (62.0 Million miles) closest since 2039  until 2046
+A.D. 2894-Feb-15 00:00:00.0000 UT 99,804,260 km (62.0 Million miles) closest since 2892  until 2898
+A.D. 2531-Feb-09 00:00:00.0000 UT 99,809,888 km (62.0 Million miles) closest since 2528  until 2535
+A.D. 0434-Feb-12 00:00:00.0000 UT 99,826,298 km (62.0 Million miles) closest since 429  until 436
+A.D. 1239-Feb-27 00:00:00.0000 UT 99,826,767 km (62.0 Million miles) closest since 1234  until 1241
+A.D. 2168-Feb-03 00:00:00.0000 UT 99,845,118 km (62.0 Million miles) closest since 2165  until 2172
+A.D. 1805-Jan-28 00:00:00.0000 UT 99,852,004 km (62.0 Million miles) closest since 1802  until 1809
+A.D. 1442-Jan-22 00:00:00.0000 UT 99,871,427 km (62.1 Million miles) closest since 1439  until 1446
+A.D. 0716-Jan-10 00:00:00.0000 UT 99,889,642 km (62.1 Million miles) closest since 713  until 720
+A.D. 1079-Jan-15 00:00:00.0000 UT 99,896,863 km (62.1 Million miles) closest since 1076  until 1083
+A.D. 2407-Mar-21 00:00:00.0000 UT 99,908,586 km (62.1 Million miles) closest since 2403  until 2409
+A.D. 0353-Jan-03 00:00:00.0000 UT 99,917,784 km (62.1 Million miles) closest since 350  until 357
+A.D. 1602-Mar-06 00:00:00.0000 UT 99,926,952 km (62.1 Million miles) closest since 1597  until 1604
+A.D. 0797-Feb-18 00:00:00.0000 UT 99,938,197 km (62.1 Million miles) closest since 792  until 799
+A.D. 2770-Mar-28 00:00:00.0000 UT 99,979,322 km (62.1 Million miles) closest since 2766  until 2772
+A.D. 1965-Mar-12 00:00:00.0000 UT 100,002,739 km (62.1 Million miles) closest since 1960  until 1967
+A.D. 2973-Feb-18 00:00:00.0000 UT 100,024,119 km (62.2 Million miles) closest since 2971  until 2977
+A.D. 0355-Feb-10 00:00:00.0000 UT 100,041,283 km (62.2 Million miles) closest since 353  until 357
+A.D. 1160-Feb-25 00:00:00.0000 UT 100,045,591 km (62.2 Million miles) closest since 1155  until 1162
+A.D. 2610-Feb-13 00:00:00.0000 UT 100,059,762 km (62.2 Million miles) closest since 2608  until 2614
+A.D. 2247-Feb-06 00:00:00.0000 UT 100,065,046 km (62.2 Million miles) closest since 2244  until 2251
+A.D. 1521-Jan-25 00:00:00.0000 UT 100,085,930 km (62.2 Million miles) closest since 1518  until 1525
+A.D. 1884-Jan-31 00:00:00.0000 UT 100,090,788 km (62.2 Million miles) closest since 1881  until 1888
+A.D. 2328-Mar-18 00:00:00.0000 UT 100,096,813 km (62.2 Million miles) closest since 2324  until 2330
+A.D. 1158-Jan-18 00:00:00.0000 UT 100,104,945 km (62.2 Million miles) closest since 1155  until 1160
+A.D. 0718-Feb-16 00:00:00.0000 UT 100,111,055 km (62.2 Million miles) closest since 716  until 720
+A.D. 0432-Jan-06 00:00:00.0000 UT 100,116,724 km (62.2 Million miles) closest since 429  until 434
+A.D. 1523-Mar-04 00:00:00.0000 UT 100,117,262 km (62.2 Million miles) closest since 1521  until 1525
+A.D. 0795-Jan-12 00:00:00.0000 UT 100,123,152 km (62.2 Million miles) closest since 792  until 797
+A.D. 0068-Dec-30 00:00:00.0000 UT 100,133,877 km (62.2 Million miles) closest since 66  until 71
+A.D. 0276-Feb-06 00:00:00.0000 UT 100,202,186 km (62.3 Million miles) closest since 273  until 278
+A.D. 2691-Mar-25 00:00:00.0000 UT 100,206,709 km (62.3 Million miles) closest since 2687  until 2693
+A.D. 1886-Mar-09 00:00:00.0000 UT 100,211,667 km (62.3 Million miles) closest since 1884  until 1888
+A.D. 1081-Feb-21 00:00:00.0000 UT 100,216,906 km (62.3 Million miles) closest since 1079  until 1083
+A.D. 2689-Feb-15 00:00:00.0000 UT 100,269,698 km (62.3 Million miles) closest since 2687  until 2691
+A.D. 2249-Mar-15 00:00:00.0000 UT 100,282,020 km (62.3 Million miles) closest since 2247  until 2251
+A.D. 2326-Feb-09 00:00:00.0000 UT 100,293,947 km (62.3 Million miles) closest since 2324  until 2328
+A.D. 1963-Feb-03 00:00:00.0000 UT 100,297,225 km (62.3 Million miles) closest since 1960  until 1965
+A.D. 1237-Jan-21 00:00:00.0000 UT 100,301,006 km (62.3 Million miles) closest since 1234  until 1239
+A.D. 0639-Feb-13 00:00:00.0000 UT 100,306,583 km (62.3 Million miles) closest since 637  until 641
+A.D. 0148-Jan-03 00:00:00.0000 UT 100,307,196 km (62.3 Million miles) closest since 145  until 150
+A.D. 1444-Feb-28 00:00:00.0000 UT 100,311,164 km (62.3 Million miles) closest since 1442  until 1446
+A.D. 0874-Jan-14 00:00:00.0000 UT 100,315,162 km (62.3 Million miles) closest since 871  until 876
+A.D. 1600-Jan-28 00:00:00.0000 UT 100,316,187 km (62.3 Million miles) closest since 1597  until 1602
+A.D. 0511-Jan-09 00:00:00.0000 UT 100,316,315 km (62.3 Million miles) closest since 508  until 513
+A.D. 0197-Feb-02 00:00:00.0000 UT 100,357,299 km (62.4 Million miles) closest since 194  until 199
+A.D. 1002-Feb-19 00:00:00.0000 UT 100,379,152 km (62.4 Million miles) closest since 1000  until 1004
+A.D. 1807-Mar-07 00:00:00.0000 UT 100,384,045 km (62.4 Million miles) closest since 1805  until 1809
+A.D. 2612-Mar-21 00:00:00.0000 UT 100,386,392 km (62.4 Million miles) closest since 2610  until 2614
+A.D. 0560-Feb-10 00:00:00.0000 UT 100,455,687 km (62.4 Million miles) closest since 558  until 562
+A.D. 2768-Feb-19 00:00:00.0000 UT 100,461,148 km (62.4 Million miles) closest since 2766  until 2770
+A.D. 0227-Jan-06 00:00:00.0000 UT 100,478,577 km (62.4 Million miles) closest since 224  until 229
+A.D. 0953-Jan-17 00:00:00.0000 UT 100,482,592 km (62.4 Million miles) closest since 950  until 955
+A.D. 1365-Feb-24 00:00:00.0000 UT 100,483,713 km (62.4 Million miles) closest since 1363  until 1367
+A.D. 2975-Mar-28 00:00:00.0000 UT 100,484,639 km (62.4 Million miles) closest since 2973  until 2977
+A.D. 2170-Mar-12 00:00:00.0000 UT 100,485,607 km (62.4 Million miles) closest since 2168  until 2172
+A.D. 1679-Jan-30 00:00:00.0000 UT 100,489,756 km (62.4 Million miles) closest since 1676  until 1681
+A.D. 2405-Feb-12 00:00:00.0000 UT 100,492,135 km (62.4 Million miles) closest since 2403  until 2407
+A.D. 0590-Jan-11 00:00:00.0000 UT 100,492,167 km (62.4 Million miles) closest since 587  until 592
+A.D. 2042-Feb-05 00:00:00.0000 UT 100,492,411 km (62.4 Million miles) closest since 2039  until 2044
+A.D. 1316-Jan-25 00:00:00.0000 UT 100,504,682 km (62.5 Million miles) closest since 1313  until 1318
+A.D. 0118-Jan-31 00:00:00.0000 UT 100,526,615 km (62.5 Million miles) closest since 115  until 120
+A.D. 2533-Mar-18 00:00:00.0000 UT 100,554,404 km (62.5 Million miles) closest since 2531  until 2535
+A.D. 0923-Feb-16 00:00:00.0000 UT 100,561,236 km (62.5 Million miles) closest since 921  until 925
+A.D. 1728-Mar-03 00:00:00.0000 UT 100,561,589 km (62.5 Million miles) closest since 1726  until 1730
+A.D. 0481-Feb-05 00:00:00.0000 UT 100,599,581 km (62.5 Million miles) closest since 478  until 483
+A.D. 1286-Feb-21 00:00:00.0000 UT 100,631,731 km (62.5 Million miles) closest since 1284  until 1288
+A.D. 2091-Mar-09 00:00:00.0000 UT 100,637,688 km (62.5 Million miles) closest since 2089  until 2093
+A.D. 0669-Jan-14 00:00:00.0000 UT 100,640,199 km (62.5 Million miles) closest since 666  until 671
+A.D. 0306-Jan-09 00:00:00.0000 UT 100,643,845 km (62.5 Million miles) closest since 303  until 308
+A.D. 0039-Jan-28 00:00:00.0000 UT 100,648,355 km (62.5 Million miles) closest since 36  until 41
+A.D. 1395-Jan-27 00:00:00.0000 UT 100,654,406 km (62.5 Million miles) closest since 1392  until 1397
+A.D. 2896-Mar-24 00:00:00.0000 UT 100,655,079 km (62.5 Million miles) closest since 2894  until 2898
+A.D. 1758-Feb-02 00:00:00.0000 UT 100,655,961 km (62.5 Million miles) closest since 1755  until 1760
+A.D. 2484-Feb-15 00:00:00.0000 UT 100,657,956 km (62.5 Million miles) closest since 2482  until 2486
+A.D. 1032-Jan-22 00:00:00.0000 UT 100,666,321 km (62.6 Million miles) closest since 1029  until 1034
+A.D. 2847-Feb-21 00:00:00.0000 UT 100,669,465 km (62.6 Million miles) closest since 2845  until 2849
+A.D. 2121-Feb-08 00:00:00.0000 UT 100,676,708 km (62.6 Million miles) closest since 2119  until 2123
+A.D. 0844-Feb-13 00:00:00.0000 UT 100,694,743 km (62.6 Million miles) closest since 842  until 846
+A.D. 1649-Feb-27 00:00:00.0000 UT 100,726,002 km (62.6 Million miles) closest since 1647  until 1651
+A.D. 2454-Mar-15 00:00:00.0000 UT 100,734,249 km (62.6 Million miles) closest since 2452  until 2456
+A.D. 0402-Feb-03 00:00:00.0000 UT 100,747,444 km (62.6 Million miles) closest since 399  until 404
+A.D. 0022-Jan-05 00:00:00.0000 UT 100,770,597 km (62.6 Million miles) closest since 19  until 24
+A.D. 0385-Jan-11 00:00:00.0000 UT 100,776,520 km (62.6 Million miles) closest since 382  until 387
+A.D. 1207-Feb-19 00:00:00.0000 UT 100,780,699 km (62.6 Million miles) closest since 1205  until 1209
+A.D. 2012-Mar-06 00:00:00.0000 UT 100,782,301 km (62.6 Million miles) closest since 2010  until 2014
+A.D. 2817-Mar-21 00:00:00.0000 UT 100,793,210 km (62.6 Million miles) closest since 2815  until 2819
+A.D. 1474-Jan-30 00:00:00.0000 UT 100,800,657 km (62.6 Million miles) closest since 1471  until 1476
+A.D. 0748-Jan-18 00:00:00.0000 UT 100,802,279 km (62.6 Million miles) closest since 745  until 750
+A.D. 1111-Jan-25 00:00:00.0000 UT 100,806,686 km (62.6 Million miles) closest since 1108  until 1113
+A.D. 0765-Feb-10 00:00:00.0000 UT 100,807,982 km (62.6 Million miles) closest since 763  until 767
+A.D. 2200-Feb-12 00:00:00.0000 UT 100,818,667 km (62.6 Million miles) closest since 2198  until 2202
+A.D. 2926-Feb-24 00:00:00.0000 UT 100,820,597 km (62.6 Million miles) closest since 2924  until 2928
+A.D. 1837-Feb-05 00:00:00.0000 UT 100,827,356 km (62.7 Million miles) closest since 1834  until 1839
+A.D. 2563-Feb-18 00:00:00.0000 UT 100,827,982 km (62.7 Million miles) closest since 2561  until 2565
+A.D. 0323-Feb-01 00:00:00.0000 UT 100,834,357 km (62.7 Million miles) closest since 320  until 325
+A.D. 1570-Feb-25 00:00:00.0000 UT 100,838,469 km (62.7 Million miles) closest since 1568  until 1572
+A.D. 2375-Mar-13 00:00:00.0000 UT 100,856,509 km (62.7 Million miles) closest since 2373  until 2377
+A.D. 0101-Jan-08 00:00:00.0000 UT 100,872,330 km (62.7 Million miles) closest since 98  until 103
+A.D. 1128-Feb-17 00:00:00.0000 UT 100,891,128 km (62.7 Million miles) closest since 1126  until 1130
+A.D. 0464-Jan-14 00:00:00.0000 UT 100,903,273 km (62.7 Million miles) closest since 461  until 466
+A.D. 0244-Jan-29 00:00:00.0000 UT 100,916,540 km (62.7 Million miles) closest since 241  until 246
+A.D. 1933-Mar-04 00:00:00.0000 UT 100,922,143 km (62.7 Million miles) closest since 1931  until 1935
+A.D. 0686-Feb-06 00:00:00.0000 UT 100,923,688 km (62.7 Million miles) closest since 683  until 688
+A.D. 1190-Jan-27 00:00:00.0000 UT 100,926,230 km (62.7 Million miles) closest since 1187  until 1192
+A.D. 0827-Jan-21 00:00:00.0000 UT 100,928,949 km (62.7 Million miles) closest since 824  until 829
+A.D. 2738-Mar-19 00:00:00.0000 UT 100,939,761 km (62.7 Million miles) closest since 2736  until 2740
+A.D. 1491-Feb-22 00:00:00.0000 UT 100,953,686 km (62.7 Million miles) closest since 1489  until 1493
+A.D. 1916-Feb-09 00:00:00.0000 UT 100,958,967 km (62.7 Million miles) closest since 1914  until 1918
+A.D. 1553-Feb-02 00:00:00.0000 UT 100,960,340 km (62.7 Million miles) closest since 1550  until 1555
+A.D. 2296-Mar-09 00:00:00.0000 UT 100,965,471 km (62.7 Million miles) closest since 2294  until 2298
+A.D. 2279-Feb-15 00:00:00.0000 UT 100,966,023 km (62.7 Million miles) closest since 2277  until 2281
+A.D. 2642-Feb-21 00:00:00.0000 UT 100,968,193 km (62.7 Million miles) closest since 2640  until 2644
+A.D. 0180-Jan-11 00:00:00.0000 UT 100,973,165 km (62.7 Million miles) closest since 177  until 182
+A.D. 1049-Feb-13 00:00:00.0000 UT 100,975,239 km (62.7 Million miles) closest since 1047  until 1051
+A.D. 0607-Feb-04 00:00:00.0000 UT 100,994,074 km (62.8 Million miles) closest since 604  until 609
+A.D. 0165-Jan-25 00:00:00.0000 UT 101,009,331 km (62.8 Million miles) closest since 162  until 167
+A.D. 0543-Jan-17 00:00:00.0000 UT 101,011,864 km (62.8 Million miles) closest since 540  until 545
+A.D. 1854-Feb-28 00:00:00.0000 UT 101,012,423 km (62.8 Million miles) closest since 1852  until 1856
+A.D. 0906-Jan-24 00:00:00.0000 UT 101,019,955 km (62.8 Million miles) closest since 903  until 908
+A.D. 2659-Mar-16 00:00:00.0000 UT 101,046,406 km (62.8 Million miles) closest since 2657  until 2661
+A.D. 1412-Feb-20 00:00:00.0000 UT 101,053,819 km (62.8 Million miles) closest since 1410  until 1414
+A.D. 0086-Jan-22 00:00:00.0000 UT 101,058,944 km (62.8 Million miles) closest since 83  until 88
+A.D. 0528-Feb-01 00:00:00.0000 UT 101,060,529 km (62.8 Million miles) closest since 525  until 530
+A.D. 1269-Jan-29 00:00:00.0000 UT 101,061,183 km (62.8 Million miles) closest since 1266  until 1271
+A.D. 1632-Feb-05 00:00:00.0000 UT 101,067,376 km (62.8 Million miles) closest since 1629  until 1634
+A.D. 0259-Jan-14 00:00:00.0000 UT 101,071,503 km (62.8 Million miles) closest since 256  until 261
+A.D. 0970-Feb-10 00:00:00.0000 UT 101,078,463 km (62.8 Million miles) closest since 968  until 972
+A.D. 1995-Feb-12 00:00:00.0000 UT 101,084,988 km (62.8 Million miles) closest since 1993  until 1997
+A.D. 0622-Jan-21 00:00:00.0000 UT 101,088,158 km (62.8 Million miles) closest since 619  until 624
+A.D. 2721-Feb-24 00:00:00.0000 UT 101,089,961 km (62.8 Million miles) closest since 2719  until 2723
+A.D. 2217-Mar-07 00:00:00.0000 UT 101,096,027 km (62.8 Million miles) closest since 2215  until 2219
+A.D. 2358-Feb-18 00:00:00.0000 UT 101,102,050 km (62.8 Million miles) closest since 2356  until 2360
+A.D. 0007-Jan-20 00:00:00.0000 UT 101,107,209 km (62.8 Million miles) closest since 4  until 9
+A.D. 1775-Feb-25 00:00:00.0000 UT 101,111,312 km (62.8 Million miles) closest since 1773  until 1777
+A.D. 0985-Jan-26 00:00:00.0000 UT 101,123,958 km (62.8 Million miles) closest since 982  until 987
+A.D. 0338-Jan-17 00:00:00.0000 UT 101,129,712 km (62.8 Million miles) closest since 335  until 340
+A.D. 1333-Feb-16 00:00:00.0000 UT 101,130,161 km (62.8 Million miles) closest since 1331  until 1335
+A.D. 0054-Jan-13 00:00:00.0000 UT 101,138,780 km (62.8 Million miles) closest since 51  until 56
+A.D. 1348-Feb-02 00:00:00.0000 UT 101,140,609 km (62.8 Million miles) closest since 1345  until 1350
+A.D. 0449-Jan-28 00:00:00.0000 UT 101,141,694 km (62.8 Million miles) closest since 446  until 451
+A.D. 2580-Mar-12 00:00:00.0000 UT 101,143,944 km (62.8 Million miles) closest since 2578  until 2582
+A.D. 0891-Feb-06 00:00:00.0000 UT 101,145,445 km (62.8 Million miles) closest since 888  until 893
+A.D. 1711-Feb-08 00:00:00.0000 UT 101,162,034 km (62.9 Million miles) closest since 1709  until 1713
+A.D. 0370-Jan-26 00:00:00.0000 UT 101,165,911 km (62.9 Million miles) closest since 367  until 372
+A.D. 0133-Jan-16 00:00:00.0000 UT 101,167,234 km (62.9 Million miles) closest since 130  until 135
+A.D. 0701-Jan-24 00:00:00.0000 UT 101,170,625 km (62.9 Million miles) closest since 698  until 703
+A.D. 0291-Jan-23 00:00:00.0000 UT 101,175,814 km (62.9 Million miles) closest since 288  until 293
+A.D. 2138-Mar-04 00:00:00.0000 UT 101,179,066 km (62.9 Million miles) closest since 2136  until 2140
+A.D. 0812-Feb-04 00:00:00.0000 UT 101,186,175 km (62.9 Million miles) closest since 809  until 814
+A.D. 0417-Jan-20 00:00:00.0000 UT 101,190,766 km (62.9 Million miles) closest since 414  until 419
+A.D. 0212-Jan-21 00:00:00.0000 UT 101,195,908 km (62.9 Million miles) closest since 209  until 214
+A.D. 2074-Feb-14 00:00:00.0000 UT 101,196,999 km (62.9 Million miles) closest since 2072  until 2076
+A.D. 1064-Jan-30 00:00:00.0000 UT 101,198,566 km (62.9 Million miles) closest since 1061  until 1066
+A.D. 2437-Feb-20 00:00:00.0000 UT 101,198,930 km (62.9 Million miles) closest since 2435  until 2439
+A.D. 1696-Feb-22 00:00:00.0000 UT 101,208,177 km (62.9 Million miles) closest since 1694  until 1698
+A.D. 1427-Feb-05 00:00:00.0000 UT 101,210,434 km (62.9 Million miles) closest since 1424  until 1429
+A.D. 1254-Feb-13 00:00:00.0000 UT 101,211,728 km (62.9 Million miles) closest since 1252  until 1256
+A.D. 0575-Jan-26 00:00:00.0000 UT 101,222,490 km (62.9 Million miles) closest since 572  until 577
+A.D. 2943-Mar-19 00:00:00.0000 UT 101,224,706 km (62.9 Million miles) closest since 2941  until 2945
+A.D. 2800-Feb-27 00:00:00.0000 UT 101,226,370 km (62.9 Million miles) closest since 2798  until 2802
+A.D. 0496-Jan-23 00:00:00.0000 UT 101,226,419 km (62.9 Million miles) closest since 493  until 498
+A.D. 0733-Feb-01 00:00:00.0000 UT 101,231,723 km (62.9 Million miles) closest since 730  until 735
+A.D. 0780-Jan-27 00:00:00.0000 UT 101,232,958 km (62.9 Million miles) closest since 777  until 782
+A.D. 0654-Jan-29 00:00:00.0000 UT 101,233,864 km (62.9 Million miles) closest since 651  until 656
+A.D. 1143-Feb-02 00:00:00.0000 UT 101,249,637 km (62.9 Million miles) closest since 1140  until 1145
+A.D. 2059-Feb-28 00:00:00.0000 UT 101,252,582 km (62.9 Million miles) closest since 2057  until 2061
+A.D. 1617-Feb-19 00:00:00.0000 UT 101,254,826 km (62.9 Million miles) closest since 1615  until 1619
+A.D. 0859-Jan-29 00:00:00.0000 UT 101,255,947 km (62.9 Million miles) closest since 856  until 861
+A.D. 2501-Mar-10 00:00:00.0000 UT 101,256,021 km (62.9 Million miles) closest since 2499  until 2503
+A.D. 1790-Feb-11 00:00:00.0000 UT 101,256,964 km (62.9 Million miles) closest since 1788  until 1792
+A.D. 1175-Feb-10 00:00:00.0000 UT 101,259,501 km (62.9 Million miles) closest since 1173  until 1177
+A.D. 2153-Feb-17 00:00:00.0000 UT 101,264,800 km (62.9 Million miles) closest since 2151  until 2155
+A.D. 1096-Feb-07 00:00:00.0000 UT 101,268,559 km (62.9 Million miles) closest since 1093  until 1098
+A.D. 0938-Feb-01 00:00:00.0000 UT 101,282,929 km (62.9 Million miles) closest since 935  until 940
+A.D. 1017-Feb-04 00:00:00.0000 UT 101,287,708 km (62.9 Million miles) closest since 1014  until 1019
+A.D. 2516-Feb-24 00:00:00.0000 UT 101,296,993 km (62.9 Million miles) closest since 2514  until 2518
+A.D. 1538-Feb-17 00:00:00.0000 UT 101,299,886 km (62.9 Million miles) closest since 1536  until 1540
+A.D. 2864-Mar-15 00:00:00.0000 UT 101,300,486 km (62.9 Million miles) closest since 2862  until 2866
+A.D. 1506-Feb-08 00:00:00.0000 UT 101,300,609 km (62.9 Million miles) closest since 1504  until 1508
+A.D. 1869-Feb-14 00:00:00.0000 UT 101,308,218 km (62.9 Million miles) closest since 1867  until 1871
+A.D. 1222-Feb-04 00:00:00.0000 UT 101,312,741 km (63.0 Million miles) closest since 1219  until 1224
+A.D. 2422-Mar-07 00:00:00.0000 UT 101,315,801 km (63.0 Million miles) closest since 2420  until 2424
+A.D. 2879-Mar-01 00:00:00.0000 UT 101,318,660 km (63.0 Million miles) closest since 2877  until 2881
+A.D. 1380-Feb-11 00:00:00.0000 UT 101,322,380 km (63.0 Million miles) closest since 1378  until 1382
+A.D. 1980-Feb-26 00:00:00.0000 UT 101,325,342 km (63.0 Million miles) closest since 1978  until 1982
+A.D. 1459-Feb-14 00:00:00.0000 UT 101,328,855 km (63.0 Million miles) closest since 1457  until 1461
+A.D. 1301-Feb-07 00:00:00.0000 UT 101,330,666 km (63.0 Million miles) closest since 1298  until 1303
+A.D. 2232-Feb-21 00:00:00.0000 UT 101,335,944 km (63.0 Million miles) closest since 2230  until 2234
+A.D. 1901-Feb-23 00:00:00.0000 UT 101,338,720 km (63.0 Million miles) closest since 1899  until 1903
+A.D. 1585-Feb-11 00:00:00.0000 UT 101,339,376 km (63.0 Million miles) closest since 1583  until 1587
+A.D. 2343-Mar-05 00:00:00.0000 UT 101,355,678 km (63.0 Million miles) closest since 2341  until 2345
+A.D. 1822-Feb-20 00:00:00.0000 UT 101,356,767 km (63.0 Million miles) closest since 1820  until 1824
+A.D. 1664-Feb-14 00:00:00.0000 UT 101,361,392 km (63.0 Million miles) closest since 1662  until 1666
+A.D. 1948-Feb-18 00:00:00.0000 UT 101,365,143 km (63.0 Million miles) closest since 1946  until 1950
+A.D. 2595-Feb-26 00:00:00.0000 UT 101,368,478 km (63.0 Million miles) closest since 2593  until 2597
+A.D. 2785-Mar-13 00:00:00.0000 UT 101,374,454 km (63.0 Million miles) closest since 2783  until 2787
+A.D. 2958-Mar-05 00:00:00.0000 UT 101,376,410 km (63.0 Million miles) closest since 2956  until 2960
+A.D. 1743-Feb-17 00:00:00.0000 UT 101,383,799 km (63.0 Million miles) closest since 1741  until 1745
+A.D. 2264-Feb-29 00:00:00.0000 UT 101,401,591 km (63.0 Million miles) closest since 2262  until 2266
+A.D. 2311-Feb-24 00:00:00.0000 UT 101,402,208 km (63.0 Million miles) closest since 2309  until 2313
+A.D. 2706-Mar-11 00:00:00.0000 UT 101,409,274 km (63.0 Million miles) closest since 2704  until 2708
+A.D. 2185-Feb-25 00:00:00.0000 UT 101,409,712 km (63.0 Million miles) closest since 2183  until 2187
+A.D. 2106-Feb-23 00:00:00.0000 UT 101,410,346 km (63.0 Million miles) closest since 2104  until 2108
+A.D. 2674-Mar-01 00:00:00.0000 UT 101,412,907 km (63.0 Million miles) closest since 2672  until 2676
+A.D. 2027-Feb-20 00:00:00.0000 UT 101,415,212 km (63.0 Million miles) closest since 2025  until 2029
+A.D. 2627-Mar-08 00:00:00.0000 UT 101,430,706 km (63.0 Million miles) closest since 2625  until 2629
+A.D. 2390-Feb-26 00:00:00.0000 UT 101,433,115 km (63.0 Million miles) closest since 2388  until 2392
+A.D. 2469-Feb-28 00:00:00.0000 UT 101,463,222 km (63.0 Million miles) closest since 2467  until 2471
+A.D. 2548-Mar-04 00:00:00.0000 UT 101,467,391 km (63.0 Million miles) closest since 2546  until 2550
+A.D. 2753-Mar-05 00:00:00.0000 UT 101,473,477 km (63.1 Million miles) closest since 2751  until 2755
+A.D. 2990-Mar-13 00:00:00.0000 UT 101,488,456 km (63.1 Million miles) closest since 2988  until 2992
+A.D. 2911-Mar-11 00:00:00.0000 UT 101,492,620 km (63.1 Million miles) closest since 2909  until 2913
+A.D. 2832-Mar-07 00:00:00.0000 UT 101,503,781 km (63.1 Million miles) closest since 2830  until 2834
+A.D. 2020-Oct-06 14:13:00.0000 UT 62.1 Million km
+
 ```
