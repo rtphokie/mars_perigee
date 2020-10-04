@@ -1,7 +1,7 @@
 Measures the Earth-Mars distance using JPL ephemeris which covers 3000BC through 3000AD
+Earth-Mars will be 62,071,495 km (38.6 Million miles) 2020-Oct-06 14:13 UTC, closest since 2018 and wont be closer until 2035.
 
 ```
-
 Mars-Earth distance minima between 1 BC and end of 2999 AD
 A.D. 2729-Sep-08 00:00:00.0000 UT 55,651,413 km (34.6 Million miles) closest between 1 BC and end of 2999 AD
 A.D. 2650-Sep-04 00:00:00.0000 UT 55,652,278 km (34.6 Million miles) closest until 2729
